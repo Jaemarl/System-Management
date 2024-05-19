@@ -1,19 +1,24 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
     const int maxUsers = 10;
     const int maxLength = 50;
-    char userData[maxUsers * (maxLength * 2 + 1)];
+    const int bufferSize = maxUsers * (maxLength * 2 + 1);
+    char userData[bufferSize];
     int userCount = 0;
-    int choice, i, j = 0;
-    bool running = true;
+    int choice, i, j, k = 0;
+
+    // Initialize userData with null characters
+    for (k = 0; k < bufferSize; k++)
+    {
+        userData[k] = '\0';
+    }
 
     cout << "Welcome to the Student Management System" << endl;
 
-    for (; running;)
+    for (bool running = true; running;)
     {
         cout << "1. Sign in" << endl;
         cout << "2. Sign up" << endl;
@@ -32,37 +37,38 @@ int main()
             cout << "Enter password: ";
             cin >> password;
 
-            // Check if the entered username and password match any of the stored ones
             bool loginSuccess = false;
+            int pos = 0;
+
             for (j = 0; j < userCount; j++)
             {
-                int index = j * (maxLength * 2 + 1);
                 bool usernameMatch = true;
                 bool passwordMatch = true;
+                int userPos = j * (maxLength * 2 + 1);
 
                 // Check username
                 for (i = 0; i < maxLength; i++)
                 {
-                    if (userData[index + i] != username[i])
+                    if (userData[userPos + i] != username[i])
                     {
                         usernameMatch = false;
                         break;
                     }
-                    if (userData[index + i] == '\0' && username[i] == '\0')
+                    if (userData[userPos + i] == '\0' && username[i] == '\0')
                         break;
                 }
 
                 // Check password
                 for (i = 0; i < maxLength; i++)
                 {
-                    if (userData[index + maxLength + 1 + i] != password[i])
+                    if (userData[userPos + maxLength + 1 + i] != password[i])
                     {
                         passwordMatch = false;
                         break;
                     }
-                    if (userData[index + maxLength + 1 + i] == '\0' && password[i] == '\0')
+                    if (userData[userPos + maxLength + 1 + i] == '\0' && password[i] == '\0')
                         break;
-                }
+                    }
 
                 if (usernameMatch && passwordMatch)
                 {
@@ -85,7 +91,6 @@ int main()
                     cout << "Enter your choice: ";
                     cin >> choice;
 
-                    // Process choice for signed-in user
                     if (choice == 1)
                     {
                         cout << "Viewing grades..." << endl;
@@ -108,7 +113,6 @@ int main()
                         cout << "Invalid choice." << endl;
                     }
 
-                    // Exit signed-in loop
                     if (!signedIn)
                     {
                         break;
@@ -133,31 +137,27 @@ int main()
                 cout << "Enter new password: ";
                 cin >> newPassword;
 
-                int index = userCount * (maxLength * 2 + 1); // Calculate the start index for the new user's data block
+                int index = userCount * (maxLength * 2 + 1);
 
-                // Copy the new username into userData array
+                // Copy new username
                 for (i = 0; i < maxLength; i++)
                 {
                     userData[index + i] = newUsername[i];
                     if (newUsername[i] == '\0')
-                    {
                         break;
-                    }
                 }
-                userData[index + maxLength] = ' '; // Delimiter between username and password
+                userData[index + maxLength] = ' ';
 
-                // Copy the new password into userData array
+                // Copy new password
                 for (i = 0; i < maxLength; i++)
                 {
                     userData[index + maxLength + 1 + i] = newPassword[i];
                     if (newPassword[i] == '\0')
-                    {
                         break;
-                    }
                 }
 
-                cout << "Sign up successful!" << endl;
                 userCount++;
+                cout << "Sign up successful!" << endl;
             }
             else
             {
@@ -166,7 +166,7 @@ int main()
         }
         else if (choice == 3)
         {
-            cout << "Exiting..." << endl;
+            cout << "Closing. Please wait a moment." << endl;
             running = false;
         }
         else
