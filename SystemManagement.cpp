@@ -16,9 +16,6 @@ int main()
     char username8[maxLength] = "\0", password8[maxLength] = "\0";
     char username9[maxLength] = "\0", password9[maxLength] = "\0";
     char username10[maxLength] = "\0", password10[maxLength] = "\0";
-    char username11[maxLength] = "\0", password11[maxLength] = "\0";
-    char username12[maxLength] = "\0", password12[maxLength] = "\0";
-    char username13[maxLength] = "\0", password13[maxLength] = "\0";
 
     int userCount = 0;
     int choice, i;
@@ -107,24 +104,6 @@ int main()
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username11[0] != '\0') &&
-                     (username11[0] == username[0] && username11[1] == username[1] && username11[2] == username[2]) &&
-                     (password11[0] == password[0] && password11[1] == password[1] && password11[2] == password[2]))
-            {
-                loginSuccess = true;
-            }
-            else if ((username[0] != '\0' && username12[0] != '\0') &&
-                     (username12[0] == username[0] && username12[1] == username[1] && username12[2] == username[2]) &&
-                     (password12[0] == password[0] && password12[1] == password[1] && password12[2] == password[2]))
-            {
-                loginSuccess = true;
-            }
-            else if ((username[0] != '\0' && username13[0] != '\0') &&
-                     (username13[0] == username[0] && username13[1] == username[1] && username13[2] == username[2]) &&
-                     (password13[0] == password[0] && password13[1] == password[1] && password13[2] == password[2]))
-            {
-                loginSuccess = true;
-            }
 
             if (loginSuccess)
             {
@@ -170,7 +149,7 @@ int main()
         }
         else if (choice == 2)
         {
-            if (userCount < 13)
+            if (userCount < 10)
             {
                 char newUsername[maxLength];
                 char newPassword[maxLength];
@@ -327,51 +306,6 @@ int main()
                     for (i = 0; i < maxLength; i++)
                     {
                         password10[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 10)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username11[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password11[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 11)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username12[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password12[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 12)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username13[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password13[i] = newPassword[i];
                         if (newPassword[i] == '\0')
                             break;
                     }
