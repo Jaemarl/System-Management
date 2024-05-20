@@ -9,6 +9,16 @@ int main()
     char username1[maxLength] = "\0", password1[maxLength] = "\0";
     char username2[maxLength] = "\0", password2[maxLength] = "\0";
     char username3[maxLength] = "\0", password3[maxLength] = "\0";
+    char username4[maxLength] = "\0", password4[maxLength] = "\0";
+    char username5[maxLength] = "\0", password5[maxLength] = "\0";
+    char username6[maxLength] = "\0", password6[maxLength] = "\0";
+    char username7[maxLength] = "\0", password7[maxLength] = "\0";
+    char username8[maxLength] = "\0", password8[maxLength] = "\0";
+    char username9[maxLength] = "\0", password9[maxLength] = "\0";
+    char username10[maxLength] = "\0", password10[maxLength] = "\0";
+    char username11[maxLength] = "\0", password11[maxLength] = "\0";
+    char username12[maxLength] = "\0", password12[maxLength] = "\0";
+    char username13[maxLength] = "\0", password13[maxLength] = "\0";
 
     int userCount = 0;
     int choice, i;
@@ -52,6 +62,66 @@ int main()
             else if ((username[0] != '\0' && username3[0] != '\0') &&
                      (username3[0] == username[0] && username3[1] == username[1] && username3[2] == username[2]) &&
                      (password3[0] == password[0] && password3[1] == password[1] && password3[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username4[0] != '\0') &&
+                     (username4[0] == username[0] && username4[1] == username[1] && username4[2] == username[2]) &&
+                     (password4[0] == password[0] && password4[1] == password[1] && password4[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username5[0] != '\0') &&
+                     (username5[0] == username[0] && username5[1] == username[1] && username5[2] == username[2]) &&
+                     (password5[0] == password[0] && password5[1] == password[1] && password5[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username6[0] != '\0') &&
+                     (username6[0] == username[0] && username6[1] == username[1] && username6[2] == username[2]) &&
+                     (password6[0] == password[0] && password6[1] == password[1] && password6[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username7[0] != '\0') &&
+                     (username7[0] == username[0] && username7[1] == username[1] && username7[2] == username[2]) &&
+                     (password7[0] == password[0] && password7[1] == password[1] && password7[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username8[0] != '\0') &&
+                     (username8[0] == username[0] && username8[1] == username[1] && username8[2] == username[2]) &&
+                     (password8[0] == password[0] && password8[1] == password[1] && password8[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username9[0] != '\0') &&
+                     (username9[0] == username[0] && username9[1] == username[1] && username9[2] == username[2]) &&
+                     (password9[0] == password[0] && password9[1] == password[1] && password9[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username10[0] != '\0') &&
+                     (username10[0] == username[0] && username10[1] == username[1] && username10[2] == username[2]) &&
+                     (password10[0] == password[0] && password10[1] == password[1] && password10[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username11[0] != '\0') &&
+                     (username11[0] == username[0] && username11[1] == username[1] && username11[2] == username[2]) &&
+                     (password11[0] == password[0] && password11[1] == password[1] && password11[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username12[0] != '\0') &&
+                     (username12[0] == username[0] && username12[1] == username[1] && username12[2] == username[2]) &&
+                     (password12[0] == password[0] && password12[1] == password[1] && password12[2] == password[2]))
+            {
+                loginSuccess = true;
+            }
+            else if ((username[0] != '\0' && username13[0] != '\0') &&
+                     (username13[0] == username[0] && username13[1] == username[1] && username13[2] == username[2]) &&
+                     (password13[0] == password[0] && password13[1] == password[1] && password13[2] == password[2]))
             {
                 loginSuccess = true;
             }
@@ -100,7 +170,7 @@ int main()
         }
         else if (choice == 2)
         {
-            if (userCount < 3)
+            if (userCount < 13)
             {
                 char newUsername[maxLength];
                 char newPassword[maxLength];
@@ -152,6 +222,156 @@ int main()
                     for (i = 0; i < maxLength; i++)
                     {
                         password3[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 3)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username4[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password4[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 4)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username5[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password5[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 5)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username6[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password6[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 6)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username7[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password7[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 7)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username8[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password8[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 8)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username9[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password9[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 9)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username10[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password10[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 10)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username11[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password11[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 11)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username12[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password12[i] = newPassword[i];
+                        if (newPassword[i] == '\0')
+                            break;
+                    }
+                }
+                else if (userCount == 12)
+                {
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        username13[i] = newUsername[i];
+                        if (newUsername[i] == '\0')
+                            break;
+                    }
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        password13[i] = newPassword[i];
                         if (newPassword[i] == '\0')
                             break;
                     }
