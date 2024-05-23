@@ -33,56 +33,55 @@ int main()
 
         if (choice == 1)
         {
-            char username[maxLength];
-            char password[maxLength];
+            char enteredUsername[maxLength];
+            char enteredPassword[maxLength];
 
             cout << "Enter username: ";
-            cin >> username;
+            cin >> enteredUsername;
 
             cout << "Enter password: ";
-            cin >> password;
+            cin >> enteredPassword;
 
             bool loginSuccess = false;
 
             // Check each user individually
-            if (username[0] == username1[0] && password[0] == password1[0])
+            if (username1[0] == enteredUsername[0] && password1[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-
-            else if (username[0] == username2[0] && password[0] == password2[0])
+            else if (username2[0] == enteredUsername[0] && password2[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-            else if (username[0] == username3[0] && password[0] == password3[0])
+            else if (username3[0] == enteredUsername[0] && password3[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-            else if (username[0] == username4[0] && password[0] == password4[0])
+            else if (username4[0] == enteredUsername[0] && password4[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-            else if (username[0] == username5[0] && password[0] == password5[0])
+            else if (username5[0] == enteredUsername[0] && password5[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-            else if (username[0] == username6[0] && password[0] == password6[0])
+            else if (username6[0] == enteredUsername[0] && password6[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-            else if (username[0] == username7[0] && password[0] == password7[0])
+            else if (username7[0] == enteredUsername[0] && password7[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-            else if (username[0] == username8[0] && password[0] == password8[0])
+            else if (username8[0] == enteredUsername[0] && password8[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-            else if (username[0] == username9[0] && password[0] == password9[0])
+            else if (username9[0] == enteredUsername[0] && password9[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
-            else if (username[0] == username10[0] && password[0] == password10[0])
+            else if (username10[0] == enteredUsername[0] && password10[0] == enteredPassword[0])
             {
                 loginSuccess = true;
             }
@@ -101,26 +100,24 @@ int main()
                     cout << "Enter your choice: ";
                     cin >> choice;
 
-                    if (choice == 1)
+                    switch (choice)
                     {
+                    case 1:
                         cout << "Viewing grades..." << endl;
-                    }
-                    else if (choice == 2)
-                    {
+                        break;
+                    case 2:
                         cout << "Checking schedule..." << endl;
-                    }
-                    else if (choice == 3)
-                    {
+                        break;
+                    case 3:
                         cout << "Checking school fee..." << endl;
-                    }
-                    else if (choice == 4)
-                    {
+                        break;
+                    case 4:
                         cout << "Logging out..." << endl;
                         signedIn = false;
-                    }
-                    else
-                    {
+                        break;
+                    default:
                         cout << "Invalid choice." << endl;
+                        break;
                     }
                 }
             }
@@ -188,56 +185,52 @@ int main()
                     cout << "Enter new password: ";
                     cin >> newPassword;
 
-                    if (userCount == 0)
+                    // Store new account
+                    switch (userCount)
                     {
+                    case 0:
                         username1[0] = newUsername[0];
                         password1[0] = newPassword[0];
-                    }
-                    else if (userCount == 1)
-                    {
+                        break;
+                    case 1:
                         username2[0] = newUsername[0];
                         password2[0] = newPassword[0];
-                    }
-                    else if (userCount == 2)
-                    {
+                        break;
+                    case 2:
                         username3[0] = newUsername[0];
                         password3[0] = newPassword[0];
-                    }
-                    else if (userCount == 3)
-
-                    {
+                        break;
+                    case 3:
                         username4[0] = newUsername[0];
                         password4[0] = newPassword[0];
-                    }
-                    else if (userCount == 4)
-                    {
+                        break;
+                    case 4:
                         username5[0] = newUsername[0];
                         password5[0] = newPassword[0];
-                    }
-                    else if (userCount == 5)
-                    {
+                        break;
+                    case 5:
                         username6[0] = newUsername[0];
                         password6[0] = newPassword[0];
-                    }
-                    else if (userCount == 6)
-                    {
+                        break;
+                    case 6:
                         username7[0] = newUsername[0];
                         password7[0] = newPassword[0];
-                    }
-                    else if (userCount == 7)
-                    {
+                        break;
+                    case 7:
                         username8[0] = newUsername[0];
                         password8[0] = newPassword[0];
-                    }
-                    else if (userCount == 8)
-                    {
+                        break;
+                    case 8:
                         username9[0] = newUsername[0];
                         password9[0] = newPassword[0];
-                    }
-                    else if (userCount == 9)
-                    {
+                        break;
+                    case 9:
                         username10[0] = newUsername[0];
                         password10[0] = newPassword[0];
+                        break;
+                    default:
+                        cout << "Maximum users reached." << endl;
+                        break;
                     }
 
                     userCount++;
@@ -250,7 +243,7 @@ int main()
             }
             else
             {
-                cout << "User limit reached. Cannot sign up more users." << endl;
+                cout << "Maximum users reached." << endl;
             }
         }
         else if (choice == 3)
@@ -260,7 +253,7 @@ int main()
         }
         else
         {
-            cout << "Invalid choice. Please try again." << endl;
+            cout << "Invalid choice." << endl;
         }
     }
 
