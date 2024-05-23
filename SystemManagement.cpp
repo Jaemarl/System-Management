@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     const int maxLength = 50;
+    const char retrievalCode[maxLength] = "123456";
 
     // User storage
     char username1[maxLength] = "\0", password1[maxLength] = "\0";
@@ -18,7 +19,7 @@ int main()
     char username10[maxLength] = "\0", password10[maxLength] = "\0";
 
     int userCount = 0;
-    int choice, i;
+    int choice, loginAttempts, i = 0;
 
     cout << "Welcome to the Student Management System" << endl;
 
@@ -44,63 +45,44 @@ int main()
             bool loginSuccess = false;
 
             // Check each user individually
-            if ((username[0] != '\0' && username1[0] != '\0') &&
-                (username1[0] == username[0] && username1[1] == username[1] && username1[2] == username[2]) &&
-                (password1[0] == password[0] && password1[1] == password[1] && password1[2] == password[2]))
+            if (username[0] == username1[0] && password[0] == password1[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username2[0] != '\0') &&
-                     (username2[0] == username[0] && username2[1] == username[1] && username2[2] == username[2]) &&
-                     (password2[0] == password[0] && password2[1] == password[1] && password2[2] == password[2]))
+
+            else if (username[0] == username2[0] && password[0] == password2[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username3[0] != '\0') &&
-                     (username3[0] == username[0] && username3[1] == username[1] && username3[2] == username[2]) &&
-                     (password3[0] == password[0] && password3[1] == password[1] && password3[2] == password[2]))
+            else if (username[0] == username3[0] && password[0] == password3[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username4[0] != '\0') &&
-                     (username4[0] == username[0] && username4[1] == username[1] && username4[2] == username[2]) &&
-                     (password4[0] == password[0] && password4[1] == password[1] && password4[2] == password[2]))
+            else if (username[0] == username4[0] && password[0] == password4[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username5[0] != '\0') &&
-                     (username5[0] == username[0] && username5[1] == username[1] && username5[2] == username[2]) &&
-                     (password5[0] == password[0] && password5[1] == password[1] && password5[2] == password[2]))
+            else if (username[0] == username5[0] && password[0] == password5[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username6[0] != '\0') &&
-                     (username6[0] == username[0] && username6[1] == username[1] && username6[2] == username[2]) &&
-                     (password6[0] == password[0] && password6[1] == password[1] && password6[2] == password[2]))
+            else if (username[0] == username6[0] && password[0] == password6[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username7[0] != '\0') &&
-                     (username7[0] == username[0] && username7[1] == username[1] && username7[2] == username[2]) &&
-                     (password7[0] == password[0] && password7[1] == password[1] && password7[2] == password[2]))
+            else if (username[0] == username7[0] && password[0] == password7[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username8[0] != '\0') &&
-                     (username8[0] == username[0] && username8[1] == username[1] && username8[2] == username[2]) &&
-                     (password8[0] == password[0] && password8[1] == password[1] && password8[2] == password[2]))
+            else if (username[0] == username8[0] && password[0] == password8[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username9[0] != '\0') &&
-                     (username9[0] == username[0] && username9[1] == username[1] && username9[2] == username[2]) &&
-                     (password9[0] == password[0] && password9[1] == password[1] && password9[2] == password[2]))
+            else if (username[0] == username9[0] && password[0] == password9[0])
             {
                 loginSuccess = true;
             }
-            else if ((username[0] != '\0' && username10[0] != '\0') &&
-                     (username10[0] == username[0] && username10[1] == username[1] && username10[2] == username[2]) &&
-                     (password10[0] == password[0] && password10[1] == password[1] && password10[2] == password[2]))
+            else if (username[0] == username10[0] && password[0] == password10[0])
             {
                 loginSuccess = true;
             }
@@ -108,9 +90,9 @@ int main()
             if (loginSuccess)
             {
                 cout << "Login successful!" << endl;
-                bool signedIn = true;
+                loginAttempts = 0; // Reset login attempts on successful login
 
-                for (; signedIn;)
+                for (bool signedIn = true; signedIn;)
                 {
                     cout << "1. View grades" << endl;
                     cout << "2. Check schedule" << endl;
@@ -144,7 +126,41 @@ int main()
             }
             else
             {
-                cout << "Invalid username or password." << endl;
+                loginAttempts++;
+                cout << "Invalid username or password. Attempt " << loginAttempts << " of 3." << endl;
+
+                if (loginAttempts >= 3)
+                {
+                    char enteredCode[maxLength];
+                    cout << "Maximum login attempts reached." << endl;
+                    cout << "Enter the retrieval code to reset login attempts: ";
+                    cin >> enteredCode;
+
+                    bool codeMatch = true;
+                    for (i = 0; i < maxLength; i++)
+                    {
+                        if (retrievalCode[i] != enteredCode[i])
+                        {
+                            codeMatch = false;
+                            break;
+                        }
+                        if (retrievalCode[i] == '\0' && enteredCode[i] == '\0')
+                        {
+                            break;
+                        }
+                    }
+
+                    if (codeMatch)
+                    {
+                        cout << "Retrieval code accepted. You can try logging in again." << endl;
+                        loginAttempts = 0;
+                    }
+                    else
+                    {
+                        cout << "Invalid retrieval code. Exiting..." << endl;
+                        running = false;
+                    }
+                }
             }
         }
         else if (choice == 2)
@@ -157,166 +173,84 @@ int main()
                 cout << "Enter new username: ";
                 cin >> newUsername;
 
-                cout << "Enter new password: ";
-                cin >> newPassword;
-
-                if (userCount == 0)
+                // Check if the username already exists
+                bool usernameExists = false;
+                if (newUsername[0] == username1[0] || newUsername[0] == username2[0] || newUsername[0] == username3[0] ||
+                    newUsername[0] == username4[0] || newUsername[0] == username5[0] || newUsername[0] == username6[0] ||
+                    newUsername[0] == username7[0] || newUsername[0] == username8[0] || newUsername[0] == username9[0] ||
+                    newUsername[0] == username10[0])
                 {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username1[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password1[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 1)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username2[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password2[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 2)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username3[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password3[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 3)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username4[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password4[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 4)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username5[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password5[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 5)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username6[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password6[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 6)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username7[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password7[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 7)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username8[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password8[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 8)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username9[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password9[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
-                }
-                else if (userCount == 9)
-                {
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        username10[i] = newUsername[i];
-                        if (newUsername[i] == '\0')
-                            break;
-                    }
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        password10[i] = newPassword[i];
-                        if (newPassword[i] == '\0')
-                            break;
-                    }
+                    usernameExists = true;
                 }
 
-                userCount++;
-                cout << "Sign up successful!" << endl;
+                if (!usernameExists)
+                {
+                    cout << "Enter new password: ";
+                    cin >> newPassword;
+
+                    if (userCount == 0)
+                    {
+                        username1[0] = newUsername[0];
+                        password1[0] = newPassword[0];
+                    }
+                    else if (userCount == 1)
+                    {
+                        username2[0] = newUsername[0];
+                        password2[0] = newPassword[0];
+                    }
+                    else if (userCount == 2)
+                    {
+                        username3[0] = newUsername[0];
+                        password3[0] = newPassword[0];
+                    }
+                    else if (userCount == 3)
+
+                    {
+                        username4[0] = newUsername[0];
+                        password4[0] = newPassword[0];
+                    }
+                    else if (userCount == 4)
+                    {
+                        username5[0] = newUsername[0];
+                        password5[0] = newPassword[0];
+                    }
+                    else if (userCount == 5)
+                    {
+                        username6[0] = newUsername[0];
+                        password6[0] = newPassword[0];
+                    }
+                    else if (userCount == 6)
+                    {
+                        username7[0] = newUsername[0];
+                        password7[0] = newPassword[0];
+                    }
+                    else if (userCount == 7)
+                    {
+                        username8[0] = newUsername[0];
+                        password8[0] = newPassword[0];
+                    }
+                    else if (userCount == 8)
+                    {
+                        username9[0] = newUsername[0];
+                        password9[0] = newPassword[0];
+                    }
+                    else if (userCount == 9)
+                    {
+                        username10[0] = newUsername[0];
+                        password10[0] = newPassword[0];
+                    }
+
+                    userCount++;
+                    cout << "Sign up successful!" << endl;
+                }
+                else
+                {
+                    cout << "Username already exists. Please choose a different username." << endl;
+                }
             }
             else
             {
-                cout << "Sign up failed. No available slots." << endl;
+                cout << "User limit reached. Cannot sign up more users." << endl;
             }
         }
         else if (choice == 3)
