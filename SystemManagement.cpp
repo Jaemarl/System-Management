@@ -3,257 +3,134 @@ using namespace std;
 
 int main()
 {
-    const int maxLength = 50;
-    const char retrievalCode[maxLength] = "123456";
+    string adminUsername = "admin@";
+    string adminPassword = "test";
+    string username;
+    string password;
 
-    // User storage
-    char username1[maxLength] = "\0", password1[maxLength] = "\0";
-    char username2[maxLength] = "\0", password2[maxLength] = "\0";
-    char username3[maxLength] = "\0", password3[maxLength] = "\0";
-    char username4[maxLength] = "\0", password4[maxLength] = "\0";
-    char username5[maxLength] = "\0", password5[maxLength] = "\0";
-    char username6[maxLength] = "\0", password6[maxLength] = "\0";
-    char username7[maxLength] = "\0", password7[maxLength] = "\0";
-    char username8[maxLength] = "\0", password8[maxLength] = "\0";
-    char username9[maxLength] = "\0", password9[maxLength] = "\0";
-    char username10[maxLength] = "\0", password10[maxLength] = "\0";
+    string staffUsernames[3];
+    string staffPasswords[3];
+    string teacherUsernames[5];
+    string teacherPasswords[5];
+    string studentUsernames[50 * 5];
+    string studentPasswords[50 * 5];
 
-    int userCount = 0;
-    int choice, loginAttempts, i = 0;
+    int staffCount = 0;
+    int teacherCount = 0;
+    int studentCount = 0;
 
-    cout << "Welcome to the Student Management System" << endl;
-
-    for (bool running = true; running;)
-    {
-        cout << "1. Sign in" << endl;
-        cout << "2. Sign up" << endl;
-        cout << "3. Exit" << endl;
+    while (true) {
+        cout << "Student Management System\n" << endl;
+        cout << "1. Login\n";
+        cout << "2. Exit\n";
         cout << "Enter your choice: ";
-        cin >> choice;
+        int mainChoice;
+        cin >> mainChoice;
 
-        if (choice == 1)
-        {
-            char enteredUsername[maxLength];
-            char enteredPassword[maxLength];
+        if (mainChoice == 2) {
+            cout << "Exiting the program.\n";
+            break;
+        } else if (mainChoice == 1) {
+            cout << "Username: ";
+            cin >> username;
+            cout << "Password: ";
+            cin >> password;
 
-            cout << "Enter username: ";
-            cin >> enteredUsername;
-
-            cout << "Enter password: ";
-            cin >> enteredPassword;
-
-            bool loginSuccess = false;
-
-            // Check each user individually
-            if (username1[0] == enteredUsername[0] && password1[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username2[0] == enteredUsername[0] && password2[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username3[0] == enteredUsername[0] && password3[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username4[0] == enteredUsername[0] && password4[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username5[0] == enteredUsername[0] && password5[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username6[0] == enteredUsername[0] && password6[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username7[0] == enteredUsername[0] && password7[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username8[0] == enteredUsername[0] && password8[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username9[0] == enteredUsername[0] && password9[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-            else if (username10[0] == enteredUsername[0] && password10[0] == enteredPassword[0])
-            {
-                loginSuccess = true;
-            }
-
-            if (loginSuccess)
-            {
-                cout << "Login successful!" << endl;
-                loginAttempts = 0; // Reset login attempts on successful login
-
-                for (bool signedIn = true; signedIn;)
-                {
-                    cout << "1. View grades" << endl;
-                    cout << "2. Check schedule" << endl;
-                    cout << "3. School fee" << endl;
-                    cout << "4. Logout" << endl;
+            // Admin Login
+            if (username == adminUsername && password == adminPassword) {
+                int adminChoice;
+                do {
+                    cout << "\nAdmin Menu:\n";
+                    cout << "1. Create Staff Account\n";
+                    cout << "2. Create Teacher Account\n";
+                    cout << "3. Logout\n";
                     cout << "Enter your choice: ";
-                    cin >> choice;
+                    cin >> adminChoice;
 
-                    switch (choice)
-                    {
-                    case 1:
-                        cout << "Viewing grades..." << endl;
-                        break;
-                    case 2:
-                        cout << "Checking schedule..." << endl;
-                        break;
-                    case 3:
-                        cout << "Checking school fee..." << endl;
-                        break;
-                    case 4:
-                        cout << "Logging out..." << endl;
-                        signedIn = false;
-                        break;
-                    default:
-                        cout << "Invalid choice." << endl;
+                    if (adminChoice == 1 && staffCount < 3) {
+                        cout << "Enter staff username: ";
+                        cin >> staffUsernames[staffCount];
+                        cout << "Enter staff password: ";
+                        cin >> staffPasswords[staffCount];
+                        staffCount++;
+                        cout << "Staff account created successfully.\n";
+                    } else if (adminChoice == 1 && staffCount >= 3) {
+                        cout << "Maximum staff accounts reached.\n";
+                    } else if (adminChoice == 2 && teacherCount < 5) {
+                        cout << "Enter teacher username: ";
+                        cin >> teacherUsernames[teacherCount];
+                        cout << "Enter teacher password: ";
+                        cin >> teacherPasswords[teacherCount];
+                        teacherCount++;
+                        cout << "Teacher account created successfully.\n";
+                    } else if (adminChoice == 2 && teacherCount >= 5) {
+                        cout << "Maximum teacher accounts reached.\n";
+                    } else if (adminChoice != 3) {
+                        cout << "Invalid choice, please try again.\n";
+                    }
+                } while (adminChoice != 3);
+            }
+            // Staff Login
+            else {
+                bool isStaff = false;
+                for (int i = 0; i < staffCount; i++) {
+                    if (username == staffUsernames[i] && password == staffPasswords[i]) {
+                        isStaff = true;
+                        cout << "Staff logged in successfully.\n";
+                        // Add staff-specific actions here if needed
                         break;
                     }
+                }
+                if (isStaff) continue;
+
+                // Teacher Login
+                bool isTeacher = false;
+                for (int i = 0; i < teacherCount; i++) {
+                    if (username == teacherUsernames[i] && password == teacherPasswords[i]) {
+                        isTeacher = true;
+                        int teacherChoice;
+                        do {
+                            cout << "\nTeacher Menu:\n";
+                            cout << "1. Create Student Account\n";
+                            cout << "2. Logout\n";
+                            cout << "Enter your choice: ";
+                            cin >> teacherChoice;
+
+                            if (teacherChoice == 1 && studentCount < 50 * 5) {
+                                cout << "Enter student username: ";
+                                cin >> studentUsernames[studentCount];
+                                cout << "Enter student password: ";
+                                cin >> studentPasswords[studentCount];
+                                studentCount++;
+                                cout << "Student account created successfully.\n";
+                            } else if (teacherChoice == 1 && studentCount >= 50 * 5) {
+                                cout << "Maximum student accounts reached.\n";
+                            } else if (teacherChoice != 2) {
+                                cout << "Invalid choice, please try again.\n";
+                            }
+                        } while (teacherChoice != 2);
+                        break;
+                    }
+                }
+                if (isTeacher) continue;
+
+                // Student Login
+                bool isStudent = false;
+                for (int i = 0; i < studentCount; i++) {
+                    if (username == studentUsernames[i] && password == studentPasswords[i]) {
+                        isStudent = true;
+                        cout << "Student logged in successfully.\n";
+                        // Add student-specific actions here if needed
+                        break;
+                    }
+                }
+
+                if (!isStudent) {
+                    cout << "Invalid credentials, please try again.\n";
                 }
             }
-            else
-            {
-                loginAttempts++;
-                cout << "Invalid username or password. Attempt " << loginAttempts << " of 3." << endl;
-
-                if (loginAttempts >= 3)
-                {
-                    char enteredCode[maxLength];
-                    cout << "Maximum login attempts reached." << endl;
-                    cout << "Enter the retrieval code to reset login attempts: ";
-                    cin >> enteredCode;
-
-                    bool codeMatch = true;
-                    for (i = 0; i < maxLength; i++)
-                    {
-                        if (retrievalCode[i] != enteredCode[i])
-                        {
-                            codeMatch = false;
-                            break;
-                        }
-                        if (retrievalCode[i] == '\0' && enteredCode[i] == '\0')
-                        {
-                            break;
-                        }
-                    }
-
-                    if (codeMatch)
-                    {
-                        cout << "Retrieval code accepted. You can try logging in again." << endl;
-                        loginAttempts = 0;
-                    }
-                    else
-                    {
-                        cout << "Invalid retrieval code. Exiting..." << endl;
-                        running = false;
-                    }
-                }
-            }
-        }
-        else if (choice == 2)
-        {
-            if (userCount < 10)
-            {
-                char newUsername[maxLength];
-                char newPassword[maxLength];
-
-                cout << "Enter new username: ";
-                cin >> newUsername;
-
-                // Check if the username already exists
-                bool usernameExists = false;
-                if (newUsername[0] == username1[0] || newUsername[0] == username2[0] || newUsername[0] == username3[0] ||
-                    newUsername[0] == username4[0] || newUsername[0] == username5[0] || newUsername[0] == username6[0] ||
-                    newUsername[0] == username7[0] || newUsername[0] == username8[0] || newUsername[0] == username9[0] ||
-                    newUsername[0] == username10[0])
-                {
-                    usernameExists = true;
-                }
-
-                if (!usernameExists)
-                {
-                    cout << "Enter new password: ";
-                    cin >> newPassword;
-
-                    // Store new account
-                    switch (userCount)
-                    {
-                    case 0:
-                        username1[0] = newUsername[0];
-                        password1[0] = newPassword[0];
-                        break;
-                    case 1:
-                        username2[0] = newUsername[0];
-                        password2[0] = newPassword[0];
-                        break;
-                    case 2:
-                        username3[0] = newUsername[0];
-                        password3[0] = newPassword[0];
-                        break;
-                    case 3:
-                        username4[0] = newUsername[0];
-                        password4[0] = newPassword[0];
-                        break;
-                    case 4:
-                        username5[0] = newUsername[0];
-                        password5[0] = newPassword[0];
-                        break;
-                    case 5:
-                        username6[0] = newUsername[0];
-                        password6[0] = newPassword[0];
-                        break;
-                    case 6:
-                        username7[0] = newUsername[0];
-                        password7[0] = newPassword[0];
-                        break;
-                    case 7:
-                        username8[0] = newUsername[0];
-                        password8[0] = newPassword[0];
-                        break;
-                    case 8:
-                        username9[0] = newUsername[0];
-                        password9[0] = newPassword[0];
-                        break;
-                    case 9:
-                        username10[0] = newUsername[0];
-                        password10[0] = newPassword[0];
-                        break;
-                    default:
-                        cout << "Maximum users reached." << endl;
-                        break;
-                    }
-
-                    userCount++;
-                    cout << "Sign up successful!" << endl;
-                }
-                else
-                {
-                    cout << "Username already exists. Please choose a different username." << endl;
-                }
-            }
-            else
-            {
-                cout << "Maximum users reached." << endl;
-            }
-        }
-        else if (choice == 3)
-        {
-            cout << "Exiting..." << endl;
-            running = false;
-        }
-        else
-        {
-            cout << "Invalid choice." << endl;
+        } else {
+            cout << "Invalid choice, please try again.\n";
         }
     }
 
