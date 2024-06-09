@@ -830,7 +830,7 @@ goto main_menu ;
     }
     else if(teacherUsername2 == username && teacherPassword2 == password){
 // handles BSENT
-    teacher_menu2:
+       teacher_menu2:
     cout << "\nTeacher2 Menu:\n";
     cout << "1. Create Student Account\n";
     cout << "2. Logout\n";
@@ -849,7 +849,9 @@ goto main_menu ;
 
         // Check if the new username and password combination already exists
         if ((newUsername == studentUsername1 && newPassword == studentPassword1) ||
-            (newUsername == studentUsername2 && newPassword == studentPassword2)) {
+            (newUsername == studentUsername2 && newPassword == studentPassword2) ||
+            (newUsername == studentUsername3 && newPassword == studentPassword3) ||
+            (newUsername == studentUsername4 && newPassword == studentPassword4)) {
             usernamePasswordExists = true;
         }
 
@@ -863,6 +865,12 @@ goto main_menu ;
                 } else if (studentCount == 2) {
                     studentUsername2 = newUsername;
                     studentPassword2 = newPassword;
+                } else if (studentCount == 3) {
+                    studentUsername3 = newUsername;
+                    studentPassword3 = newPassword;
+                } else if (studentCount == 4) {
+                    studentUsername4 = newUsername;
+                    studentPassword4 = newPassword;
                 }
                 cout << "Student account created successfully.\n";
             } else {
@@ -871,23 +879,20 @@ goto main_menu ;
         } else {
             cout << "This username and password combination already exists.\n";
         }
+    } else if (teacherChoice == 1 && studentCount >= 100) {
+        cout << "Maximum student accounts for this course reached.\n";
+    } else if (teacherChoice != 2) {
+        cout << "Invalid choice, please try again.\n";
     }
 
     if (teacherChoice != 2) // Continue looping unless choice is to logout
         goto teacher_menu2;
-
-        else if (teacherChoice == 1 && studentCount >= 100)
-        {
-            cout << "Maximum student accounts for this course reached.\n";
-            goto teacher_menu2;
-        }
-        else if (teacherChoice != 2)
-        {
-            cout << "Invalid choice, please try again.\n";
-            goto teacher_menu2;
-        }
+    else {
+        cout << "Logged out successfully.\n";
         goto main_menu;
     }
+    return 0;
+}
      //teacher 3
     else if(teacherUsername3 == username && teacherPassword3 == password){
         teacher_menu3:
@@ -1801,6 +1806,5 @@ else{
 
     return 0 ;
     }
-
 
 
