@@ -227,6 +227,11 @@ login:
     if ((username == staffUsername1 && password == staffPassword1) || (username == staffUsername2 && password == staffPassword2) || (username == staffUsername3 && password == staffPassword3))
     {
         cout << "Staff logged in successfully.\n";
+        /*
+        View student details(wag na muna lagyan ng function)
+        View employee information(wag na muna lagyan ng function)
+        Change Password(wag na muna lagyan ng function)
+        */
         goto main_menu;
     }
 
