@@ -31,6 +31,7 @@ int main()
     string teacherUsername3, teacherPassword3;
     string teacherUsername4, teacherPassword4;
     string teacherUsername5, teacherPassword5;
+    string teacherCourse1, teacherCourse2, teacherCourse3, teacherCourse4, teacherCourse5;
 
     // Variables to store usernames and passwords for students in BSIT (50 students)
     string studentUsername1, studentPassword1;
@@ -83,7 +84,6 @@ int main()
     string studentUsername48, studentPassword48;
     string studentUsername49, studentPassword49;
     string studentUsername50, studentPassword50;
-
     string studentUsername51, studentPassword51;
     string studentUsername52, studentPassword52;
     string studentUsername53, studentPassword53;
@@ -185,8 +185,6 @@ int main()
     string studentUsername148, studentPassword148;
     string studentUsername149, studentPassword149;
     string studentUsername150, studentPassword150;
-
-
     string studentUsername151, studentPassword151;
     string studentUsername152, studentPassword152;
     string studentUsername153, studentPassword153;
@@ -237,8 +235,6 @@ int main()
     string studentUsername198, studentPassword198;
     string studentUsername199, studentPassword199;
     string studentUsername200, studentPassword200;
-
-
     string studentUsername201, studentPassword201;
     string studentUsername202, studentPassword202;
     string studentUsername203, studentPassword203;
@@ -291,11 +287,11 @@ int main()
     string studentUsername250, studentPassword250;
 
 
-
     // Variables to keep track of how many accounts have been created
     int staffCount = 0;
     int teacherCount = 0;
     int studentCount = 0;
+    int adminChoice = 0;
 
 main_menu:
     cout << "Student Management System\n"
@@ -323,7 +319,6 @@ login:
     cout << "Password: ";
     cin >> password;
 
-    // Admin Login
     if (username == adminUsername && password == adminPassword)
     {
     admin_menu:
@@ -374,63 +369,98 @@ login:
             cout << "Maximum staff accounts reached.\n";
             goto admin_menu;
         }
-        else if (adminChoice == 2 && teacherCount < 5)
-        {
-            string newUsername, newPassword;
-            cout << "Enter teacher username: ";
-            cin >> newUsername;
-            cout << "Enter teacher password: ";
-            cin >> newPassword;
+        else     if (adminChoice == 2 && teacherCount < 5)
+    {
+        string newUsername, newPassword;
+        int course;
 
-            if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) && (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) && (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) && (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)))
-            {
-                if (teacherCount == 0)
-                {
-                    teacherUsername1 = newUsername;
-                    teacherPassword1 = newPassword;
-                }
-                else if (teacherCount == 1)
-                {
-                    teacherUsername2 = newUsername;
-                    teacherPassword2 = newPassword;
-                }
-                else if (teacherCount == 2)
-                {
-                    teacherUsername3 = newUsername;
-                    teacherPassword3 = newPassword;
-                }
-                else if (teacherCount == 3)
-                {
-                    teacherUsername4 = newUsername;
-                    teacherPassword4 = newPassword;
-                }
-                else if (teacherCount == 4)
-                {
-                    teacherUsername5 = newUsername;
-                    teacherPassword5 = newPassword;
-                }
-                teacherCount++;
-                cout << "Teacher account created successfully.\n";
-            }
-            else
-            {
-                cout << "This username and password combination already exists.\n";
-            }
-            goto admin_menu;
-        }
-        else if (adminChoice == 2 && teacherCount >= 5)
+        cout << "Enter teacher username: ";
+        cin >> newUsername;
+        cout << "Enter teacher password: ";
+        cin >> newPassword;
+        cout << "Select which program to assign: " << endl;
+        cout << "1. BSIT\n2. BSENT\n3. DICT\n4. BSA\n5. BSBA" << endl;
+        cin >> course;
+
+        // Check if the username-password combination already exists
+        if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) &&
+            (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) &&
+            (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) &&
+            (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)) &&
+            (teacherCount < 5 || (teacherUsername5 != newUsername || teacherPassword5 != newPassword)))
         {
-            cout << "Maximum teacher accounts reached.\n";
-            goto admin_menu;
+            if (teacherCount == 0)
+            {
+                teacherUsername1 = newUsername;
+                teacherPassword1 = newPassword;
+                teacherCourse1 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            else if (teacherCount == 1)
+            {
+                teacherUsername2 = newUsername;
+                teacherPassword2 = newPassword;
+                teacherCourse2 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            else if (teacherCount == 2)
+            {
+                teacherUsername3 = newUsername;
+                teacherPassword3 = newPassword;
+                teacherCourse3 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            else if (teacherCount == 3)
+            {
+                teacherUsername4 = newUsername;
+                teacherPassword4 = newPassword;
+                teacherCourse4 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            else if (teacherCount == 4)
+            {
+                teacherUsername5 = newUsername;
+                teacherPassword5 = newPassword;
+                teacherCourse5 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            teacherCount++;
+            cout << "Teacher account created successfully.\n";
         }
-        else if (adminChoice != 3)
+        else
         {
-            cout << "Invalid choice, please try again.\n";
-            goto admin_menu;
+            cout << "This username and password combination already exists or maximum teacher limit reached.\n";
         }
-        goto main_menu;
+    }
+    else
+    {
+        cout << "Invalid admin choice or maximum teacher limit reached.\n";
     }
 
+    // Print teachers and their courses for verification
+    cout << "Teachers and their courses:" << endl;
+    cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
+    cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
+    cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
+    cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
+    cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
+goto main_menu ;
+}
     // Staff Login
     if ((username == staffUsername1 && password == staffPassword1) || (username == staffUsername2 && password == staffPassword2) || (username == staffUsername3 && password == staffPassword3))
     {
@@ -441,109 +471,65 @@ login:
         Change Password(wag na muna lagyan ng function)
         */
 
+        // int staffChoice
 
+        // switch(staffChoice){
+        //     case: 1{
 
+        //     }
+        //     case: 2{
 
+        //     }
+        //     case: 3{
 
+        //     }
+        // }
 
-// int staffChoice
+        // Gagawa ng variable (staffChoice) => refer to line 169
 
-// switch(staffChoice){
-//     case: 1{
+        // example:
+        //  if (staffChoice == 2 && teacherCount < 5)
+        //          {
+        //              string newUsername, newPassword;
+        //              cout << "Enter teacher username: ";
+        //              cin >> newUsername;
+        //              cout << "Enter teacher password: ";
+        //              cin >> newPassword;
 
-//     }
-//     case: 2{
-
-//     }
-//     case: 3{
-
-//     }
-// }
-
-
-
-// Gagawa ng variable (staffChoice) => refer to line 169
-
-
-//example:
-// if (staffChoice == 2 && teacherCount < 5)
-//         {
-//             string newUsername, newPassword;
-//             cout << "Enter teacher username: ";
-//             cin >> newUsername;
-//             cout << "Enter teacher password: ";
-//             cin >> newPassword;
-
-//             if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) && (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) && (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) && (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)))
-//             {
-//                 if (teacherCount == 0)
-//                 {
-//                     teacherUsername1 = newUsername;
-//                     teacherPassword1 = newPassword;
-//                 }
-//                 else if (teacherCount == 1)
-//                 {
-//                     teacherUsername2 = newUsername;
-//                     teacherPassword2 = newPassword;
-//                 }
-//                 else if (teacherCount == 2)
-//                 {
-//                     teacherUsername3 = newUsername;
-//                     teacherPassword3 = newPassword;
-//                 }
-//                 else if (teacherCount == 3)
-//                 {
-//                     teacherUsername4 = newUsername;
-//                     teacherPassword4 = newPassword;
-//                 }
-//                 else if (teacherCount == 4)
-//                 {
-//                     teacherUsername5 = newUsername;
-//                     teacherPassword5 = newPassword;
-//                 }
-//                 teacherCount++;
-//                 cout << "Teacher account created successfully.\n";
-//             }
-//             else
-//             {
-//                 cout << "This username and password combination already exists.\n";
-//             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //             if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) && (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) && (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) && (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)))
+        //             {
+        //                 if (teacherCount == 0)
+        //                 {
+        //                     teacherUsername1 = newUsername;
+        //                     teacherPassword1 = newPassword;
+        //                 }
+        //                 else if (teacherCount == 1)
+        //                 {
+        //                     teacherUsername2 = newUsername;
+        //                     teacherPassword2 = newPassword;
+        //                 }
+        //                 else if (teacherCount == 2)
+        //                 {
+        //                     teacherUsername3 = newUsername;
+        //                     teacherPassword3 = newPassword;
+        //                 }
+        //                 else if (teacherCount == 3)
+        //                 {
+        //                     teacherUsername4 = newUsername;
+        //                     teacherPassword4 = newPassword;
+        //                 }
+        //                 else if (teacherCount == 4)
+        //                 {
+        //                     teacherUsername5 = newUsername;
+        //                     teacherPassword5 = newPassword;
+        //                 }
+        //                 teacherCount++;
+        //                 cout << "Teacher account created successfully.\n";
+        //             }
+        //             else
+        //             {
+        //                 cout << "This username and password combination already exists.\n";
+        //             }
 
         goto main_menu;
     }
@@ -551,16 +537,17 @@ login:
     // Teacher Login
     if ((username == teacherUsername1 && password == teacherPassword1) || (username == teacherUsername2 && password == teacherPassword2) || (username == teacherUsername3 && password == teacherPassword3) || (username == teacherUsername4 && password == teacherPassword4) || (username == teacherUsername5 && password == teacherPassword5))
     {
-    teacher_menu:
-        cout << "\nTeacher Menu:\n";
+        if(teacherUsername1 == username && teacherPassword1 == password){
+    teacher_menu1:
+        cout << "\nTeacher Menu1:\n";
         cout << "1. Create Student Account\n";
         cout << "2. Logout\n";
         cout << "Enter your choice: ";
         int teacherChoice;
         cin >> teacherChoice;
 
-        if (teacherChoice == 1 && studentCount < 250)
-        { // Handling 250 students
+        if (teacherChoice == 1 && studentCount < 50)
+        { // Handling 50 students for BSIT
             string newUsername, newPassword;
             cout << "Enter student username: ";
             cin >> newUsername;
@@ -819,8 +806,48 @@ login:
                     studentUsername50 = newUsername;
                     studentPassword50 = newPassword;
                 }
+                studentCount++;
+                cout << "Student account created successfully.\n";
+                goto teacher_menu1 ;
+            }
+            else
+            {
+                cout << "This username and password combination already exists.\n";
+            }
+            goto teacher_menu1;
+        }
+        else if (teacherChoice == 1 && studentCount >= 50)
+        {
+            cout << "Maximum student accounts for this course reached.\n";
+            goto teacher_menu1;
+        }
+        else if (teacherChoice != 2)
+        {
+            cout << "Invalid choice, please try again.\n";
+            goto teacher_menu1;
+        }
+        goto main_menu;
+    }
+    else if(teacherUsername2 == username && teacherPassword2 == password){
+// handles BSENT
+teacher_menu2:
+        cout << "\nTeacher2 Menu:\n";
+        cout << "1. Create Student Account\n";
+        cout << "2. Logout\n";
+        cout << "Enter your choice: ";
+        int teacherChoice;
+        cin >> teacherChoice;
+        if (teacherChoice == 1 && studentCount < 100)
+        { // Handling 50 students for BSENT
+            string newUsername, newPassword;
+            cout << "Enter student username: ";
+            cin >> newUsername;
+            cout << "Enter student password: ";
+            cin >> newPassword;
 
-                 else if (studentCount == 50)
+            if ((studentCount == 50 || (studentUsername51 != newUsername || studentPassword51 != newPassword)) && (studentCount < 52 || (studentUsername52 != newUsername || studentPassword52 != newPassword)) && (studentCount < 53 || (studentUsername53 != newUsername || studentPassword53 != newPassword)) && (studentCount < 54 || (studentUsername54 != newUsername || studentPassword54 != newPassword)) && (studentCount < 55 || (studentUsername55 != newUsername || studentPassword55 != newPassword)) && (studentCount < 56 || (studentUsername56 != newUsername || studentPassword56 != newPassword)) && (studentCount < 57 || (studentUsername57 != newUsername || studentPassword57 != newPassword)) && (studentCount < 58 || (studentUsername58 != newUsername || studentPassword58 != newPassword)) && (studentCount < 59 || (studentUsername59 != newUsername || studentPassword59 != newPassword)) && (studentCount < 60 || (studentUsername60 != newUsername || studentPassword60 != newPassword)) && (studentCount < 61 || (studentUsername61 != newUsername || studentPassword61 != newPassword)) && (studentCount < 62 || (studentUsername62 != newUsername || studentPassword62 != newPassword)) && (studentCount < 63 || (studentUsername63 != newUsername || studentPassword63 != newPassword)) && (studentCount < 64 || (studentUsername64 != newUsername || studentPassword64 != newPassword)) && (studentCount < 65 || (studentUsername65 != newUsername || studentPassword65 != newPassword)) && (studentCount < 66 || (studentUsername66 != newUsername || studentPassword66 != newPassword)) && (studentCount < 67 || (studentUsername67 != newUsername || studentPassword67 != newPassword)) && (studentCount < 68 || (studentUsername68 != newUsername || studentPassword68 != newPassword)) && (studentCount < 69 || (studentUsername69 != newUsername || studentPassword69 != newPassword)) && (studentCount < 70 || (studentUsername70 != newUsername || studentPassword70 != newPassword)) && (studentCount < 71 || (studentUsername71 != newUsername || studentPassword71 != newPassword)) && (studentCount < 72 || (studentUsername72 != newUsername || studentPassword72 != newPassword)) && (studentCount < 73 || (studentUsername73 != newUsername || studentPassword73 != newPassword)) && (studentCount < 74 || (studentUsername74 != newUsername || studentPassword74 != newPassword)) && (studentCount < 75 || (studentUsername75 != newUsername || studentPassword75 != newPassword)) && (studentCount < 76 || (studentUsername76 != newUsername || studentPassword76 != newPassword)) && (studentCount < 77 || (studentUsername77 != newUsername || studentPassword77 != newPassword)) && (studentCount < 78 || (studentUsername78 != newUsername || studentPassword78 != newPassword)) && (studentCount < 79 || (studentUsername79 != newUsername || studentPassword79 != newPassword)) && (studentCount < 80 || (studentUsername80 != newUsername || studentPassword80 != newPassword)) && (studentCount < 81 || (studentUsername81 != newUsername || studentPassword81 != newPassword)) && (studentCount < 82 || (studentUsername82 != newUsername || studentPassword82 != newPassword)) && (studentCount < 83 || (studentUsername83 != newUsername || studentPassword83 != newPassword)) && (studentCount < 84 || (studentUsername84 != newUsername || studentPassword84 != newPassword)) && (studentCount < 85 || (studentUsername85 != newUsername || studentPassword85 != newPassword)) && (studentCount < 86 || (studentUsername86 != newUsername || studentPassword86 != newPassword)) && (studentCount < 87 || (studentUsername87 != newUsername || studentPassword87 != newPassword)) && (studentCount < 88 || (studentUsername88 != newUsername || studentPassword88 != newPassword)) && (studentCount < 89 || (studentUsername89 != newUsername || studentPassword89 != newPassword)) && (studentCount < 90 || (studentUsername90 != newUsername || studentPassword90 != newPassword)) && (studentCount < 91 || (studentUsername91 != newUsername || studentPassword91 != newPassword)) && (studentCount < 92 || (studentUsername92 != newUsername || studentPassword92 != newPassword)) && (studentCount < 93 || (studentUsername93 != newUsername || studentPassword93 != newPassword)) && (studentCount < 94 || (studentUsername94 != newUsername || studentPassword94 != newPassword)) && (studentCount < 95 || (studentUsername95 != newUsername || studentPassword95 != newPassword)) && (studentCount < 96 || (studentUsername96 != newUsername || studentPassword96 != newPassword)) && (studentCount < 97 || (studentUsername97 != newUsername || studentPassword97 != newPassword)) && (studentCount < 98 || (studentUsername98 != newUsername || studentPassword98 != newPassword)) && (studentCount < 99 || (studentUsername99 != newUsername || studentPassword99 != newPassword)) && (studentCount < 100 || (studentUsername100 != newUsername || studentPassword100 != newPassword)))
+            {
+                if (studentCount == 50)
                 {
                     studentUsername51 = newUsername;
                     studentPassword51 = newPassword;
@@ -835,7 +862,7 @@ login:
                     studentUsername53 = newUsername;
                     studentPassword53 = newPassword;
                 }
-                else if (studentCount == 53)
+                 else if (studentCount == 53)
                 {
                     studentUsername54 = newUsername;
                     studentPassword54 = newPassword;
@@ -1070,7 +1097,50 @@ login:
                     studentUsername100 = newUsername;
                     studentPassword100 = newPassword;
                 }
-                 else if (studentCount == 100)
+                studentCount++;
+                cout << "Student account created successfully.\n";
+                goto teacher_menu2 ;
+            }
+            else
+            {
+                cout << "This username and password combination already exists.\n";
+            }
+            goto teacher_menu2;
+        }
+
+        else if (teacherChoice == 1 && studentCount >= 100)
+        {
+            cout << "Maximum student accounts for this course reached.\n";
+            goto teacher_menu2;
+        }
+        else if (teacherChoice != 2)
+        {
+            cout << "Invalid choice, please try again.\n";
+            goto teacher_menu2;
+        }
+        goto main_menu;
+    }
+     //teacher 3
+    else if(teacherUsername3 == username && teacherPassword3 == password){
+        teacher_menu3:
+        cout << "\nTeacher3 Menu:\n";
+        cout << "1. Create Student Account\n";
+        cout << "2. Logout\n";
+        cout << "Enter your choice: ";
+        int teacherChoice;
+        cin >> teacherChoice;
+
+        if (teacherChoice == 1 && studentCount < 50)
+        { // Handling 50 students for DICT
+            string newUsername, newPassword;
+            cout << "Enter student username: ";
+            cin >> newUsername;
+            cout << "Enter student password: ";
+            cin >> newPassword;
+
+            if ((studentCount == 100 || (studentUsername101 != newUsername || studentPassword101 != newPassword)) && (studentCount < 102 || (studentUsername102 != newUsername || studentPassword102 != newPassword)) && (studentCount < 103 || (studentUsername103 != newUsername || studentPassword103 != newPassword)) && (studentCount < 104 || (studentUsername104 != newUsername || studentPassword104 != newPassword)) && (studentCount < 105 || (studentUsername105 != newUsername || studentPassword105 != newPassword)) && (studentCount < 106 || (studentUsername106 != newUsername || studentPassword106 != newPassword)) && (studentCount < 107 || (studentUsername107 != newUsername || studentPassword107 != newPassword)) && (studentCount < 108 || (studentUsername108 != newUsername || studentPassword108 != newPassword)) && (studentCount < 109 || (studentUsername109 != newUsername || studentPassword109 != newPassword)) && (studentCount < 110 || (studentUsername110 != newUsername || studentPassword110 != newPassword)) && (studentCount < 111 || (studentUsername111 != newUsername || studentPassword111 != newPassword)) && (studentCount < 112 || (studentUsername112 != newUsername || studentPassword112 != newPassword)) && (studentCount < 113 || (studentUsername113 != newUsername || studentPassword113 != newPassword)) && (studentCount < 114 || (studentUsername114 != newUsername || studentPassword114 != newPassword)) && (studentCount < 115 || (studentUsername115 != newUsername || studentPassword115 != newPassword)) && (studentCount < 116 || (studentUsername116 != newUsername || studentPassword116 != newPassword)) && (studentCount < 117 || (studentUsername117 != newUsername || studentPassword117 != newPassword)) && (studentCount < 118 || (studentUsername118 != newUsername || studentPassword118 != newPassword)) && (studentCount < 119 || (studentUsername119 != newUsername || studentPassword119 != newPassword)) && (studentCount < 120 || (studentUsername120 != newUsername || studentPassword120 != newPassword)) && (studentCount < 121 || (studentUsername121 != newUsername || studentPassword121 != newPassword)) && (studentCount < 122 || (studentUsername122 != newUsername || studentPassword122 != newPassword)) && (studentCount < 123 || (studentUsername123 != newUsername || studentPassword123 != newPassword)) && (studentCount < 124 || (studentUsername124 != newUsername || studentPassword124 != newPassword)) && (studentCount < 125 || (studentUsername125 != newUsername || studentPassword125 != newPassword)) && (studentCount < 126 || (studentUsername126 != newUsername || studentPassword126 != newPassword)) && (studentCount < 127 || (studentUsername127 != newUsername || studentPassword127 != newPassword)) && (studentCount < 128 || (studentUsername128 != newUsername || studentPassword128 != newPassword)) && (studentCount < 129 || (studentUsername129 != newUsername || studentPassword129 != newPassword)) && (studentCount < 130 || (studentUsername130 != newUsername || studentPassword130 != newPassword)) && (studentCount < 131 || (studentUsername131 != newUsername || studentPassword131 != newPassword)) && (studentCount < 132 || (studentUsername132 != newUsername || studentPassword132 != newPassword)) && (studentCount < 133 || (studentUsername133 != newUsername || studentPassword133 != newPassword)) && (studentCount < 134 || (studentUsername134 != newUsername || studentPassword134 != newPassword)) && (studentCount < 135 || (studentUsername135 != newUsername || studentPassword135 != newPassword)) && (studentCount < 136 || (studentUsername136 != newUsername || studentPassword136 != newPassword)) && (studentCount < 137 || (studentUsername137 != newUsername || studentPassword137 != newPassword)) && (studentCount < 138 || (studentUsername138 != newUsername || studentPassword138 != newPassword)) && (studentCount < 139 || (studentUsername139 != newUsername || studentPassword139 != newPassword)) && (studentCount < 140 || (studentUsername140 != newUsername || studentPassword140 != newPassword)) && (studentCount < 141 || (studentUsername141 != newUsername || studentPassword141 != newPassword)) && (studentCount < 142 || (studentUsername142 != newUsername || studentPassword142 != newPassword)) && (studentCount < 143 || (studentUsername143 != newUsername || studentPassword143 != newPassword)) && (studentCount < 144 || (studentUsername144 != newUsername || studentPassword144 != newPassword)) && (studentCount < 145 || (studentUsername145 != newUsername || studentPassword145 != newPassword)) && (studentCount < 146 || (studentUsername146 != newUsername || studentPassword146 != newPassword)) && (studentCount < 147 || (studentUsername147 != newUsername || studentPassword147 != newPassword)) && (studentCount < 148 || (studentUsername148 != newUsername || studentPassword148 != newPassword)) && (studentCount < 149 || (studentUsername149 != newUsername || studentPassword149 != newPassword)) && (studentCount < 150 || (studentUsername150 != newUsername || studentPassword150 != newPassword)))
+            {
+                if (studentCount == 100)
                 {
                     studentUsername101 = newUsername;
                     studentPassword101 = newPassword;
@@ -1085,7 +1155,7 @@ login:
                     studentUsername103 = newUsername;
                     studentPassword103 = newPassword;
                 }
-                else if (studentCount == 103)
+                 else if (studentCount == 103)
                 {
                     studentUsername104 = newUsername;
                     studentPassword104 = newPassword;
@@ -1100,7 +1170,7 @@ login:
                     studentUsername106 = newUsername;
                     studentPassword106 = newPassword;
                 }
-                else if (studentCount == 106 )
+                else if (studentCount == 106)
                 {
                     studentUsername107 = newUsername;
                     studentPassword107 = newPassword;
@@ -1135,6 +1205,11 @@ login:
                     studentUsername113 = newUsername;
                     studentPassword113 = newPassword;
                 }
+                else if (studentCount == 63)
+                {
+                    studentUsername114 = newUsername;
+                    studentPassword114 = newPassword;
+                }
                 else if (studentCount == 114)
                 {
                     studentUsername115 = newUsername;
@@ -1155,10 +1230,20 @@ login:
                     studentUsername118 = newUsername;
                     studentPassword118 = newPassword;
                 }
+                else if (studentCount == 118)
+                {
+                    studentUsername119= newUsername;
+                    studentPassword119 = newPassword;
+                }
                 else if (studentCount == 119)
                 {
                     studentUsername120 = newUsername;
                     studentPassword120 = newPassword;
+                }
+                else if (studentCount == 120)
+                {
+                    studentUsername121 = newUsername;
+                    studentPassword121 = newPassword;
                 }
                 else if (studentCount == 121)
                 {
@@ -1180,6 +1265,11 @@ login:
                     studentUsername125 = newUsername;
                     studentPassword125 = newPassword;
                 }
+                else if (studentCount == 125 )
+                {
+                    studentUsername126 = newUsername;
+                    studentPassword126 = newPassword;
+                }
                 else if (studentCount == 126)
                 {
                     studentUsername127 = newUsername;
@@ -1187,7 +1277,7 @@ login:
                 }
                 else if (studentCount == 127)
                 {
-                    studentUsername128 = newUsername;
+                    studentUsername128= newUsername;
                     studentPassword128 = newPassword;
                 }
                 else if (studentCount == 128)
@@ -1225,7 +1315,7 @@ login:
                     studentUsername135 = newUsername;
                     studentPassword135 = newPassword;
                 }
-                 else if (studentCount == 135)
+                else if (studentCount == 135)
                 {
                     studentUsername136 = newUsername;
                     studentPassword136 = newPassword;
@@ -1234,6 +1324,11 @@ login:
                 {
                     studentUsername137 = newUsername;
                     studentPassword137 = newPassword;
+                }
+                else if (studentCount == 137)
+                {
+                    studentUsername138 = newUsername;
+                    studentPassword138 = newPassword;
                 }
                 else if (studentCount == 138)
                 {
@@ -1262,8 +1357,8 @@ login:
                 }
                 else if (studentCount == 143)
                 {
-                    studentUsername144 = newUsername;
-                    studentPassword144 = newPassword;
+                    studentUsername94 = newUsername;
+                    studentPassword94 = newPassword;
                 }
                 else if (studentCount == 144)
                 {
@@ -1295,7 +1390,50 @@ login:
                     studentUsername150 = newUsername;
                     studentPassword150 = newPassword;
                 }
-                else if (studentCount == 150)
+                studentCount++;
+                cout << "Student account created successfully.\n";
+                goto teacher_menu3 ;
+            }
+            else
+            {
+                cout << "This username and password combination already exists.\n";
+            }
+            goto teacher_menu3;
+        }
+        else if (teacherChoice == 1 && studentCount >= 50)
+        {
+            cout << "Maximum student accounts for this course reached.\n";
+            goto teacher_menu3;
+        }
+        else if (teacherChoice != 2)
+        {
+            cout << "Invalid choice, please try again.\n";
+            goto teacher_menu3;
+        }
+        goto main_menu;
+    }
+     //teacher 4
+    else if(teacherUsername4 == username && teacherPassword4 == password){
+        teacher_menu4:
+            //handles bsa
+        cout << "\nTeacher4 Menu:\n";
+        cout << "1. Create Student Account\n";
+        cout << "2. Logout\n";
+        cout << "Enter your choice: ";
+        int teacherChoice;
+        cin >> teacherChoice;
+
+        if (teacherChoice == 1 && studentCount < 50)
+        { // Handling 50 students for DICT
+            string newUsername, newPassword;
+            cout << "Enter student username: ";
+            cin >> newUsername;
+            cout << "Enter student password: ";
+            cin >> newPassword;
+
+            if ((studentCount == 150 || (studentUsername151 != newUsername || studentPassword151 != newPassword)) && (studentCount < 152 || (studentUsername152 != newUsername || studentPassword152 != newPassword)) && (studentCount < 153 || (studentUsername153 != newUsername || studentPassword153 != newPassword)) && (studentCount < 154 || (studentUsername154 != newUsername || studentPassword154 != newPassword)) && (studentCount < 155 || (studentUsername155 != newUsername || studentPassword155 != newPassword)) && (studentCount < 156 || (studentUsername156 != newUsername || studentPassword156 != newPassword)) && (studentCount < 157 || (studentUsername157 != newUsername || studentPassword157 != newPassword)) && (studentCount < 158 || (studentUsername158 != newUsername || studentPassword158 != newPassword)) && (studentCount < 159 || (studentUsername159 != newUsername || studentPassword159 != newPassword)) && (studentCount < 160 || (studentUsername160 != newUsername || studentPassword160 != newPassword)) && (studentCount < 161 || (studentUsername161 != newUsername || studentPassword161 != newPassword)) && (studentCount < 162 || (studentUsername162 != newUsername || studentPassword162 != newPassword)) && (studentCount < 163 || (studentUsername163 != newUsername || studentPassword163 != newPassword)) && (studentCount < 164 || (studentUsername164 != newUsername || studentPassword164 != newPassword)) && (studentCount < 165 || (studentUsername165 != newUsername || studentPassword165 != newPassword)) && (studentCount < 166 || (studentUsername166 != newUsername || studentPassword166 != newPassword)) && (studentCount < 167 || (studentUsername167 != newUsername || studentPassword167 != newPassword)) && (studentCount < 168 || (studentUsername168 != newUsername || studentPassword168 != newPassword)) && (studentCount < 169 || (studentUsername169 != newUsername || studentPassword169 != newPassword)) && (studentCount < 170 || (studentUsername170 != newUsername || studentPassword170 != newPassword)) && (studentCount < 171 || (studentUsername171 != newUsername || studentPassword171 != newPassword)) && (studentCount < 172 || (studentUsername172 != newUsername || studentPassword172 != newPassword)) && (studentCount < 173 || (studentUsername173 != newUsername || studentPassword173 != newPassword)) && (studentCount < 174 || (studentUsername174 != newUsername || studentPassword174 != newPassword)) && (studentCount < 175 || (studentUsername175 != newUsername || studentPassword175 != newPassword)) && (studentCount < 176 || (studentUsername176 != newUsername || studentPassword176 != newPassword)) && (studentCount < 177 || (studentUsername177 != newUsername || studentPassword177 != newPassword)) && (studentCount < 178 || (studentUsername178 != newUsername || studentPassword178 != newPassword)) && (studentCount < 179 || (studentUsername179 != newUsername || studentPassword179 != newPassword)) && (studentCount < 180 || (studentUsername180 != newUsername || studentPassword180 != newPassword)) && (studentCount < 181 || (studentUsername181 != newUsername || studentPassword181 != newPassword)) && (studentCount < 182 || (studentUsername182 != newUsername || studentPassword182 != newPassword)) && (studentCount < 183 || (studentUsername183 != newUsername || studentPassword183 != newPassword)) && (studentCount < 184 || (studentUsername184 != newUsername || studentPassword184 != newPassword)) && (studentCount < 185 || (studentUsername185 != newUsername || studentPassword185 != newPassword)) && (studentCount < 186 || (studentUsername186 != newUsername || studentPassword186 != newPassword)) && (studentCount < 187 || (studentUsername187 != newUsername || studentPassword187 != newPassword)) && (studentCount < 188 || (studentUsername188 != newUsername || studentPassword188 != newPassword)) && (studentCount < 189 || (studentUsername189 != newUsername || studentPassword189 != newPassword)) && (studentCount < 190 || (studentUsername190 != newUsername || studentPassword190 != newPassword)) && (studentCount < 191 || (studentUsername191 != newUsername || studentPassword191 != newPassword)) && (studentCount < 192 || (studentUsername192 != newUsername || studentPassword192 != newPassword)) && (studentCount < 193 || (studentUsername193 != newUsername || studentPassword193 != newPassword)) && (studentCount < 194 || (studentUsername194 != newUsername || studentPassword194 != newPassword)) && (studentCount < 195 || (studentUsername195 != newUsername || studentPassword195 != newPassword)) && (studentCount < 196 || (studentUsername196 != newUsername || studentPassword196 != newPassword)) && (studentCount < 197 || (studentUsername197 != newUsername || studentPassword197 != newPassword)) && (studentCount < 198 || (studentUsername198 != newUsername || studentPassword198 != newPassword)) && (studentCount < 199 || (studentUsername199 != newUsername || studentPassword199 != newPassword)) && (studentCount < 200 || (studentUsername200 != newUsername || studentPassword200 != newPassword)))
+            {
+                if (studentCount == 150)
                 {
                     studentUsername151 = newUsername;
                     studentPassword151 = newPassword;
@@ -1310,7 +1448,7 @@ login:
                     studentUsername153 = newUsername;
                     studentPassword153 = newPassword;
                 }
-                else if (studentCount == 153)
+                 else if (studentCount == 153)
                 {
                     studentUsername154 = newUsername;
                     studentPassword154 = newPassword;
@@ -1350,7 +1488,7 @@ login:
                     studentUsername161 = newUsername;
                     studentPassword161 = newPassword;
                 }
-                else if (studentCount == 161 )
+                else if (studentCount == 161)
                 {
                     studentUsername162 = newUsername;
                     studentPassword162 = newPassword;
@@ -1358,11 +1496,11 @@ login:
                 else if (studentCount == 162)
                 {
                     studentUsername163 = newUsername;
-                    studentPassword173 = newPassword;
+                    studentPassword163 = newPassword;
                 }
-                else if (studentCount == 163)
+                else if (studentCount ==  163)
                 {
-                    studentUsername164= newUsername;
+                    studentUsername164 = newUsername;
                     studentPassword164 = newPassword;
                 }
                 else if (studentCount == 164)
@@ -1387,7 +1525,7 @@ login:
                 }
                 else if (studentCount == 168)
                 {
-                    studentUsername169 = newUsername;
+                    studentUsername169= newUsername;
                     studentPassword169 = newPassword;
                 }
                 else if (studentCount == 169)
@@ -1415,19 +1553,24 @@ login:
                     studentUsername174 = newUsername;
                     studentPassword174 = newPassword;
                 }
-                else if (studentCount == 175)
+                else if (studentCount == 174)
+                {
+                    studentUsername175 = newUsername;
+                    studentPassword175 = newPassword;
+                }
+                else if (studentCount == 175 )
                 {
                     studentUsername176 = newUsername;
                     studentPassword176 = newPassword;
                 }
-                else if (studentCount == 176)
+                else if (studentCount == 126)
                 {
                     studentUsername177 = newUsername;
                     studentPassword177 = newPassword;
                 }
                 else if (studentCount == 177)
                 {
-                    studentUsername178 = newUsername;
+                    studentUsername178= newUsername;
                     studentPassword178 = newPassword;
                 }
                 else if (studentCount == 178)
@@ -1449,6 +1592,11 @@ login:
                 {
                     studentUsername182 = newUsername;
                     studentPassword182 = newPassword;
+                }
+                else if (studentCount == 182)
+                {
+                    studentUsername183 = newUsername;
+                    studentPassword183 = newPassword;
                 }
                 else if (studentCount == 183)
                 {
@@ -1490,10 +1638,15 @@ login:
                     studentUsername191 = newUsername;
                     studentPassword191 = newPassword;
                 }
-                 else if (studentCount == 191)
+                else if (studentCount == 191)
                 {
                     studentUsername192 = newUsername;
                     studentPassword192 = newPassword;
+                }
+                else if (studentCount == 192)
+                {
+                    studentUsername193 = newUsername;
+                    studentPassword193 = newPassword;
                 }
                 else if (studentCount == 193)
                 {
@@ -1510,17 +1663,17 @@ login:
                     studentUsername196 = newUsername;
                     studentPassword196 = newPassword;
                 }
-                  else if (studentCount == 196)
+                else if (studentCount == 196)
                 {
                     studentUsername197 = newUsername;
                     studentPassword197 = newPassword;
                 }
-                 else if (studentCount == 197)
+                else if (studentCount == 197)
                 {
                     studentUsername198 = newUsername;
                     studentPassword198 = newPassword;
                 }
-                else if (studentCount == 199)
+                else if (studentCount == 198)
                 {
                     studentUsername199 = newUsername;
                     studentPassword199 = newPassword;
@@ -1530,7 +1683,49 @@ login:
                     studentUsername200 = newUsername;
                     studentPassword200 = newPassword;
                 }
-                else if (studentCount == 200)
+                studentCount++;
+                cout << "Student account created successfully.\n";
+            }
+            else
+            {
+                cout << "This username and password combination already exists.\n";
+            }
+            goto teacher_menu4;
+        }
+        else if (teacherChoice == 1 && studentCount >= 50)
+        {
+            cout << "Maximum student accounts for this course reached.\n";
+            goto teacher_menu4;
+        }
+        else if (teacherChoice != 2)
+        {
+            cout << "Invalid choice, please try again.\n";
+            goto teacher_menu4;
+        }
+        goto main_menu;
+    }
+  //teacher 5
+    else if(teacherUsername5 == username && teacherPassword5 == password){
+        teacher_menu5:
+            //handles bsba
+        cout << "\nTeacher5 Menu:\n";
+        cout << "1. Create Student Account\n";
+        cout << "2. Logout\n";
+        cout << "Enter your choice: ";
+        int teacherChoice;
+        cin >> teacherChoice;
+
+        if (teacherChoice == 1 && studentCount < 50){
+            string newUsername ;
+            string newPassword ;
+            cout << "Enter student username: ";
+            cin >> newUsername;
+            cout << "Enter student password: ";
+            cin >> newPassword;
+
+            if ((studentCount == 200 || (studentUsername201 != newUsername || studentPassword201 != newPassword)) && (studentCount < 202 || (studentUsername202 != newUsername || studentPassword202 != newPassword)) && (studentCount < 203 || (studentUsername203 != newUsername || studentPassword203 != newPassword)) && (studentCount < 204 || (studentUsername204 != newUsername || studentPassword204 != newPassword)) && (studentCount < 205 || (studentUsername205 != newUsername || studentPassword205 != newPassword)) && (studentCount < 206 || (studentUsername206 != newUsername || studentPassword206 != newPassword)) && (studentCount < 207 || (studentUsername207 != newUsername || studentPassword207 != newPassword)) && (studentCount < 208 || (studentUsername208 != newUsername || studentPassword208 != newPassword)) && (studentCount < 209 || (studentUsername209 != newUsername || studentPassword209 != newPassword)) && (studentCount < 210 || (studentUsername210 != newUsername || studentPassword210 != newPassword)) && (studentCount < 211 || (studentUsername211 != newUsername || studentPassword211 != newPassword)) && (studentCount < 212 || (studentUsername212 != newUsername || studentPassword212 != newPassword)) && (studentCount < 213 || (studentUsername213 != newUsername || studentPassword213 != newPassword)) && (studentCount < 214 || (studentUsername214 != newUsername || studentPassword214 != newPassword)) && (studentCount < 215 || (studentUsername215 != newUsername || studentPassword215 != newPassword)) && (studentCount < 216 || (studentUsername216 != newUsername || studentPassword216 != newPassword)) && (studentCount < 217 || (studentUsername217 != newUsername || studentPassword217 != newPassword)) && (studentCount < 218 || (studentUsername218 != newUsername || studentPassword218 != newPassword)) && (studentCount < 219 || (studentUsername219 != newUsername || studentPassword219 != newPassword)) && (studentCount < 220 || (studentUsername220 != newUsername || studentPassword220 != newPassword)) && (studentCount < 221 || (studentUsername221 != newUsername || studentPassword221 != newPassword)) && (studentCount < 222 || (studentUsername222 != newUsername || studentPassword222 != newPassword)) && (studentCount < 223 || (studentUsername223 != newUsername || studentPassword223 != newPassword)) && (studentCount < 224 || (studentUsername224 != newUsername || studentPassword224 != newPassword)) && (studentCount < 225 || (studentUsername225 != newUsername || studentPassword225 != newPassword)) && (studentCount < 226 || (studentUsername226 != newUsername || studentPassword226 != newPassword)) && (studentCount < 227 || (studentUsername227 != newUsername || studentPassword227 != newPassword)) && (studentCount < 228 || (studentUsername228 != newUsername || studentPassword228 != newPassword)) && (studentCount < 229 || (studentUsername229 != newUsername || studentPassword229 != newPassword)) && (studentCount < 230 || (studentUsername230 != newUsername || studentPassword230 != newPassword)) && (studentCount < 231 || (studentUsername231 != newUsername || studentPassword231 != newPassword)) && (studentCount < 232 || (studentUsername232 != newUsername || studentPassword232 != newPassword)) && (studentCount < 233 || (studentUsername233 != newUsername || studentPassword233 != newPassword)) && (studentCount < 234 || (studentUsername234 != newUsername || studentPassword234 != newPassword)) && (studentCount < 235 || (studentUsername235 != newUsername || studentPassword235 != newPassword)) && (studentCount < 236 || (studentUsername236 != newUsername || studentPassword236 != newPassword)) && (studentCount < 237 || (studentUsername237 != newUsername || studentPassword187 != newPassword)) && (studentCount < 238 || (studentUsername188 != newUsername || studentPassword238 != newPassword)) && (studentCount < 239 || (studentUsername239 != newUsername || studentPassword239 != newPassword)) && (studentCount < 240 || (studentUsername240 != newUsername || studentPassword240 != newPassword)) && (studentCount < 241 || (studentUsername241 != newUsername || studentPassword241 != newPassword)) && (studentCount < 242 || (studentUsername242 != newUsername || studentPassword242 != newPassword)) && (studentCount < 243 || (studentUsername243 != newUsername || studentPassword243 != newPassword)) && (studentCount < 244 || (studentUsername244 != newUsername || studentPassword244 != newPassword)) && (studentCount < 245 || (studentUsername245 != newUsername || studentPassword245 != newPassword)) && (studentCount < 246 || (studentUsername246 != newUsername || studentPassword246 != newPassword)) && (studentCount < 247 || (studentUsername247 != newUsername || studentPassword247 != newPassword)) && (studentCount < 248 || (studentUsername248 != newUsername || studentPassword248 != newPassword)) && (studentCount < 249 || (studentUsername249 != newUsername || studentPassword249 != newPassword)) && (studentCount < 250 || (studentUsername250 != newUsername || studentPassword250 != newPassword)))
+            {
+                if (studentCount == 200)
                 {
                     studentUsername201 = newUsername;
                     studentPassword201 = newPassword;
@@ -1545,7 +1740,7 @@ login:
                     studentUsername203 = newUsername;
                     studentPassword203 = newPassword;
                 }
-                else if (studentCount == 203)
+                 else if (studentCount == 203)
                 {
                     studentUsername204 = newUsername;
                     studentPassword204 = newPassword;
@@ -1595,7 +1790,7 @@ login:
                     studentUsername213 = newUsername;
                     studentPassword213 = newPassword;
                 }
-                else if (studentCount == 213)
+                else if (studentCount ==  213)
                 {
                     studentUsername214 = newUsername;
                     studentPassword214 = newPassword;
@@ -1630,7 +1825,7 @@ login:
                     studentUsername220 = newUsername;
                     studentPassword220 = newPassword;
                 }
-                 else if (studentCount == 220)
+                else if (studentCount == 220)
                 {
                     studentUsername221 = newUsername;
                     studentPassword221 = newPassword;
@@ -1655,7 +1850,7 @@ login:
                     studentUsername225 = newUsername;
                     studentPassword225 = newPassword;
                 }
-                else if (studentCount == 225)
+                else if (studentCount == 225 )
                 {
                     studentUsername226 = newUsername;
                     studentPassword226 = newPassword;
@@ -1667,7 +1862,7 @@ login:
                 }
                 else if (studentCount == 227)
                 {
-                    studentUsername228 = newUsername;
+                    studentUsername228= newUsername;
                     studentPassword228 = newPassword;
                 }
                 else if (studentCount == 228)
@@ -1730,7 +1925,7 @@ login:
                     studentUsername240 = newUsername;
                     studentPassword240 = newPassword;
                 }
-                 else if (studentCount == 240)
+                else if (studentCount == 240)
                 {
                     studentUsername241 = newUsername;
                     studentPassword241 = newPassword;
@@ -1750,7 +1945,7 @@ login:
                     studentUsername244 = newUsername;
                     studentPassword244 = newPassword;
                 }
-                 else if (studentCount == 244)
+                else if (studentCount == 244)
                 {
                     studentUsername245 = newUsername;
                     studentPassword245 = newPassword;
@@ -1759,6 +1954,11 @@ login:
                 {
                     studentUsername246 = newUsername;
                     studentPassword246 = newPassword;
+                }
+                else if (studentCount == 246)
+                {
+                    studentUsername247 = newUsername;
+                    studentPassword247 = newPassword;
                 }
                 else if (studentCount == 247)
                 {
@@ -1775,8 +1975,6 @@ login:
                     studentUsername250 = newUsername;
                     studentPassword250 = newPassword;
                 }
-
-
                 studentCount++;
                 cout << "Student account created successfully.\n";
             }
@@ -1784,23 +1982,58 @@ login:
             {
                 cout << "This username and password combination already exists.\n";
             }
-            goto teacher_menu;
+            goto teacher_menu5;
         }
-        else if (teacherChoice == 1 && studentCount >= 250)
+        else if (teacherChoice == 1 && studentCount >= 50)
         {
             cout << "Maximum student accounts for this course reached.\n";
-            goto teacher_menu;
+            goto teacher_menu5;
         }
         else if (teacherChoice != 2)
         {
             cout << "Invalid choice, please try again.\n";
-            goto teacher_menu;
+            goto teacher_menu5;
         }
         goto main_menu;
     }
 
+
+
+
     cout << "Invalid username or password. Please try again.\n";
     goto login;
-
-    return 0;
+    }
+     if(studentUsername1 == username && studentPassword1 == password || studentUsername2 == username && studentPassword2 == password || studentUsername3 == username && studentPassword3 == password
+   || studentUsername4 == username && studentPassword4 == password || studentUsername5 == username && studentPassword5 == password || studentUsername6 == username && studentPassword6 == password
+   || studentUsername7 == username && studentPassword7 == password || studentUsername8 == username && studentPassword8 == password || studentUsername9 == username && studentPassword9 == password||
+   studentUsername11 == username && studentPassword11 == password || studentUsername12 == username && studentPassword12 == password || studentUsername13 == username && studentPassword13 == password
+   || studentUsername14 == username && studentPassword14 == password || studentUsername15 == username && studentPassword15 == password || studentUsername16 == username && studentPassword16 == password
+   || studentUsername17 == username && studentPassword17 == password || studentUsername18 == username && studentPassword18 == password || studentUsername19 == username && studentPassword19 == password ||
+   studentUsername20 == username && studentPassword20 == password || studentUsername21 == username && studentPassword21 == password || studentUsername22 == username && studentPassword22 == password || studentUsername23 == username && studentPassword23 == password
+   || studentUsername24 == username && studentPassword24 == password || studentUsername25 == username && studentPassword25 == password || studentUsername26 == username && studentPassword26 == password
+   || studentUsername27 == username && studentPassword27 == password || studentUsername28 == username && studentPassword28 == password || studentUsername29 == username && studentPassword29 == password || studentUsername30 == username && studentPassword30 == password ||
+   studentUsername31 == username && studentPassword31 == password || studentUsername32 == username && studentPassword32 == password || studentUsername33 == username && studentPassword33 == password
+   || studentUsername34 == username && studentPassword34 == password || studentUsername35 == username && studentPassword35 == password || studentUsername36 == username && studentPassword36 == password
+   || studentUsername37 == username && studentPassword37 == password || studentUsername38 == username && studentPassword38 == password || studentUsername39 == username && studentPassword39 == password||
+   studentUsername40 == username && studentPassword40 == password || studentUsername41 == username && studentPassword41 == password || studentUsername42 == username && studentPassword42 == password
+   || studentUsername43 == username && studentPassword43 == password || studentUsername44 == username && studentPassword44 == password || studentUsername45 == username && studentPassword45 == password
+   || studentUsername46 == username && studentPassword47 == password || studentUsername48 == username && studentPassword48 == password || studentUsername49 == username && studentPassword49 == password ||
+   studentUsername50 == username && studentPassword50 == password || studentUsername51 == username && studentPassword51 == password){
+    cout << "welcome Students" ;
 }
+else{
+    cout << "Invalid username or password. Please try again.\n";
+    goto login;
+}
+
+
+
+
+
+
+    return 0 ;
+    }
+
+
+
+
