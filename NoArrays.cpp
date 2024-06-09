@@ -232,6 +232,93 @@ login:
         View employee information(wag na muna lagyan ng function)
         Change Password(wag na muna lagyan ng function)
         */
+
+
+
+
+// Gagawa ng variable (staffChoice) => refer to line 169
+
+
+//example:
+// if (staffChoice == 2 && teacherCount < 5)
+//         {
+//             string newUsername, newPassword;
+//             cout << "Enter teacher username: ";
+//             cin >> newUsername;
+//             cout << "Enter teacher password: ";
+//             cin >> newPassword;
+
+//             if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) && (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) && (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) && (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)))
+//             {
+//                 if (teacherCount == 0)
+//                 {
+//                     teacherUsername1 = newUsername;
+//                     teacherPassword1 = newPassword;
+//                 }
+//                 else if (teacherCount == 1)
+//                 {
+//                     teacherUsername2 = newUsername;
+//                     teacherPassword2 = newPassword;
+//                 }
+//                 else if (teacherCount == 2)
+//                 {
+//                     teacherUsername3 = newUsername;
+//                     teacherPassword3 = newPassword;
+//                 }
+//                 else if (teacherCount == 3)
+//                 {
+//                     teacherUsername4 = newUsername;
+//                     teacherPassword4 = newPassword;
+//                 }
+//                 else if (teacherCount == 4)
+//                 {
+//                     teacherUsername5 = newUsername;
+//                     teacherPassword5 = newPassword;
+//                 }
+//                 teacherCount++;
+//                 cout << "Teacher account created successfully.\n";
+//             }
+//             else
+//             {
+//                 cout << "This username and password combination already exists.\n";
+//             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         goto main_menu;
     }
 
