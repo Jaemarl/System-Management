@@ -236,6 +236,24 @@ login:
 
 
 
+
+
+// int staffChoice
+
+// switch(staffChoice){
+//     case: 1{
+
+//     }
+//     case: 2{
+
+//     }
+//     case: 3{
+
+//     }
+// }
+
+
+
 // Gagawa ng variable (staffChoice) => refer to line 169
 
 
