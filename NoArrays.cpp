@@ -31,6 +31,7 @@ int main()
     string teacherUsername3, teacherPassword3;
     string teacherUsername4, teacherPassword4;
     string teacherUsername5, teacherPassword5;
+    string teacherCourse1, teacherCourse2, teacherCourse3, teacherCourse4, teacherCourse5;
 
     // Variables to store usernames and passwords for students in BSIT (50 students)
     string studentUsername1, studentPassword1;
@@ -88,6 +89,7 @@ int main()
     int staffCount = 0;
     int teacherCount = 0;
     int studentCount = 0;
+    int adminChoice = 0;
 
 main_menu:
     cout << "Student Management System\n"
@@ -115,7 +117,6 @@ login:
     cout << "Password: ";
     cin >> password;
 
-    // Admin Login
     if (username == adminUsername && password == adminPassword)
     {
     admin_menu:
@@ -166,63 +167,99 @@ login:
             cout << "Maximum staff accounts reached.\n";
             goto admin_menu;
         }
-        else if (adminChoice == 2 && teacherCount < 5)
-        {
-            string newUsername, newPassword;
-            cout << "Enter teacher username: ";
-            cin >> newUsername;
-            cout << "Enter teacher password: ";
-            cin >> newPassword;
+        else     if (adminChoice == 2 && teacherCount < 5)
+    {
+        string newUsername, newPassword;
+        int course;
 
-            if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) && (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) && (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) && (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)))
-            {
-                if (teacherCount == 0)
-                {
-                    teacherUsername1 = newUsername;
-                    teacherPassword1 = newPassword;
-                }
-                else if (teacherCount == 1)
-                {
-                    teacherUsername2 = newUsername;
-                    teacherPassword2 = newPassword;
-                }
-                else if (teacherCount == 2)
-                {
-                    teacherUsername3 = newUsername;
-                    teacherPassword3 = newPassword;
-                }
-                else if (teacherCount == 3)
-                {
-                    teacherUsername4 = newUsername;
-                    teacherPassword4 = newPassword;
-                }
-                else if (teacherCount == 4)
-                {
-                    teacherUsername5 = newUsername;
-                    teacherPassword5 = newPassword;
-                }
-                teacherCount++;
-                cout << "Teacher account created successfully.\n";
-            }
-            else
-            {
-                cout << "This username and password combination already exists.\n";
-            }
-            goto admin_menu;
-        }
-        else if (adminChoice == 2 && teacherCount >= 5)
+        cout << "Enter teacher username: ";
+        cin >> newUsername;
+        cout << "Enter teacher password: ";
+        cin >> newPassword;
+        cout << "Select which program to assign: " << endl;
+        cout << "1. BSIT\n2. BSENT\n3. DICT\n4. BSA\n5. BSBA" << endl;
+        cin >> course;
+
+        // Check if the username-password combination already exists
+        if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) &&
+            (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) &&
+            (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) &&
+            (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)) &&
+            (teacherCount < 5 || (teacherUsername5 != newUsername || teacherPassword5 != newPassword)))
         {
-            cout << "Maximum teacher accounts reached.\n";
-            goto admin_menu;
+            if (teacherCount == 0)
+            {
+                teacherUsername1 = newUsername;
+                teacherPassword1 = newPassword;
+                teacherCourse1 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            else if (teacherCount == 1)
+            {
+                teacherUsername2 = newUsername;
+                teacherPassword2 = newPassword;
+                teacherCourse2 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            else if (teacherCount == 2)
+            {
+                teacherUsername3 = newUsername;
+                teacherPassword3 = newPassword;
+                teacherCourse3 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            else if (teacherCount == 3)
+            {
+                teacherUsername4 = newUsername;
+                teacherPassword4 = newPassword;
+                teacherCourse4 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            else if (teacherCount == 4)
+            {
+                teacherUsername5 = newUsername;
+                teacherPassword5 = newPassword;
+                teacherCourse5 = (course == 1) ? "BSIT" :
+                                (course == 2) ? "BSENT" :
+                                (course == 3) ? "DICT" :
+                                (course == 4) ? "BSA" :
+                                (course == 5) ? "BSBA" : "Unknown";
+            }
+            teacherCount++;
+            cout << "Teacher account created successfully.\n";
         }
-        else if (adminChoice != 3)
+        else
         {
-            cout << "Invalid choice, please try again.\n";
-            goto admin_menu;
+            cout << "This username and password combination already exists or maximum teacher limit reached.\n";
         }
-        goto main_menu;
+    }
+    else
+    {
+        cout << "Invalid admin choice or maximum teacher limit reached.\n";
     }
 
+    // Print teachers and their courses for verification
+    cout << "Teachers and their courses:" << endl;
+    cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
+    cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
+    cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
+    cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
+    cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
+
+    return 0;
+}
     // Staff Login
     if ((username == staffUsername1 && password == staffPassword1) || (username == staffUsername2 && password == staffPassword2) || (username == staffUsername3 && password == staffPassword3))
     {
@@ -233,109 +270,65 @@ login:
         Change Password(wag na muna lagyan ng function)
         */
 
+        // int staffChoice
 
+        // switch(staffChoice){
+        //     case: 1{
 
+        //     }
+        //     case: 2{
 
+        //     }
+        //     case: 3{
 
+        //     }
+        // }
 
-// int staffChoice
+        // Gagawa ng variable (staffChoice) => refer to line 169
 
-// switch(staffChoice){
-//     case: 1{
+        // example:
+        //  if (staffChoice == 2 && teacherCount < 5)
+        //          {
+        //              string newUsername, newPassword;
+        //              cout << "Enter teacher username: ";
+        //              cin >> newUsername;
+        //              cout << "Enter teacher password: ";
+        //              cin >> newPassword;
 
-//     }
-//     case: 2{
-
-//     }
-//     case: 3{
-
-//     }
-// }
-
-
-
-// Gagawa ng variable (staffChoice) => refer to line 169
-
-
-//example:
-// if (staffChoice == 2 && teacherCount < 5)
-//         {
-//             string newUsername, newPassword;
-//             cout << "Enter teacher username: ";
-//             cin >> newUsername;
-//             cout << "Enter teacher password: ";
-//             cin >> newPassword;
-
-//             if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) && (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) && (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) && (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)))
-//             {
-//                 if (teacherCount == 0)
-//                 {
-//                     teacherUsername1 = newUsername;
-//                     teacherPassword1 = newPassword;
-//                 }
-//                 else if (teacherCount == 1)
-//                 {
-//                     teacherUsername2 = newUsername;
-//                     teacherPassword2 = newPassword;
-//                 }
-//                 else if (teacherCount == 2)
-//                 {
-//                     teacherUsername3 = newUsername;
-//                     teacherPassword3 = newPassword;
-//                 }
-//                 else if (teacherCount == 3)
-//                 {
-//                     teacherUsername4 = newUsername;
-//                     teacherPassword4 = newPassword;
-//                 }
-//                 else if (teacherCount == 4)
-//                 {
-//                     teacherUsername5 = newUsername;
-//                     teacherPassword5 = newPassword;
-//                 }
-//                 teacherCount++;
-//                 cout << "Teacher account created successfully.\n";
-//             }
-//             else
-//             {
-//                 cout << "This username and password combination already exists.\n";
-//             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //             if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) && (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) && (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) && (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)))
+        //             {
+        //                 if (teacherCount == 0)
+        //                 {
+        //                     teacherUsername1 = newUsername;
+        //                     teacherPassword1 = newPassword;
+        //                 }
+        //                 else if (teacherCount == 1)
+        //                 {
+        //                     teacherUsername2 = newUsername;
+        //                     teacherPassword2 = newPassword;
+        //                 }
+        //                 else if (teacherCount == 2)
+        //                 {
+        //                     teacherUsername3 = newUsername;
+        //                     teacherPassword3 = newPassword;
+        //                 }
+        //                 else if (teacherCount == 3)
+        //                 {
+        //                     teacherUsername4 = newUsername;
+        //                     teacherPassword4 = newPassword;
+        //                 }
+        //                 else if (teacherCount == 4)
+        //                 {
+        //                     teacherUsername5 = newUsername;
+        //                     teacherPassword5 = newPassword;
+        //                 }
+        //                 teacherCount++;
+        //                 cout << "Teacher account created successfully.\n";
+        //             }
+        //             else
+        //             {
+        //                 cout << "This username and password combination already exists.\n";
+        //             }
 
         goto main_menu;
     }
