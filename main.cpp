@@ -1,17 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool isUnique(string existingUsernames[], string existingPasswords[], int count, string newUsername, string newPassword)
-{
-    for (int i = 0; i < count; i++)
-    {
-        if (existingUsernames[i] == newUsername && existingPasswords[i] == newPassword)
-        {
-            return false;
-        }
-    }
-    return true;
-}
+
 
 int main()
 {
@@ -294,12 +284,13 @@ int main()
     int adminChoice = 0;
 
 main_menu:
-    cout << "Student Management System\n"
-         << endl;
+    Login:
+    cout << "Student Management System\n" << endl;
+    cout << "(Choices 1 and 2 only)" << endl ;
     cout << "1. Login\n";
     cout << "2. Exit\n";
     cout << "Enter your choice: ";
-    int mainChoice;
+    int mainChoice ;
     cin >> mainChoice;
 
     if (mainChoice == 2)
@@ -307,28 +298,31 @@ main_menu:
         cout << "Exiting the program.\n";
         return 0;
     }
-    else if (mainChoice != 1)
+    else if (mainChoice = 1)
     {
-        cout << "Invalid choice, please try again.\n";
-        goto main_menu;
-    }
 
+        goto login;
+    }
 login:
     cout << "Username: ";
     cin >> username;
     cout << "Password: ";
     cin >> password;
 
+
     if (username == adminUsername && password == adminPassword)
     {
-    admin_menu:
+        admin_menu:
+        adminmenu:
         cout << "\nAdmin Menu:\n";
+        cout << "(Choices 1 and 3 only)" << endl ;
         cout << "1. Create Staff Account\n";
         cout << "2. Create Teacher Account\n";
         cout << "3. Logout\n";
         cout << "Enter your choice: ";
         int adminChoice;
         cin >> adminChoice;
+         system("cls") ;
 
         if (adminChoice == 1 && staffCount < 3)
         {
@@ -447,9 +441,13 @@ login:
             cout << "This username and password combination already exists or maximum teacher limit reached.\n";
         }
     }
+    else if(adminChoice == 3){
+        goto Login ;
+    }
     else
     {
-        cout << "Invalid admin choice or maximum teacher limit reached.\n";
+        cout << "Invalid admin choice.\n";
+        goto adminmenu ;
     }
 
     // Print teachers and their courses for verification
@@ -459,7 +457,7 @@ login:
     cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
     cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
     cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
-goto main_menu ;
+goto adminmenu ;
 }
     // Staff Login
     if ((username == staffUsername1 && password == staffPassword1) || (username == staffUsername2 && password == staffPassword2) || (username == staffUsername3 && password == staffPassword3))
@@ -539,6 +537,7 @@ goto main_menu ;
     {
         if(teacherUsername1 == username && teacherPassword1 == password){
     teacher_menu1:
+         cout << "(Choices 1 and 2 only)" << endl ;
         cout << "\nTeacher Menu1:\n";
         cout << "1. Create Student Account\n";
         cout << "2. Logout\n";
@@ -831,6 +830,7 @@ goto main_menu ;
     else if(teacherUsername2 == username && teacherPassword2 == password){
 // handles BSENT
        teacher_menu2:
+    cout << "(Choices 1 and 2 only)" << endl ;
     cout << "\nTeacher2 Menu:\n";
     cout << "1. Create Student Account\n";
     cout << "2. Logout\n";
@@ -1100,8 +1100,8 @@ goto main_menu ;
            bool usernamePasswordExists = false;
 
         // Check if the new username and password combination already exists
-        if ((newUsername == studentUsername1 && newPassword == studentPassword1)   ||
-            (newUsername == studentUsername2 && newPassword == studentPassword2)   ||
+        if ((newUsername == studentUsername101 && newPassword == studentPassword101)   ||
+            (newUsername == studentUsername102 && newPassword == studentPassword102)   ||
             (newUsername == studentUsername3 && newPassword == studentPassword3)   ||
             (newUsername == studentUsername4 && newPassword == studentPassword4)   ||
             (newUsername == studentUsername5 && newPassword == studentPassword5)   ||
@@ -1327,6 +1327,7 @@ goto main_menu ;
      //teacher 4
     else if(teacherUsername4 == username && teacherPassword4 == password){
         teacher_menu4:
+             cout << "(Choices 1 and 2 only)" << endl ;
             //handles bsa
         cout << "\nTeacher4 Menu:\n";
         cout << "1. Create Student Account\n";
@@ -1619,6 +1620,7 @@ goto main_menu ;
   //teacher 5
     else if(teacherUsername5 == username && teacherPassword5 == password){
         teacher_menu5:
+             cout << "(Choices 1 and 2 only)" << endl ;
             //handles bsba
         cout << "\nTeacher5 Menu:\n";
         cout << "1. Create Student Account\n";
@@ -1908,9 +1910,6 @@ goto main_menu ;
         }
         goto main_menu;
     }
-
-
-
 
     cout << "Invalid username or password. Please try again.\n";
     goto login;
