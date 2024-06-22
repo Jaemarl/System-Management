@@ -89,24 +89,34 @@ int main()
     int teacherCount = 0;
     int studentCount = 0;
 
-main_menu:
-    cout << "Student Management System\n"
-         << endl;
-    cout << "1. Login\n";
-    cout << "2. Exit\n";
-    cout << "Enter your choice: ";
-    int mainChoice;
-    cin >> mainChoice;
 
-    if (mainChoice == 2)
-    {
-        cout << "Exiting the program.\n";
-        return 0;
-    }
-    else if (mainChoice != 1)
-    {
-        cout << "Invalid choice, please try again.\n";
-        goto main_menu;
+
+
+    
+
+
+main_menu:
+    Login:
+    string input;
+    int mainChoice;
+
+    while (true) {
+        cout << "Student Management System\n\n";
+        cout << "1. Login\n";
+        cout << "2. Exit\n";
+        cout << "Enter your choice: ";
+
+        cin >> input;
+
+        if (input == "1") {
+            cout << "Proceeding to login...\n";
+            break; // Exit the loop to proceed with login
+        } else if (input == "2") {
+            cout << "Exiting the program.\n";
+            return 0;
+        } else {
+            cout << "Invalid choice, please try again.\n\n";
+        }
     }
 
 login:
