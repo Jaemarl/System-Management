@@ -291,7 +291,7 @@ main_menu:
     cout << "2. Exit\n";
     cout << "Enter your choice: ";
     int mainChoice ;
-    cin >> mainChoice;
+    cin >> mainChoice ;
 
     if (mainChoice == 2)
     {
@@ -303,6 +303,7 @@ main_menu:
 
         goto login;
     }
+
 login:
     cout << "Username: ";
     cin >> username;
