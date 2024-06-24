@@ -332,7 +332,7 @@ login:
 
         if (adminChoice == "1" && staffCount < 3)
         {
-            string newUsername, newPassword;
+            string newUsername, newPassword, email;
             cout << "Enter staff username: ";
             cin >> newUsername;
             cout << "Enter staff password: ";
@@ -461,13 +461,45 @@ login:
         }
         else if (adminChoice == "3")
         {
-            system("cls");
-            cout << "Teachers and their courses:" << endl;
-            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
-            cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
-            cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
-            cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
-            cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
+        adminChoice3:
+            string choice;
+            string goBack1;
+            cout << "1. Staffs" << endl;
+            cout << "2. Teachers." << endl;
+            cin >> choice;
+            if (choice == "1")
+            {
+                cout << "1. Username: " << staffUsername1 << endl;
+                cout << "2. Username: " << staffUsername2 << endl;
+                cout << "3. Username: " << staffUsername3 << endl;
+                cout << "Y. Go back..." << endl;
+                cin >> goBack1;
+                if (goBack1 == "y" || "Y")
+                {
+                    goto adminChoice3;
+                }
+            }
+            else if (choice == "2")
+            {
+                cout << "Teachers and their courses:" << endl;
+                cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
+                cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
+                cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
+                cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
+                cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
+
+                cout << "Y. Go back..." << endl;
+                cin >> goBack1;
+                if (goBack1 == "y" || "Y")
+                {
+                    goto adminChoice3;
+                }
+            }
+            else
+            {
+                cout << "Invalid choice." << endl;
+                goto adminChoice3;
+            }
         }
         else if (adminChoice == "4")
         {
@@ -480,242 +512,309 @@ login:
         }
     }
 
-    // if (username == adminUsername && password == adminPassword)
-    // {
-    // admin_menu:
-    // adminmenu:
-    //     cout << "\nAdmin Menu:\n";
-    //     cout << "(Choices 1 and 3 only)" << endl;
-    //     cout << "1. Create Staff Account\n";
-    //     cout << "2. Create Teacher Account\n";
-    //     cout << "3. View Employee list" << endl;
-    //     cout << "4. Logout\n";
-    //     cout << "Enter your choice: ";
-
-    //     cin >> adminChoice;
-    //     system("cls");
-
-    //     if (adminChoice == 1 && staffCount < 3)
-    //     {
-    //         string newUsername, newPassword;
-    //         cout << "Enter staff username: ";
-    //         cin >> newUsername;
-    //         cout << "Enter staff password: ";
-    //         cin >> newPassword;
-
-    //         if ((staffCount == 0 || (staffUsername1 != newUsername || staffPassword1 != newPassword)) && (staffCount < 2 || (staffUsername2 != newUsername || staffPassword2 != newPassword)))
-    //         {
-    //             if (staffCount == 0)
-    //             {
-    //                 staffUsername1 = newUsername;
-    //                 staffPassword1 = newPassword;
-    //             }
-    //             else if (staffCount == 1)
-    //             {
-    //                 staffUsername2 = newUsername;
-    //                 staffPassword2 = newPassword;
-    //             }
-    //             else if (staffCount == 2)
-    //             {
-    //                 staffUsername3 = newUsername;
-    //                 staffPassword3 = newPassword;
-    //             }
-    //             staffCount++;
-    //             cout << "Staff account created successfully.\n";
-    //         }
-    //         else
-    //         {
-    //             cout << "This username and password combination already exists.\n";
-    //         }
-    //         goto admin_menu;
-    //     }
-    //     else if (adminChoice == 1 && staffCount >= 3)
-    //     {
-    //         cout << "Maximum staff accounts reached.\n";
-    //         goto admin_menu;
-    //     }
-    //     else if (adminChoice == 2 && teacherCount < 5)
-    //     {
-    //         string newUsername, newPassword;
-    //         int course;
-    //         bool courseAssigned = false;
-    //         cout << "Enter teacher username: ";
-    //         cin >> newUsername;
-    //         cout << "Enter teacher password: ";
-    //         cin >> newPassword;
-    //         cout << "Select which program to assign: " << endl;
-    //         cout << "1. BSIT\n2. BSENT\n3. DICT\n4. BSA\n5. BSBA" << endl;
-    //         cin >> course;
-
-    //         courseAssigned = (course == 1 && (teacherCourse1 == "BSIT" || teacherCourse2 == "BSIT" || teacherCourse3 == "BSIT" || teacherCourse4 == "BSIT" || teacherCourse5 == "BSIT")) ||
-    //                          (course == 2 && (teacherCourse1 == "BSENT" || teacherCourse2 == "BSENT" || teacherCourse3 == "BSENT" || teacherCourse4 == "BSENT" || teacherCourse5 == "BSENT")) ||
-    //                          (course == 3 && (teacherCourse1 == "DICT" || teacherCourse2 == "DICT" || teacherCourse3 == "DICT" || teacherCourse4 == "DICT" || teacherCourse5 == "DICT")) ||
-    //                          (course == 4 && (teacherCourse1 == "BSA" || teacherCourse2 == "BSA" || teacherCourse3 == "BSA" || teacherCourse4 == "BSA" || teacherCourse5 == "BSA")) ||
-    //                          (course == 5 && (teacherCourse1 == "BSBA" || teacherCourse2 == "BSBA" || teacherCourse3 == "BSBA" || teacherCourse4 == "BSBA" || teacherCourse5 == "BSBA"));
-
-    //         if (courseAssigned)
-    //         {
-    //             cout << "This course is already assigned to another teacher.\n";
-    //             goto admin_menu;
-    //         }
-
-    //         // Check if the username-password combination already exists
-    //         if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) &&
-    //             (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) &&
-    //             (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) &&
-    //             (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)) &&
-    //             (teacherCount < 5 || (teacherUsername5 != newUsername || teacherPassword5 != newPassword)))
-    //         {
-    //             if (teacherCount == 0)
-    //             {
-    //                 teacherUsername1 = newUsername;
-    //                 teacherPassword1 = newPassword;
-    //                 teacherCourse1 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-    //                                                       : (course == 3)   ? "DICT"
-    //                                                       : (course == 4)   ? "BSA"
-    //                                                       : (course == 5)   ? "BSBA"
-    //                                                                         : "Unknown";
-    //             }
-    //             else if (teacherCount == 1)
-    //             {
-    //                 teacherUsername2 = newUsername;
-    //                 teacherPassword2 = newPassword;
-    //                 teacherCourse2 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-    //                                                       : (course == 3)   ? "DICT"
-    //                                                       : (course == 4)   ? "BSA"
-    //                                                       : (course == 5)   ? "BSBA"
-    //                                                                         : "Unknown";
-    //             }
-    //             else if (teacherCount == 2)
-    //             {
-    //                 teacherUsername3 = newUsername;
-    //                 teacherPassword3 = newPassword;
-    //                 teacherCourse3 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-    //                                                       : (course == 3)   ? "DICT"
-    //                                                       : (course == 4)   ? "BSA"
-    //                                                       : (course == 5)   ? "BSBA"
-    //                                                                         : "Unknown";
-    //             }
-    //             else if (teacherCount == 3)
-    //             {
-    //                 teacherUsername4 = newUsername;
-    //                 teacherPassword4 = newPassword;
-    //                 teacherCourse4 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-    //                                                       : (course == 3)   ? "DICT"
-    //                                                       : (course == 4)   ? "BSA"
-    //                                                       : (course == 5)   ? "BSBA"
-    //                                                                         : "Unknown";
-    //             }
-    //             else if (teacherCount == 4)
-    //             {
-    //                 teacherUsername5 = newUsername;
-    //                 teacherPassword5 = newPassword;
-    //                 teacherCourse5 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-    //                                                       : (course == 3)   ? "DICT"
-    //                                                       : (course == 4)   ? "BSA"
-    //                                                       : (course == 5)   ? "BSBA"
-    //                                                                         : "Unknown";
-    //             }
-    //             teacherCount++;
-    //             cout << "Teacher account created successfully.\n";
-    //         }
-    //         else
-    //         {
-    //             cout << "This username and password combination already exists or maximum teacher limit reached.\n";
-    //         }
-    //     }
-    //     else if (adminChoice == 3)
-    //     {
-    //         cout << "Teachers and their courses:" << endl;
-    //         cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
-    //         cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
-    //         cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
-    //         cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
-    //         cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
-    //     }
-    //     else if (adminChoice == 4)
-    //     {
-    //         goto Login;
-    //     }
-    //     else
-    //     {
-    //         cout << "Invalid admin choice.\n";
-    //         goto login;
-    //     }
-
-    //     // Print teachers and their courses for verification
-    // }
     // Staff Login
     if ((username == staffUsername1 && password == staffPassword1) || (username == staffUsername2 && password == staffPassword2) || (username == staffUsername3 && password == staffPassword3))
     {
+    staffMenu1:
+        string staffChoice1;
         cout << "Staff logged in successfully.\n";
-        /*
-        View student details(wag na muna lagyan ng function)
-        View employee information(wag na muna lagyan ng function)
-        Change Password(wag na muna lagyan ng function)
-        */
+        cout << "1. View Employee details(Teachers)." << endl;
+        cout << "2. View Student details." << endl;
+        cout << "3. Logout" << endl;
 
-        // int staffChoice
-
-        // switch(staffChoice){
-        //     case: 1{
-
-        //     }
-        //     case: 2{
-
-        //     }
-        //     case: 3{
-
-        //     }
-        // }
-
-        // Gagawa ng variable (staffChoice) => refer to line 169
-
-        // example:
-        //  if (staffChoice == 2 && teacherCount < 5)
-        //          {
-        //              string newUsername, newPassword;
-        //              cout << "Enter teacher username: ";
-        //              cin >> newUsername;
-        //              cout << "Enter teacher password: ";
-        //              cin >> newPassword;
-
-        //             if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) && (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) && (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) && (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)))
-        //             {
-        //                 if (teacherCount == 0)
-        //                 {
-        //                     teacherUsername1 = newUsername;
-        //                     teacherPassword1 = newPassword;
-        //                 }
-        //                 else if (teacherCount == 1)
-        //                 {
-        //                     teacherUsername2 = newUsername;
-        //                     teacherPassword2 = newPassword;
-        //                 }
-        //                 else if (teacherCount == 2)
-        //                 {
-        //                     teacherUsername3 = newUsername;
-        //                     teacherPassword3 = newPassword;
-        //                 }
-        //                 else if (teacherCount == 3)
-        //                 {
-        //                     teacherUsername4 = newUsername;
-        //                     teacherPassword4 = newPassword;
-        //                 }
-        //                 else if (teacherCount == 4)
-        //                 {
-        //                     teacherUsername5 = newUsername;
-        //                     teacherPassword5 = newPassword;
-        //                 }
-        //                 teacherCount++;
-        //                 cout << "Teacher account created successfully.\n";
-        //             }
-        //             else
-        //             {
-        //                 cout << "This username and password combination already exists.\n";
-        //             }
-
-        goto main_menu;
+        if (staffChoice1 == "1")
+        {
+            string staffChoiceInside;
+            cout << "Teachers and their courses:" << endl;
+            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
+            cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
+            cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
+            cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
+            cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
+            if (staffChoiceInside == "1")
+            {
+                cout << "Go back..." << endl;
+                goto staffMenu1;
+            }
+        }
+        else if (staffChoice1 == "2")
+        {
+        course:
+            string selectCourse;
+            cout << "Courses" << endl;
+            cout << "1. BSIT\n2. BSENT\n3. DICT\n4. BSA\n5. BSBA" << endl;
+            cin >> selectCourse;
+            if (selectCourse == "1")
+            {
+                cout << studentUsername1 << endl;
+                cout << studentUsername2 << endl;
+                cout << studentUsername3 << endl;
+                cout << studentUsername4 << endl;
+                cout << studentUsername5 << endl;
+                cout << studentUsername6 << endl;
+                cout << studentUsername7 << endl;
+                cout << studentUsername8 << endl;
+                cout << studentUsername9 << endl;
+                cout << studentUsername10 << endl;
+                cout << studentUsername11 << endl;
+                cout << studentUsername12 << endl;
+                cout << studentUsername13 << endl;
+                cout << studentUsername14 << endl;
+                cout << studentUsername15 << endl;
+                cout << studentUsername16 << endl;
+                cout << studentUsername17 << endl;
+                cout << studentUsername18 << endl;
+                cout << studentUsername19 << endl;
+                cout << studentUsername20 << endl;
+                cout << studentUsername21 << endl;
+                cout << studentUsername22 << endl;
+                cout << studentUsername23 << endl;
+                cout << studentUsername24 << endl;
+                cout << studentUsername25 << endl;
+                cout << studentUsername26 << endl;
+                cout << studentUsername27 << endl;
+                cout << studentUsername28 << endl;
+                cout << studentUsername29 << endl;
+                cout << studentUsername30 << endl;
+                cout << studentUsername31 << endl;
+                cout << studentUsername32 << endl;
+                cout << studentUsername33 << endl;
+                cout << studentUsername34 << endl;
+                cout << studentUsername35 << endl;
+                cout << studentUsername36 << endl;
+                cout << studentUsername37 << endl;
+                cout << studentUsername38 << endl;
+                cout << studentUsername39 << endl;
+                cout << studentUsername40 << endl;
+                cout << studentUsername41 << endl;
+                cout << studentUsername42 << endl;
+                cout << studentUsername43 << endl;
+                cout << studentUsername44 << endl;
+                cout << studentUsername45 << endl;
+                cout << studentUsername46 << endl;
+                cout << studentUsername47 << endl;
+                cout << studentUsername48 << endl;
+                cout << studentUsername49 << endl;
+                cout << studentUsername50 << endl;
+            }
+            else if (selectCourse == "2")
+            {
+                cout << studentUsername51 << endl;
+                cout << studentUsername52 << endl;
+                cout << studentUsername53 << endl;
+                cout << studentUsername54 << endl;
+                cout << studentUsername55 << endl;
+                cout << studentUsername56 << endl;
+                cout << studentUsername57 << endl;
+                cout << studentUsername58 << endl;
+                cout << studentUsername59 << endl;
+                cout << studentUsername60 << endl;
+                cout << studentUsername61 << endl;
+                cout << studentUsername62 << endl;
+                cout << studentUsername63 << endl;
+                cout << studentUsername64 << endl;
+                cout << studentUsername65 << endl;
+                cout << studentUsername66 << endl;
+                cout << studentUsername67 << endl;
+                cout << studentUsername68 << endl;
+                cout << studentUsername69 << endl;
+                cout << studentUsername70 << endl;
+                cout << studentUsername71 << endl;
+                cout << studentUsername72 << endl;
+                cout << studentUsername73 << endl;
+                cout << studentUsername74 << endl;
+                cout << studentUsername75 << endl;
+                cout << studentUsername76 << endl;
+                cout << studentUsername77 << endl;
+                cout << studentUsername78 << endl;
+                cout << studentUsername79 << endl;
+                cout << studentUsername80 << endl;
+                cout << studentUsername81 << endl;
+                cout << studentUsername82 << endl;
+                cout << studentUsername83 << endl;
+                cout << studentUsername84 << endl;
+                cout << studentUsername85 << endl;
+                cout << studentUsername86 << endl;
+                cout << studentUsername87 << endl;
+                cout << studentUsername88 << endl;
+                cout << studentUsername89 << endl;
+                cout << studentUsername90 << endl;
+                cout << studentUsername91 << endl;
+                cout << studentUsername92 << endl;
+                cout << studentUsername93 << endl;
+                cout << studentUsername94 << endl;
+                cout << studentUsername95 << endl;
+                cout << studentUsername96 << endl;
+                cout << studentUsername97 << endl;
+                cout << studentUsername98 << endl;
+                cout << studentUsername99 << endl;
+                cout << studentUsername100 << endl;
+            }
+            else if (selectCourse == "3")
+            {
+                cout << studentUsername101 << endl;
+                cout << studentUsername102 << endl;
+                cout << studentUsername103 << endl;
+                cout << studentUsername104 << endl;
+                cout << studentUsername105 << endl;
+                cout << studentUsername106 << endl;
+                cout << studentUsername107 << endl;
+                cout << studentUsername108 << endl;
+                cout << studentUsername109 << endl;
+                cout << studentUsername110 << endl;
+                cout << studentUsername111 << endl;
+                cout << studentUsername112 << endl;
+                cout << studentUsername113 << endl;
+                cout << studentUsername114 << endl;
+                cout << studentUsername115 << endl;
+                cout << studentUsername116 << endl;
+                cout << studentUsername117 << endl;
+                cout << studentUsername118 << endl;
+                cout << studentUsername119 << endl;
+                cout << studentUsername120 << endl;
+                cout << studentUsername121 << endl;
+                cout << studentUsername122 << endl;
+                cout << studentUsername123 << endl;
+                cout << studentUsername124 << endl;
+                cout << studentUsername125 << endl;
+                cout << studentUsername126 << endl;
+                cout << studentUsername127 << endl;
+                cout << studentUsername128 << endl;
+                cout << studentUsername129 << endl;
+                cout << studentUsername130 << endl;
+                cout << studentUsername131 << endl;
+                cout << studentUsername132 << endl;
+                cout << studentUsername133 << endl;
+                cout << studentUsername134 << endl;
+                cout << studentUsername135 << endl;
+                cout << studentUsername136 << endl;
+                cout << studentUsername137 << endl;
+                cout << studentUsername138 << endl;
+                cout << studentUsername139 << endl;
+                cout << studentUsername140 << endl;
+                cout << studentUsername141 << endl;
+                cout << studentUsername142 << endl;
+                cout << studentUsername143 << endl;
+                cout << studentUsername144 << endl;
+                cout << studentUsername145 << endl;
+                cout << studentUsername146 << endl;
+                cout << studentUsername147 << endl;
+                cout << studentUsername148 << endl;
+                cout << studentUsername149 << endl;
+                cout << studentUsername150 << endl;
+            }
+            else if (selectCourse == "4")
+            {
+                cout << studentUsername151 << endl;
+                cout << studentUsername152 << endl;
+                cout << studentUsername153 << endl;
+                cout << studentUsername154 << endl;
+                cout << studentUsername155 << endl;
+                cout << studentUsername156 << endl;
+                cout << studentUsername157 << endl;
+                cout << studentUsername158 << endl;
+                cout << studentUsername159 << endl;
+                cout << studentUsername160 << endl;
+                cout << studentUsername161 << endl;
+                cout << studentUsername162 << endl;
+                cout << studentUsername163 << endl;
+                cout << studentUsername164 << endl;
+                cout << studentUsername165 << endl;
+                cout << studentUsername166 << endl;
+                cout << studentUsername167 << endl;
+                cout << studentUsername168 << endl;
+                cout << studentUsername169 << endl;
+                cout << studentUsername170 << endl;
+                cout << studentUsername171 << endl;
+                cout << studentUsername172 << endl;
+                cout << studentUsername173 << endl;
+                cout << studentUsername174 << endl;
+                cout << studentUsername175 << endl;
+                cout << studentUsername176 << endl;
+                cout << studentUsername177 << endl;
+                cout << studentUsername178 << endl;
+                cout << studentUsername179 << endl;
+                cout << studentUsername180 << endl;
+                cout << studentUsername181 << endl;
+                cout << studentUsername182 << endl;
+                cout << studentUsername183 << endl;
+                cout << studentUsername184 << endl;
+                cout << studentUsername185 << endl;
+                cout << studentUsername186 << endl;
+                cout << studentUsername187 << endl;
+                cout << studentUsername188 << endl;
+                cout << studentUsername189 << endl;
+                cout << studentUsername190 << endl;
+                cout << studentUsername191 << endl;
+                cout << studentUsername192 << endl;
+                cout << studentUsername193 << endl;
+                cout << studentUsername194 << endl;
+                cout << studentUsername195 << endl;
+                cout << studentUsername196 << endl;
+                cout << studentUsername197 << endl;
+                cout << studentUsername198 << endl;
+                cout << studentUsername199 << endl;
+                cout << studentUsername200 << endl;
+            }
+            else if (selectCourse == "5")
+            {
+                cout << studentUsername201 << endl;
+                cout << studentUsername202 << endl;
+                cout << studentUsername203 << endl;
+                cout << studentUsername204 << endl;
+                cout << studentUsername205 << endl;
+                cout << studentUsername206 << endl;
+                cout << studentUsername207 << endl;
+                cout << studentUsername208 << endl;
+                cout << studentUsername209 << endl;
+                cout << studentUsername210 << endl;
+                cout << studentUsername211 << endl;
+                cout << studentUsername212 << endl;
+                cout << studentUsername213 << endl;
+                cout << studentUsername214 << endl;
+                cout << studentUsername215 << endl;
+                cout << studentUsername216 << endl;
+                cout << studentUsername217 << endl;
+                cout << studentUsername218 << endl;
+                cout << studentUsername219 << endl;
+                cout << studentUsername220 << endl;
+                cout << studentUsername221 << endl;
+                cout << studentUsername222 << endl;
+                cout << studentUsername223 << endl;
+                cout << studentUsername224 << endl;
+                cout << studentUsername225 << endl;
+                cout << studentUsername226 << endl;
+                cout << studentUsername227 << endl;
+                cout << studentUsername228 << endl;
+                cout << studentUsername229 << endl;
+                cout << studentUsername230 << endl;
+                cout << studentUsername231 << endl;
+                cout << studentUsername232 << endl;
+                cout << studentUsername233 << endl;
+                cout << studentUsername234 << endl;
+                cout << studentUsername235 << endl;
+                cout << studentUsername236 << endl;
+                cout << studentUsername237 << endl;
+                cout << studentUsername238 << endl;
+                cout << studentUsername239 << endl;
+                cout << studentUsername240 << endl;
+                cout << studentUsername241 << endl;
+                cout << studentUsername242 << endl;
+                cout << studentUsername243 << endl;
+                cout << studentUsername244 << endl;
+                cout << studentUsername245 << endl;
+                cout << studentUsername246 << endl;
+                cout << studentUsername247 << endl;
+                cout << studentUsername248 << endl;
+                cout << studentUsername249 << endl;
+                cout << studentUsername250 << endl;
+            }
+            else
+            {
+                cout << "Invalid Choice" << endl;
+                goto course;
+            }
+        }
     }
 
     // Teacher Login
