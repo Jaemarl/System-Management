@@ -315,200 +315,208 @@ login:
     cout << "Password: ";
     cin >> password;
 
-    while (true)
+    if (username == adminUsername && password == adminPassword)
     {
-    admin_menu:
-    adminmenu:
-        string adminChoice;
-        cout << "\nAdmin Menu:\n";
-        cout << "(Choices 1 and 3 only)" << endl;
-        cout << "1. Create Staff Account\n";
-        cout << "2. Create Teacher Account\n";
-        cout << "3. View Employee list" << endl;
-        cout << "4. Logout\n";
-        cout << "Enter your choice: ";
-        cin >> adminChoice;
-        system("cls");
-
-        if (adminChoice == "1" && staffCount < 3)
+        while (true)
         {
-            string newUsername, newPassword, email;
-            cout << "Enter staff username: ";
-            cin >> newUsername;
-            cout << "Enter staff password: ";
-            cin >> newPassword;
+        admin_menu:
+        adminmenu:
+            string adminChoice;
+            cout << "\nAdmin Menu:\n";
+            cout << "(Choices 1 and 3 only)" << endl;
+            cout << "1. Create Staff Account\n";
+            cout << "2. Create Teacher Account\n";
+            cout << "3. View Employee list" << endl;
+            cout << "4. Logout\n";
+            cout << "Enter your choice: ";
+            cin >> adminChoice;
+            system("cls");
 
-            if ((staffCount == 0 || (staffUsername1 != newUsername || staffPassword1 != newPassword)) && (staffCount < 2 || (staffUsername2 != newUsername || staffPassword2 != newPassword)))
+            if (adminChoice == "1" && staffCount < 3)
             {
-                if (staffCount == 0)
-                {
-                    staffUsername1 = newUsername;
-                    staffPassword1 = newPassword;
-                }
-                else if (staffCount == 1)
-                {
-                    staffUsername2 = newUsername;
-                    staffPassword2 = newPassword;
-                }
-                else if (staffCount == 2)
-                {
-                    staffUsername3 = newUsername;
-                    staffPassword3 = newPassword;
-                }
-                staffCount++;
-                cout << "Staff account created successfully.\n";
-            }
-            else
-            {
-                cout << "This username and password combination already exists.\n";
-            }
-            goto admin_menu;
-        }
-        else if (adminChoice == "1" && staffCount >= 3)
-        {
-            cout << "Maximum staff accounts reached.\n";
-            goto admin_menu;
-        }
-        else if (adminChoice == "2" && teacherCount < 5)
-        {
-            string newUsername, newPassword;
-            int course;
-            bool courseAssigned = false;
-            cout << "Enter teacher username: ";
-            cin >> newUsername;
-            cout << "Enter teacher password: ";
-            cin >> newPassword;
-            cout << "Select which program to assign: " << endl;
-            cout << "1. BSIT\n2. BSENT\n3. DICT\n4. BSA\n5. BSBA" << endl;
-            cin >> course;
+                string newUsername, newPassword, email;
+                cout << "Enter staff username: ";
+                cin >> newUsername;
+                cout << "Enter staff password: ";
+                cin >> newPassword;
 
-            courseAssigned = (course == 1 && (teacherCourse1 == "BSIT" || teacherCourse2 == "BSIT" || teacherCourse3 == "BSIT" || teacherCourse4 == "BSIT" || teacherCourse5 == "BSIT")) ||
-                             (course == 2 && (teacherCourse1 == "BSENT" || teacherCourse2 == "BSENT" || teacherCourse3 == "BSENT" || teacherCourse4 == "BSENT" || teacherCourse5 == "BSENT")) ||
-                             (course == 3 && (teacherCourse1 == "DICT" || teacherCourse2 == "DICT" || teacherCourse3 == "DICT" || teacherCourse4 == "DICT" || teacherCourse5 == "DICT")) ||
-                             (course == 4 && (teacherCourse1 == "BSA" || teacherCourse2 == "BSA" || teacherCourse3 == "BSA" || teacherCourse4 == "BSA" || teacherCourse5 == "BSA")) ||
-                             (course == 5 && (teacherCourse1 == "BSBA" || teacherCourse2 == "BSBA" || teacherCourse3 == "BSBA" || teacherCourse4 == "BSBA" || teacherCourse5 == "BSBA"));
-
-            if (courseAssigned)
-            {
-                cout << "This course is already assigned to another teacher.\n";
+                if ((staffCount == 0 || (staffUsername1 != newUsername || staffPassword1 != newPassword)) && (staffCount < 2 || (staffUsername2 != newUsername || staffPassword2 != newPassword)))
+                {
+                    if (staffCount == 0)
+                    {
+                        staffUsername1 = newUsername;
+                        staffPassword1 = newPassword;
+                    }
+                    else if (staffCount == 1)
+                    {
+                        staffUsername2 = newUsername;
+                        staffPassword2 = newPassword;
+                    }
+                    else if (staffCount == 2)
+                    {
+                        staffUsername3 = newUsername;
+                        staffPassword3 = newPassword;
+                    }
+                    staffCount++;
+                    cout << "Staff account created successfully.\n";
+                }
+                else
+                {
+                    cout << "This username and password combination already exists.\n";
+                }
                 goto admin_menu;
             }
+            else if (adminChoice == "1" && staffCount >= 3)
+            {
+                cout << "Maximum staff accounts reached.\n";
+                goto admin_menu;
+            }
+            else if (adminChoice == "2" && teacherCount < 5)
+            {
+                string newUsername, newPassword;
+                int course;
+                bool courseAssigned = false;
+                cout << "Enter teacher username: ";
+                cin >> newUsername;
+                cout << "Enter teacher password: ";
+                cin >> newPassword;
+                cout << "Select which program to assign: " << endl;
+                cout << "1. BSIT\n2. BSENT\n3. DICT\n4. BSA\n5. BSBA" << endl;
+                cin >> course;
 
-            // Check if the username-password combination already exists
-            if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) &&
-                (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) &&
-                (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) &&
-                (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)) &&
-                (teacherCount < 5 || (teacherUsername5 != newUsername || teacherPassword5 != newPassword)))
-            {
-                if (teacherCount == 0)
+                courseAssigned = (course == 1 && (teacherCourse1 == "BSIT" || teacherCourse2 == "BSIT" || teacherCourse3 == "BSIT" || teacherCourse4 == "BSIT" || teacherCourse5 == "BSIT")) ||
+                                 (course == 2 && (teacherCourse1 == "BSENT" || teacherCourse2 == "BSENT" || teacherCourse3 == "BSENT" || teacherCourse4 == "BSENT" || teacherCourse5 == "BSENT")) ||
+                                 (course == 3 && (teacherCourse1 == "DICT" || teacherCourse2 == "DICT" || teacherCourse3 == "DICT" || teacherCourse4 == "DICT" || teacherCourse5 == "DICT")) ||
+                                 (course == 4 && (teacherCourse1 == "BSA" || teacherCourse2 == "BSA" || teacherCourse3 == "BSA" || teacherCourse4 == "BSA" || teacherCourse5 == "BSA")) ||
+                                 (course == 5 && (teacherCourse1 == "BSBA" || teacherCourse2 == "BSBA" || teacherCourse3 == "BSBA" || teacherCourse4 == "BSBA" || teacherCourse5 == "BSBA"));
+
+                if (courseAssigned)
                 {
-                    teacherUsername1 = newUsername;
-                    teacherPassword1 = newPassword;
-                    teacherCourse1 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-                                                          : (course == 3)   ? "DICT"
-                                                          : (course == 4)   ? "BSA"
-                                                          : (course == 5)   ? "BSBA"
-                                                                            : "Unknown";
+                    cout << "This course is already assigned to another teacher.\n";
+                    goto admin_menu;
                 }
-                else if (teacherCount == 1)
+
+                // Check if the username-password combination already exists
+                if ((teacherCount == 0 || (teacherUsername1 != newUsername || teacherPassword1 != newPassword)) &&
+                    (teacherCount < 2 || (teacherUsername2 != newUsername || teacherPassword2 != newPassword)) &&
+                    (teacherCount < 3 || (teacherUsername3 != newUsername || teacherPassword3 != newPassword)) &&
+                    (teacherCount < 4 || (teacherUsername4 != newUsername || teacherPassword4 != newPassword)) &&
+                    (teacherCount < 5 || (teacherUsername5 != newUsername || teacherPassword5 != newPassword)))
                 {
-                    teacherUsername2 = newUsername;
-                    teacherPassword2 = newPassword;
-                    teacherCourse2 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-                                                          : (course == 3)   ? "DICT"
-                                                          : (course == 4)   ? "BSA"
-                                                          : (course == 5)   ? "BSBA"
-                                                                            : "Unknown";
+                    if (teacherCount == 0)
+                    {
+                        teacherUsername1 = newUsername;
+                        teacherPassword1 = newPassword;
+                        teacherCourse1 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
+                                                              : (course == 3)   ? "DICT"
+                                                              : (course == 4)   ? "BSA"
+                                                              : (course == 5)   ? "BSBA"
+                                                                                : "Unknown";
+                    }
+                    else if (teacherCount == 1)
+                    {
+                        teacherUsername2 = newUsername;
+                        teacherPassword2 = newPassword;
+                        teacherCourse2 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
+                                                              : (course == 3)   ? "DICT"
+                                                              : (course == 4)   ? "BSA"
+                                                              : (course == 5)   ? "BSBA"
+                                                                                : "Unknown";
+                    }
+                    else if (teacherCount == 2)
+                    {
+                        teacherUsername3 = newUsername;
+                        teacherPassword3 = newPassword;
+                        teacherCourse3 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
+                                                              : (course == 3)   ? "DICT"
+                                                              : (course == 4)   ? "BSA"
+                                                              : (course == 5)   ? "BSBA"
+                                                                                : "Unknown";
+                    }
+                    else if (teacherCount == 3)
+                    {
+                        teacherUsername4 = newUsername;
+                        teacherPassword4 = newPassword;
+                        teacherCourse4 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
+                                                              : (course == 3)   ? "DICT"
+                                                              : (course == 4)   ? "BSA"
+                                                              : (course == 5)   ? "BSBA"
+                                                                                : "Unknown";
+                    }
+                    else if (teacherCount == 4)
+                    {
+                        teacherUsername5 = newUsername;
+                        teacherPassword5 = newPassword;
+                        teacherCourse5 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
+                                                              : (course == 3)   ? "DICT"
+                                                              : (course == 4)   ? "BSA"
+                                                              : (course == 5)   ? "BSBA"
+                                                                                : "Unknown";
+                    }
+                    teacherCount++;
+                    cout << "Teacher account created successfully.\n";
                 }
-                else if (teacherCount == 2)
+                else
                 {
-                    teacherUsername3 = newUsername;
-                    teacherPassword3 = newPassword;
-                    teacherCourse3 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-                                                          : (course == 3)   ? "DICT"
-                                                          : (course == 4)   ? "BSA"
-                                                          : (course == 5)   ? "BSBA"
-                                                                            : "Unknown";
+                    cout << "This username and password combination already exists or maximum teacher limit reached.\n";
                 }
-                else if (teacherCount == 3)
-                {
-                    teacherUsername4 = newUsername;
-                    teacherPassword4 = newPassword;
-                    teacherCourse4 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-                                                          : (course == 3)   ? "DICT"
-                                                          : (course == 4)   ? "BSA"
-                                                          : (course == 5)   ? "BSBA"
-                                                                            : "Unknown";
-                }
-                else if (teacherCount == 4)
-                {
-                    teacherUsername5 = newUsername;
-                    teacherPassword5 = newPassword;
-                    teacherCourse5 = (course == 1) ? "BSIT" : (course == 2) ? "BSENT"
-                                                          : (course == 3)   ? "DICT"
-                                                          : (course == 4)   ? "BSA"
-                                                          : (course == 5)   ? "BSBA"
-                                                                            : "Unknown";
-                }
-                teacherCount++;
-                cout << "Teacher account created successfully.\n";
             }
-            else
+            else if (adminChoice == "3")
             {
-                cout << "This username and password combination already exists or maximum teacher limit reached.\n";
-            }
-        }
-        else if (adminChoice == "3")
-        {
-        adminChoice3:
-            string choice;
-            string goBack1;
-            cout << "1. Staffs" << endl;
-            cout << "2. Teachers." << endl;
-            cin >> choice;
-            if (choice == "1")
-            {
-                cout << "1. Username: " << staffUsername1 << endl;
-                cout << "2. Username: " << staffUsername2 << endl;
-                cout << "3. Username: " << staffUsername3 << endl;
-                cout << "Y. Go back..." << endl;
-                cin >> goBack1;
-                if (goBack1 == "y" || "Y")
+            adminChoice3:
+                string choice;
+                string goBack1;
+                cout << "1. Staffs" << endl;
+                cout << "2. Teachers." << endl;
+                cout << "3. Go back..." << endl;
+                cin >> choice;
+                if (choice == "1")
                 {
+                    cout << "1. Username: " << staffUsername1 << endl;
+                    cout << "2. Username: " << staffUsername2 << endl;
+                    cout << "3. Username: " << staffUsername3 << endl;
+                    cout << "Y. Go back..." << endl;
+                    cin >> goBack1;
+                    if (goBack1 == "y" || "Y")
+                    {
+                        goto adminChoice3;
+                    }
+                }
+                else if (choice == "2")
+                {
+                    cout << "Teachers and their courses:" << endl;
+                    cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
+                    cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
+                    cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
+                    cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
+                    cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
+
+                    cout << "Y. Go back..." << endl;
+                    cin >> goBack1;
+                    if (goBack1 == "y" || "Y")
+                    {
+                        goto adminChoice3;
+                    }
+                }
+                else if (choice == "3")
+                {
+                    goto admin_menu;
+                }
+                else
+                {
+                    cout << "Invalid choice." << endl;
                     goto adminChoice3;
                 }
             }
-            else if (choice == "2")
+            else if (adminChoice == "4")
             {
-                cout << "Teachers and their courses:" << endl;
-                cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
-                cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
-                cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
-                cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
-                cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
-
-                cout << "Y. Go back..." << endl;
-                cin >> goBack1;
-                if (goBack1 == "y" || "Y")
-                {
-                    goto adminChoice3;
-                }
+                goto Login;
             }
             else
             {
-                cout << "Invalid choice." << endl;
-                goto adminChoice3;
+                cout << "Invalid admin choice.\n";
+                goto admin_menu;
             }
-        }
-        else if (adminChoice == "4")
-        {
-            goto Login;
-        }
-        else
-        {
-            cout << "Invalid admin choice.\n";
-            goto admin_menu;
         }
     }
 
