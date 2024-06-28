@@ -570,7 +570,6 @@ login:
                             {
                                 string newUsername;
                                 bool usernameExists;
-
                                 cout << "Input new Username: " << endl;
                                 cin >> staffUsername1;
                                 do
@@ -732,7 +731,7 @@ login:
                     }
                     else if (goBack1 == "2")
                     {
-                    deletE:
+                        deletE:
                         string deleteChoice;
                         cout << "Which user to delete (1/2/3)? || Go back...(4)" << endl;
                         cout << "1. Username: " << staffUsername1 << "\n   Age: " << age1 << "\n   Email: " << Email1 << endl;
@@ -830,17 +829,453 @@ login:
                 }
                 else if (choice == "2")
                 {
-                    cout << "Teachers and their courses:" << endl;
+                    cout << "(1)Edit || (2) Delete || (3) Go back..." << endl;
                     cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
                     cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
                     cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
                     cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
                     cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
-
-                    cout << "Y. Go back..." << endl;
                     cin >> goBack1;
                     system("cls");
-                    if (goBack1 == "y" || goBack1 == "Y")
+                    if (goBack1 == "1")
+                    {
+                        teacherView:
+                        string editChoice2;
+                        cout << "Which user to edit? (1/2/3/4/5)" << endl;
+                        cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                        cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                        cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                        cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                        cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                        cin >> editChoice2;
+                        system("cls");
+                        if (editChoice2 == "1")
+                        {
+                        teacherEdit1:
+                            string tedit1;
+                            cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                            cin >> tedit1;
+                            system("cls");
+                            if (tedit1 == "1")
+                            {
+                                string newUsername;
+                                bool usernameExists;
+                                cout << "Input new Username: " << endl;
+                                cin >> teacherUsername1;
+                                system("cls");
+                                do
+                                {
+                                    usernameExists = false;
+                                    cout << "Input new Username: " << endl;
+                                    cin >> newUsername;
+                                    if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                                    {
+                                        cout << "Username already exists. Please choose a different username." << endl;
+                                        usernameExists = true;
+                                    }
+                                } while (usernameExists);
+                                teacherUsername1 = newUsername;
+                                system("cls");
+                                goto teacherEdit1;
+                            }
+                            else if (tedit1 == "2")
+                            {
+                                cout << "Input new Age: " << endl;
+                                cin >> Tage1;
+                                system("cls");
+                                goto teacherEdit1;
+                            }
+                            else if (tedit1 == "3")
+                            {
+                                cout << "Input new Password: " << endl;
+                                cin >> teacherPassword1;
+                                system("cls");
+                                goto teacherEdit1;
+                            }
+                            else if (tedit1 == "4")
+                            {
+                                system("cls");
+                                goto adminChoice3;
+                            }
+                            else
+                            {
+                                goto teacherEdit1;
+                            }
+                        }
+                        else if (editChoice2 == "2")
+                        {
+                            teacherEdit2:
+                            string tedit2;
+                            cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                            cout << "1. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                            cin >> tedit2;
+                            system("cls");
+                            if (tedit2 == "1")
+                            {
+                                string newUsername;
+                                bool usernameExists;
+                                cout << "Input new Username: " << endl;
+                                cin >> teacherUsername2;
+                                system("cls");
+                                do
+                                {
+                                    usernameExists = false;
+                                    cout << "Input new Username: " << endl;
+                                    cin >> newUsername;
+                                    if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                                    {
+                                        cout << "Username already exists. Please choose a different username." << endl;
+                                        usernameExists = true;
+                                    }
+                                } while (usernameExists);
+                                teacherUsername2 = newUsername;
+                                system("cls");
+                                goto teacherEdit2;
+                            }
+                            else if (tedit2 == "2")
+                            {
+                                cout << "Input new Age: " << endl;
+                                cin >> Tage2;
+                                system("cls");
+                                goto teacherEdit2;
+                            }
+                            else if (tedit2 == "3")
+                            {
+                                cout << "Input new Password: " << endl;
+                                cin >> teacherPassword1;
+                                system("cls");
+                                goto teacherEdit2;
+                            }
+                            else if (tedit2 == "4")
+                            {
+                                goto adminChoice3;
+                            }
+                            else
+                            {
+                                goto teacherEdit2;
+                            }
+                        }
+                        else if (editChoice2 == "3")
+                        {
+                        teacherEdit3:
+                            string tedit3;
+                            cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                            cout << "1. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                            cin >> tedit3;
+                            system("cls");
+                            if (tedit3 == "1")
+                            {
+                                string newUsername;
+                                bool usernameExists;
+                                cout << "Input new Username: " << endl;
+                                cin >> teacherUsername1;
+                                system("cls");
+                                do
+                                {
+                                    usernameExists = false;
+                                    cout << "Input new Username: " << endl;
+                                    cin >> newUsername;
+                                    system("cls");
+                                    if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                                    {
+                                        cout << "Username already exists. Please choose a different username." << endl;
+                                        usernameExists = true;
+                                    }
+                                } while (usernameExists);
+                                teacherUsername3 = newUsername;
+                                system("cls");
+                                goto teacherEdit3;
+                            }
+                            else if (tedit3 == "2")
+                            {
+                                cout << "Input new Age: " << endl;
+                                cin >> Tage3;
+                                system("cls");
+                                goto teacherEdit3;
+                            }
+                            else if (tedit3 == "3")
+                            {
+                                cout << "Input new Password: " << endl;
+                                cin >> teacherPassword3;
+                                system("cls");
+                                goto teacherEdit3;
+                            }
+                            else if (tedit3 == "4")
+                            {
+                                system("cls");
+                                goto adminChoice3;
+                            }
+                            else
+                            {
+                                goto teacherEdit3;
+                            }
+                        }
+                        else if (editChoice2 == "4")
+                        {
+                        teacherEdit4:
+                            string tedit4;
+                            cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                            cout << "1. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                            cin >> tedit4;
+                            system("cls");
+                            if (tedit4 == "1")
+                            {
+                                string newUsername;
+                                bool usernameExists;
+                                cout << "Input new Username: " << endl;
+                                cin >> teacherUsername4;
+                                system("cls");
+                                do
+                                {
+                                    usernameExists = false;
+                                    cout << "Input new Username: " << endl;
+                                    cin >> newUsername;
+                                    system("cls");
+                                    if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                                    {
+                                        cout << "Username already exists. Please choose a different username." << endl;
+                                        usernameExists = true;
+                                    }
+                                } while (usernameExists);
+                                teacherUsername4 = newUsername;
+                                system("cls");
+                                goto teacherEdit4;
+                            }
+                            else if (tedit4 == "2")
+                            {
+                                cout << "Input new Age: " << endl;
+                                cin >> Tage4;
+                                system("cls");
+                                goto teacherEdit4;
+                            }
+                            else if (tedit4 == "3")
+                            {
+                                cout << "Input new Password: " << endl;
+                                cin >> teacherPassword4;
+                                system("cls");
+                                goto teacherEdit4;
+                            }
+                            else if (tedit4 == "4")
+                            {
+                                system("cls");
+                                goto adminChoice3;
+                            }
+                            else
+                            {
+                                goto teacherEdit4;
+                            }
+                        }
+                        if (editChoice2 == "5")
+                        {
+                        teacherEdit5:
+                            string tedit5;
+                            cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                            cout << "1. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                            cin >> tedit5;
+                            system("cls");
+                            if (tedit5 == "1")
+                            {
+                                string newUsername;
+                                bool usernameExists;
+                                cout << "Input new Username: " << endl;
+                                cin >> teacherUsername5;
+                                system("cls");
+                                do
+                                {
+                                    usernameExists = false;
+                                    cout << "Input new Username: " << endl;
+                                    cin >> newUsername;
+                                    system("cls");
+                                    if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                                    {
+                                        cout << "Username already exists. Please choose a different username." << endl;
+                                        usernameExists = true;
+                                    }
+                                } while (usernameExists);
+                                teacherUsername5 = newUsername;
+                                system("cls");
+                                goto teacherEdit5;
+                            }
+                            else if (tedit5 == "2")
+                            {
+                                cout << "Input new Age: " << endl;
+                                cin >> Tage5;
+                                system("cls");
+                                goto teacherEdit5;
+                            }
+                            else if (tedit5 == "3")
+                            {
+                                cout << "Input new Password: " << endl;
+                                cin >> teacherPassword5;
+                                system("cls");
+                                goto teacherEdit5;
+                            }
+                            else if (tedit5 == "4")
+                            {
+                                system("cls");
+                                goto adminChoice3;
+                            }
+                            else
+                            {
+                                goto teacherEdit5;
+                            }
+                        }
+                        else
+                        {
+                            goto adminChoice3;
+                        }
+                    }else if(goBack1 == "2"){
+                        deletE2:
+                        string deleteChoice;
+                        cout << "Which user to delete (1/2/3/4/5)? || Go back...(6)" << endl;
+                        cout << "1. Username: " << teacherUsername1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                        cout << "2. Username: " << teacherUsername2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                        cout << "3. Username: " << teacherUsername3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                        cout << "4. Username: " << teacherUsername4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                        cout << "5. Username: " << teacherUsername5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                        cin >> deleteChoice;
+                        system("cls");
+                        if (deleteChoice == "1")
+                        {
+                            string sure1;
+                            cout << "Are you sure? (Y/N)" << endl;
+                            cin >> sure1;
+                            system("cls");
+                            if (sure1 == "y" || sure1 == "Y")
+                            {
+                                teacherUsername1 = "";
+                                teacherPassword1 = "";
+                                TEmail1 = "";
+                                Tage1 = 0;
+                                cout << "User deleted." << endl;
+                                goto deletE2;
+                            }
+                            else if (sure1 == "N" || sure1 == "n")
+                            {
+                                goto deletE2;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                goto deletE2;
+                            }
+                        }
+                        else if (deleteChoice == "2")
+                        {
+                            string sure2;
+                            cout << "Are you sure? (Y/N)" << endl;
+                            cin >> sure2;
+                            system("cls");
+                            if (sure2 == "y" || sure2 == "Y")
+                            {
+                                teacherUsername2 = "";
+                                teacherPassword2 = "";
+                                TEmail2 = "";
+                                Tage2 = 0;
+                                cout << "User deleted." << endl;
+                                goto deletE2;
+                            }
+                            else if (sure2 == "N" || sure2 == "n")
+                            {
+                                goto deletE2;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                goto deletE2;
+                            }
+                        }
+                        else if (deleteChoice == "3")
+                        {
+                            string sure3;
+                            cout << "Are you sure? (Y/N)" << endl;
+                            cin >> sure3;
+                            system("cls");
+                            if (sure3 == "y" || sure3 == "Y")
+                            {
+                                teacherUsername3 = "";
+                                teacherPassword3 = "";
+                                TEmail3 = "";
+                                Tage3 = 0;
+                                cout << "User deleted." << endl;
+                                goto deletE2;
+                            }
+                            else if (sure3 == "N" || sure3 == "n")
+                            {
+                                goto deletE2;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                system("cls");
+                                goto deletE2;
+                            }
+                        }
+                        else if (deleteChoice == "4")
+                        {
+                            string sure4;
+                            cout << "Are you sure? (Y/N)" << endl;
+                            cin >> sure4;
+                            system("cls");
+                            if (sure4 == "y" || sure4 == "Y")
+                            {
+                                teacherUsername4 = "";
+                                teacherPassword4 = "";
+                                TEmail4 = "";
+                                Tage4 = 0;
+                                cout << "User deleted." << endl;
+                                goto deletE2;
+                            }
+                            else if (sure4 == "N" || sure4 == "n")
+                            {
+                                goto deletE2;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                system("cls");
+                                goto deletE2;
+                            }
+                        }
+                        else if (deleteChoice == "5")
+                        {
+                            string sure5;
+                            cout << "Are you sure? (Y/N)" << endl;
+                            cin >> sure5;
+                            system("cls");
+                            if (sure5 == "y" || sure5 == "Y")
+                            {
+                                teacherUsername5 = "";
+                                teacherPassword5 = "";
+                                TEmail5 = "";
+                                Tage5 = 0;
+                                cout << "User deleted." << endl;
+                                goto deletE2;
+                            }
+                            else if (sure5 == "N" || sure5 == "n")
+                            {
+                                goto deletE2;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                system("cls");
+                                goto deletE2;
+                            }
+                        }
+                        else if (deleteChoice == "6")
+                        {
+                            goto adminChoice3;
+                        }
+                        else
+                        {
+                            cout << "Invalid Choice." << endl;
+                            system("cls");
+                            goto deletE2;
+                        }
+                    }
+                    else if (goBack1 == "3")
                     {
                         goto adminChoice3;
                     }
@@ -4071,33 +4506,33 @@ login:
         cout << "Invalid Username/Password" << endl;
         goto main_menu;
     }
-    else if(studentUsername1 == username && studentPassword1 == password || studentUsername2 == username && studentPassword2 == password || studentUsername3 == username && studentPassword3 == password || studentUsername4 == username && studentPassword4 == password || studentUsername5 == username && studentPassword5 == password || studentUsername6 == username && studentPassword6 == password || studentUsername7 == username && studentPassword7 == password || studentUsername8 == username && studentPassword8 == password || studentUsername9 == username && studentPassword9 == password ||
-            studentUsername11 == username && studentPassword11 == password || studentUsername12 == username && studentPassword12 == password || studentUsername13 == username && studentPassword13 == password || studentUsername14 == username && studentPassword14 == password || studentUsername15 == username && studentPassword15 == password || studentUsername16 == username && studentPassword16 == password || studentUsername17 == username && studentPassword17 == password || studentUsername18 == username && studentPassword18 == password || studentUsername19 == username && studentPassword19 == password ||
-            studentUsername20 == username && studentPassword20 == password || studentUsername21 == username && studentPassword21 == password || studentUsername22 == username && studentPassword22 == password || studentUsername23 == username && studentPassword23 == password || studentUsername24 == username && studentPassword24 == password || studentUsername25 == username && studentPassword25 == password || studentUsername26 == username && studentPassword26 == password || studentUsername27 == username && studentPassword27 == password || studentUsername28 == username && studentPassword28 == password || studentUsername29 == username && studentPassword29 == password || studentUsername30 == username && studentPassword30 == password ||
-            studentUsername31 == username && studentPassword31 == password || studentUsername32 == username && studentPassword32 == password || studentUsername33 == username && studentPassword33 == password || studentUsername34 == username && studentPassword34 == password || studentUsername35 == username && studentPassword35 == password || studentUsername36 == username && studentPassword36 == password || studentUsername37 == username && studentPassword37 == password || studentUsername38 == username && studentPassword38 == password || studentUsername39 == username && studentPassword39 == password ||
-            studentUsername40 == username && studentPassword40 == password || studentUsername41 == username && studentPassword41 == password || studentUsername42 == username && studentPassword42 == password || studentUsername43 == username && studentPassword43 == password || studentUsername44 == username && studentPassword44 == password || studentUsername45 == username && studentPassword45 == password || studentUsername46 == username && studentPassword47 == password || studentUsername48 == username && studentPassword48 == password || studentUsername49 == username && studentPassword49 == password ||
-            studentUsername50 == username && studentPassword50 == password || studentUsername51 == username && studentPassword51 == password || studentUsername52 == username && studentPassword52 == password || studentUsername53 == username && studentPassword53 == password || studentUsername54 == username && studentPassword54 == password || studentUsername55 == username && studentPassword55 == password || studentUsername56 == username && studentPassword56 == password || studentUsername57 == username && studentPassword57 == password || studentUsername58 == username && studentPassword58 == password || studentUsername59 == username && studentPassword59 == password || studentUsername60 == username && studentPassword60 == password ||
-            studentUsername61 == username && studentPassword61 == password || studentUsername62 == username && studentPassword62 == password || studentUsername63 == username && studentPassword63 == password || studentUsername64 == username && studentPassword64 == password || studentUsername65 == username && studentPassword65 == password || studentUsername66 == username && studentPassword66 == password || studentUsername67 == username && studentPassword67 == password || studentUsername68 == username && studentPassword68 == password || studentUsername69 == username && studentPassword69 == password ||
-            studentUsername70 == username && studentPassword70 == password || studentUsername71 == username && studentPassword71 == password || studentUsername72 == username && studentPassword72 == password || studentUsername73 == username && studentPassword73 == password || studentUsername74 == username && studentPassword74 == password || studentUsername75 == username && studentPassword75 == password || studentUsername76 == username && studentPassword76 == password || studentUsername77 == username && studentPassword77 == password || studentUsername78 == username && studentPassword78 == password || studentUsername79 == username && studentPassword79 == password || studentUsername80 == username && studentPassword80 == password ||
-            studentUsername81 == username && studentPassword81 == password || studentUsername82 == username && studentPassword82 == password || studentUsername83 == username && studentPassword83 == password || studentUsername84 == username && studentPassword84 == password || studentUsername85 == username && studentPassword85 == password || studentUsername86 == username && studentPassword86 == password || studentUsername87 == username && studentPassword87 == password || studentUsername88 == username && studentPassword88 == password || studentUsername89 == username && studentPassword89 == password ||
-            studentUsername90 == username && studentPassword90 == password || studentUsername91 == username && studentPassword91 == password || studentUsername92 == username && studentPassword92 == password || studentUsername93 == username && studentPassword93 == password || studentUsername94 == username && studentPassword94 == password || studentUsername95 == username && studentPassword95 == password || studentUsername96 == username && studentPassword96 == password || studentUsername97 == username && studentPassword98 == password || studentUsername98 == username && studentPassword98 == password ||
-            studentUsername99 == username && studentPassword99 == password || studentUsername100 == username && studentPassword100 == password || studentUsername101 == username && studentPassword101 == password || studentUsername102 == username && studentPassword102 == password || studentUsername103 == username && studentPassword103 == password || studentUsername104 == username && studentPassword104 == password || studentUsername105 == username && studentPassword105 == password || studentUsername106 == username && studentPassword106 == password || studentUsername107 == username && studentPassword107 == password || studentUsername108 == username && studentPassword108 == password || studentUsername109 == username && studentPassword109 == password ||
-            studentUsername111 == username && studentPassword112 == password || studentUsername113 == username && studentPassword113 == password || studentUsername114 == username && studentPassword114 == password || studentUsername115 == username && studentPassword115 == password || studentUsername116 == username && studentPassword116 == password || studentUsername117 == username && studentPassword117 == password || studentUsername118 == username && studentPassword118 == password || studentUsername119 == username && studentPassword119 == password || studentUsername120 == username && studentPassword120 == password ||
-            studentUsername121 == username && studentPassword121 == password || studentUsername122 == username && studentPassword122 == password || studentUsername123 == username && studentPassword123 == password || studentUsername124 == username && studentPassword124 == password || studentUsername125 == username && studentPassword125 == password || studentUsername126 == username && studentPassword126 == password || studentUsername127 == username && studentPassword127 == password || studentUsername128 == username && studentPassword128 == password || studentUsername129 == username && studentPassword129 == password || studentUsername130 == username && studentPassword130 == password || studentUsername131 == username && studentPassword131 == password ||
-            studentUsername132 == username && studentPassword132 == password || studentUsername133 == username && studentPassword133 == password || studentUsername134 == username && studentPassword134 == password || studentUsername135 == username && studentPassword135 == password || studentUsername136 == username && studentPassword136 == password || studentUsername137 == username && studentPassword137 == password || studentUsername138 == username && studentPassword138 == password || studentUsername139 == username && studentPassword139 == password || studentUsername140 == username && studentPassword140 == password ||
-            studentUsername141 == username && studentPassword141 == password || studentUsername142 == username && studentPassword142 == password || studentUsername143 == username && studentPassword143 == password || studentUsername144 == username && studentPassword144 == password || studentUsername145 == username && studentPassword145 == password || studentUsername146 == username && studentPassword146 == password || studentUsername147 == username && studentPassword147 == password || studentUsername148 == username && studentPassword148 == password || studentUsername149 == username && studentPassword149 == password ||
-            studentUsername150 == username && studentPassword150 == password || studentUsername151 == username && studentPassword151 == password || studentUsername152 == username && studentPassword152 == password || studentUsername153 == username && studentPassword153 == password || studentUsername154 == username && studentPassword154 == password || studentUsername155 == username && studentPassword155 == password || studentUsername156 == username && studentPassword156 == password || studentUsername157 == username && studentPassword157 == password || studentUsername158 == username && studentPassword158 == password || studentUsername159 == username && studentPassword159 == password || studentUsername160 == username && studentPassword160 == password ||
-            studentUsername161 == username && studentPassword161 == password || studentUsername162 == username && studentPassword162 == password || studentUsername163 == username && studentPassword163 == password || studentUsername164 == username && studentPassword164 == password || studentUsername165 == username && studentPassword165 == password || studentUsername166 == username && studentPassword166 == password || studentUsername166 == username && studentPassword166 == password || studentUsername167 == username && studentPassword167 == password || studentUsername168 == username && studentPassword168 == password ||
-            studentUsername169 == username && studentPassword169 == password || studentUsername169 == username && studentPassword170 == password || studentUsername170 == username && studentPassword170 == password || studentUsername171 == username && studentPassword171 == password || studentUsername172 == username && studentPassword172 == password || studentUsername173 == username && studentPassword173 == password || studentUsername174 == username && studentPassword174 == password || studentUsername175 == username && studentPassword175 == password || studentUsername176 == username && studentPassword176 == password || studentUsername177 == username && studentPassword177 == password || studentUsername178 == username && studentPassword178 == password ||
-            studentUsername179 == username && studentPassword179 == password || studentUsername180 == username && studentPassword180 == password || studentUsername181 == username && studentPassword181 == password || studentUsername182 == username && studentPassword182 == password || studentUsername183 == username && studentPassword183 == password || studentUsername184 == username && studentPassword184 == password || studentUsername185 == username && studentPassword185 == password || studentUsername186 == username && studentPassword186 == password || studentUsername187 == username && studentPassword187 == password ||
-            studentUsername188 == username && studentPassword188 == password || studentUsername189 == username && studentPassword189 == password || studentUsername190 == username && studentPassword190 == password || studentUsername191 == username && studentPassword191 == password || studentUsername192 == username && studentPassword192 == password || studentUsername193 == username && studentPassword193 == password || studentUsername194 == username && studentPassword194 == password || studentUsername195 == username && studentPassword195 == password || studentUsername196 == username && studentPassword196 == password ||
-            studentUsername197 == username && studentPassword197 == password || studentUsername198 == username && studentPassword198 == password || studentUsername199 == username && studentPassword199 == password || studentUsername200 == username && studentPassword200 == password || studentUsername201 == username && studentPassword201 == password || studentUsername202 == username && studentPassword202 == password || studentUsername203 == username && studentPassword203 == password || studentUsername204 == username && studentPassword204 == password || studentUsername205 == username && studentPassword205 == password || studentUsername206 == username && studentPassword206 == password || studentUsername207 == username && studentPassword207 == password ||
-            studentUsername208 == username && studentPassword208 == password || studentUsername209 == username && studentPassword209 == password || studentUsername210 == username && studentPassword210 == password || studentUsername211 == username && studentPassword211 == password || studentUsername212 == username && studentPassword212 == password || studentUsername213 == username && studentPassword213 == password || studentUsername214 == username && studentPassword214 == password || studentUsername215 == username && studentPassword215 == password || studentUsername216 == username && studentPassword216 == password ||
-            studentUsername217 == username && studentPassword217 == password || studentUsername218 == username && studentPassword218 == password || studentUsername219 == username && studentPassword219 == password || studentUsername220 == username && studentPassword220 == password || studentUsername221 == username && studentPassword221 == password || studentUsername222 == username && studentPassword222 == password || studentUsername223 == username && studentPassword223 == password || studentUsername224 == username && studentPassword224 == password || studentUsername225 == username && studentPassword225 == password || studentUsername226 == username && studentPassword226 == password || studentUsername227 == username && studentPassword227 == password ||
-            studentUsername228 == username && studentPassword228 == password || studentUsername229 == username && studentPassword229 == password || studentUsername230 == username && studentPassword230 == password || studentUsername231 == username && studentPassword231 == password || studentUsername132 == username && studentPassword232 == password || studentUsername233 == username && studentPassword233 == password || studentUsername234 == username && studentPassword234 == password || studentUsername235 == username && studentPassword235 == password || studentUsername236 == username && studentPassword236 == password ||
-            studentUsername237 == username && studentPassword237 == password || studentUsername238 == username && studentPassword238 == password || studentUsername239 == username && studentPassword239 == password || studentUsername240 == username && studentPassword240 == password || studentUsername241 == username && studentPassword241 == password || studentUsername242 == username && studentPassword242 == password || studentUsername243 == username && studentPassword243 == password || studentUsername244 == username && studentPassword244 == password || studentUsername245 == username && studentPassword245 == password ||
-            studentUsername246 == username && studentPassword246 == password || studentUsername247 == username && studentPassword247 == password || studentUsername248 == username && studentPassword248 == password || studentUsername249 == username && studentPassword249 == password || studentUsername250 == username && studentPassword250 == password)
-            {
+    else if (studentUsername1 == username && studentPassword1 == password || studentUsername2 == username && studentPassword2 == password || studentUsername3 == username && studentPassword3 == password || studentUsername4 == username && studentPassword4 == password || studentUsername5 == username && studentPassword5 == password || studentUsername6 == username && studentPassword6 == password || studentUsername7 == username && studentPassword7 == password || studentUsername8 == username && studentPassword8 == password || studentUsername9 == username && studentPassword9 == password ||
+             studentUsername11 == username && studentPassword11 == password || studentUsername12 == username && studentPassword12 == password || studentUsername13 == username && studentPassword13 == password || studentUsername14 == username && studentPassword14 == password || studentUsername15 == username && studentPassword15 == password || studentUsername16 == username && studentPassword16 == password || studentUsername17 == username && studentPassword17 == password || studentUsername18 == username && studentPassword18 == password || studentUsername19 == username && studentPassword19 == password ||
+             studentUsername20 == username && studentPassword20 == password || studentUsername21 == username && studentPassword21 == password || studentUsername22 == username && studentPassword22 == password || studentUsername23 == username && studentPassword23 == password || studentUsername24 == username && studentPassword24 == password || studentUsername25 == username && studentPassword25 == password || studentUsername26 == username && studentPassword26 == password || studentUsername27 == username && studentPassword27 == password || studentUsername28 == username && studentPassword28 == password || studentUsername29 == username && studentPassword29 == password || studentUsername30 == username && studentPassword30 == password ||
+             studentUsername31 == username && studentPassword31 == password || studentUsername32 == username && studentPassword32 == password || studentUsername33 == username && studentPassword33 == password || studentUsername34 == username && studentPassword34 == password || studentUsername35 == username && studentPassword35 == password || studentUsername36 == username && studentPassword36 == password || studentUsername37 == username && studentPassword37 == password || studentUsername38 == username && studentPassword38 == password || studentUsername39 == username && studentPassword39 == password ||
+             studentUsername40 == username && studentPassword40 == password || studentUsername41 == username && studentPassword41 == password || studentUsername42 == username && studentPassword42 == password || studentUsername43 == username && studentPassword43 == password || studentUsername44 == username && studentPassword44 == password || studentUsername45 == username && studentPassword45 == password || studentUsername46 == username && studentPassword47 == password || studentUsername48 == username && studentPassword48 == password || studentUsername49 == username && studentPassword49 == password ||
+             studentUsername50 == username && studentPassword50 == password || studentUsername51 == username && studentPassword51 == password || studentUsername52 == username && studentPassword52 == password || studentUsername53 == username && studentPassword53 == password || studentUsername54 == username && studentPassword54 == password || studentUsername55 == username && studentPassword55 == password || studentUsername56 == username && studentPassword56 == password || studentUsername57 == username && studentPassword57 == password || studentUsername58 == username && studentPassword58 == password || studentUsername59 == username && studentPassword59 == password || studentUsername60 == username && studentPassword60 == password ||
+             studentUsername61 == username && studentPassword61 == password || studentUsername62 == username && studentPassword62 == password || studentUsername63 == username && studentPassword63 == password || studentUsername64 == username && studentPassword64 == password || studentUsername65 == username && studentPassword65 == password || studentUsername66 == username && studentPassword66 == password || studentUsername67 == username && studentPassword67 == password || studentUsername68 == username && studentPassword68 == password || studentUsername69 == username && studentPassword69 == password ||
+             studentUsername70 == username && studentPassword70 == password || studentUsername71 == username && studentPassword71 == password || studentUsername72 == username && studentPassword72 == password || studentUsername73 == username && studentPassword73 == password || studentUsername74 == username && studentPassword74 == password || studentUsername75 == username && studentPassword75 == password || studentUsername76 == username && studentPassword76 == password || studentUsername77 == username && studentPassword77 == password || studentUsername78 == username && studentPassword78 == password || studentUsername79 == username && studentPassword79 == password || studentUsername80 == username && studentPassword80 == password ||
+             studentUsername81 == username && studentPassword81 == password || studentUsername82 == username && studentPassword82 == password || studentUsername83 == username && studentPassword83 == password || studentUsername84 == username && studentPassword84 == password || studentUsername85 == username && studentPassword85 == password || studentUsername86 == username && studentPassword86 == password || studentUsername87 == username && studentPassword87 == password || studentUsername88 == username && studentPassword88 == password || studentUsername89 == username && studentPassword89 == password ||
+             studentUsername90 == username && studentPassword90 == password || studentUsername91 == username && studentPassword91 == password || studentUsername92 == username && studentPassword92 == password || studentUsername93 == username && studentPassword93 == password || studentUsername94 == username && studentPassword94 == password || studentUsername95 == username && studentPassword95 == password || studentUsername96 == username && studentPassword96 == password || studentUsername97 == username && studentPassword98 == password || studentUsername98 == username && studentPassword98 == password ||
+             studentUsername99 == username && studentPassword99 == password || studentUsername100 == username && studentPassword100 == password || studentUsername101 == username && studentPassword101 == password || studentUsername102 == username && studentPassword102 == password || studentUsername103 == username && studentPassword103 == password || studentUsername104 == username && studentPassword104 == password || studentUsername105 == username && studentPassword105 == password || studentUsername106 == username && studentPassword106 == password || studentUsername107 == username && studentPassword107 == password || studentUsername108 == username && studentPassword108 == password || studentUsername109 == username && studentPassword109 == password ||
+             studentUsername111 == username && studentPassword112 == password || studentUsername113 == username && studentPassword113 == password || studentUsername114 == username && studentPassword114 == password || studentUsername115 == username && studentPassword115 == password || studentUsername116 == username && studentPassword116 == password || studentUsername117 == username && studentPassword117 == password || studentUsername118 == username && studentPassword118 == password || studentUsername119 == username && studentPassword119 == password || studentUsername120 == username && studentPassword120 == password ||
+             studentUsername121 == username && studentPassword121 == password || studentUsername122 == username && studentPassword122 == password || studentUsername123 == username && studentPassword123 == password || studentUsername124 == username && studentPassword124 == password || studentUsername125 == username && studentPassword125 == password || studentUsername126 == username && studentPassword126 == password || studentUsername127 == username && studentPassword127 == password || studentUsername128 == username && studentPassword128 == password || studentUsername129 == username && studentPassword129 == password || studentUsername130 == username && studentPassword130 == password || studentUsername131 == username && studentPassword131 == password ||
+             studentUsername132 == username && studentPassword132 == password || studentUsername133 == username && studentPassword133 == password || studentUsername134 == username && studentPassword134 == password || studentUsername135 == username && studentPassword135 == password || studentUsername136 == username && studentPassword136 == password || studentUsername137 == username && studentPassword137 == password || studentUsername138 == username && studentPassword138 == password || studentUsername139 == username && studentPassword139 == password || studentUsername140 == username && studentPassword140 == password ||
+             studentUsername141 == username && studentPassword141 == password || studentUsername142 == username && studentPassword142 == password || studentUsername143 == username && studentPassword143 == password || studentUsername144 == username && studentPassword144 == password || studentUsername145 == username && studentPassword145 == password || studentUsername146 == username && studentPassword146 == password || studentUsername147 == username && studentPassword147 == password || studentUsername148 == username && studentPassword148 == password || studentUsername149 == username && studentPassword149 == password ||
+             studentUsername150 == username && studentPassword150 == password || studentUsername151 == username && studentPassword151 == password || studentUsername152 == username && studentPassword152 == password || studentUsername153 == username && studentPassword153 == password || studentUsername154 == username && studentPassword154 == password || studentUsername155 == username && studentPassword155 == password || studentUsername156 == username && studentPassword156 == password || studentUsername157 == username && studentPassword157 == password || studentUsername158 == username && studentPassword158 == password || studentUsername159 == username && studentPassword159 == password || studentUsername160 == username && studentPassword160 == password ||
+             studentUsername161 == username && studentPassword161 == password || studentUsername162 == username && studentPassword162 == password || studentUsername163 == username && studentPassword163 == password || studentUsername164 == username && studentPassword164 == password || studentUsername165 == username && studentPassword165 == password || studentUsername166 == username && studentPassword166 == password || studentUsername166 == username && studentPassword166 == password || studentUsername167 == username && studentPassword167 == password || studentUsername168 == username && studentPassword168 == password ||
+             studentUsername169 == username && studentPassword169 == password || studentUsername169 == username && studentPassword170 == password || studentUsername170 == username && studentPassword170 == password || studentUsername171 == username && studentPassword171 == password || studentUsername172 == username && studentPassword172 == password || studentUsername173 == username && studentPassword173 == password || studentUsername174 == username && studentPassword174 == password || studentUsername175 == username && studentPassword175 == password || studentUsername176 == username && studentPassword176 == password || studentUsername177 == username && studentPassword177 == password || studentUsername178 == username && studentPassword178 == password ||
+             studentUsername179 == username && studentPassword179 == password || studentUsername180 == username && studentPassword180 == password || studentUsername181 == username && studentPassword181 == password || studentUsername182 == username && studentPassword182 == password || studentUsername183 == username && studentPassword183 == password || studentUsername184 == username && studentPassword184 == password || studentUsername185 == username && studentPassword185 == password || studentUsername186 == username && studentPassword186 == password || studentUsername187 == username && studentPassword187 == password ||
+             studentUsername188 == username && studentPassword188 == password || studentUsername189 == username && studentPassword189 == password || studentUsername190 == username && studentPassword190 == password || studentUsername191 == username && studentPassword191 == password || studentUsername192 == username && studentPassword192 == password || studentUsername193 == username && studentPassword193 == password || studentUsername194 == username && studentPassword194 == password || studentUsername195 == username && studentPassword195 == password || studentUsername196 == username && studentPassword196 == password ||
+             studentUsername197 == username && studentPassword197 == password || studentUsername198 == username && studentPassword198 == password || studentUsername199 == username && studentPassword199 == password || studentUsername200 == username && studentPassword200 == password || studentUsername201 == username && studentPassword201 == password || studentUsername202 == username && studentPassword202 == password || studentUsername203 == username && studentPassword203 == password || studentUsername204 == username && studentPassword204 == password || studentUsername205 == username && studentPassword205 == password || studentUsername206 == username && studentPassword206 == password || studentUsername207 == username && studentPassword207 == password ||
+             studentUsername208 == username && studentPassword208 == password || studentUsername209 == username && studentPassword209 == password || studentUsername210 == username && studentPassword210 == password || studentUsername211 == username && studentPassword211 == password || studentUsername212 == username && studentPassword212 == password || studentUsername213 == username && studentPassword213 == password || studentUsername214 == username && studentPassword214 == password || studentUsername215 == username && studentPassword215 == password || studentUsername216 == username && studentPassword216 == password ||
+             studentUsername217 == username && studentPassword217 == password || studentUsername218 == username && studentPassword218 == password || studentUsername219 == username && studentPassword219 == password || studentUsername220 == username && studentPassword220 == password || studentUsername221 == username && studentPassword221 == password || studentUsername222 == username && studentPassword222 == password || studentUsername223 == username && studentPassword223 == password || studentUsername224 == username && studentPassword224 == password || studentUsername225 == username && studentPassword225 == password || studentUsername226 == username && studentPassword226 == password || studentUsername227 == username && studentPassword227 == password ||
+             studentUsername228 == username && studentPassword228 == password || studentUsername229 == username && studentPassword229 == password || studentUsername230 == username && studentPassword230 == password || studentUsername231 == username && studentPassword231 == password || studentUsername132 == username && studentPassword232 == password || studentUsername233 == username && studentPassword233 == password || studentUsername234 == username && studentPassword234 == password || studentUsername235 == username && studentPassword235 == password || studentUsername236 == username && studentPassword236 == password ||
+             studentUsername237 == username && studentPassword237 == password || studentUsername238 == username && studentPassword238 == password || studentUsername239 == username && studentPassword239 == password || studentUsername240 == username && studentPassword240 == password || studentUsername241 == username && studentPassword241 == password || studentUsername242 == username && studentPassword242 == password || studentUsername243 == username && studentPassword243 == password || studentUsername244 == username && studentPassword244 == password || studentUsername245 == username && studentPassword245 == password ||
+             studentUsername246 == username && studentPassword246 == password || studentUsername247 == username && studentPassword247 == password || studentUsername248 == username && studentPassword248 == password || studentUsername249 == username && studentPassword249 == password || studentUsername250 == username && studentPassword250 == password)
+    {
     studentMenu:
         int age;
         string medical;
