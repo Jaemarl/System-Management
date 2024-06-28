@@ -538,15 +538,294 @@ login:
                 system("cls");
                 if (choice == "1")
                 {
+                    cout << "(1)Edit. || (2)Delete. || (3)Go back..." << endl;
                     cout << "1. Username: " << staffUsername1 << "\n   Age: " << age1 << "\n   Email: " << Email1 << endl;
                     cout << "2. Username: " << staffUsername2 << "\n   Age: " << age2 << "\n   Email: " << Email2 << endl;
                     cout << "3. Username: " << staffUsername3 << "\n   Age: " << age3 << "\n   Email: " << Email3 << endl;
-                    cout << "Y. Go back..." << endl;
                     cin >> goBack1;
                     system("cls");
-                    if (goBack1 == "y" || "Y")
+                    if (goBack1 == "3")
                     {
                         goto adminChoice3;
+                    }
+                    else if (goBack1 == "1")
+                    {
+                    staffView:
+                        string editChoice;
+                        cout << "Which user to edit (1/2/3)? || Go back...(4)" << endl;
+                        cout << "1. Username: " << staffUsername1 << "\n   Age: " << age1 << "\n   Email: " << Email1 << endl;
+                        cout << "2. Username: " << staffUsername2 << "\n   Age: " << age2 << "\n   Email: " << Email2 << endl;
+                        cout << "3. Username: " << staffUsername3 << "\n   Age: " << age3 << "\n   Email: " << Email3 << endl;
+                        cin >> editChoice;
+                        system("cls");
+                        if (editChoice == "1")
+                        {
+                        edit1:
+                            string q;
+                            cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || Go back...(4)" << endl;
+                            cout << "1. Username: " << staffUsername1 << "\n   Age: " << age1 << "\n   Email: " << Email1 << endl;
+                            cin >> q;
+                            system("cls");
+                            if (q == "1")
+                            {
+                                string newUsername;
+                                bool usernameExists;
+
+                                cout << "Input new Username: " << endl;
+                                cin >> staffUsername1;
+                                do
+                                {
+                                    usernameExists = false;
+                                    cout << "Input new Username: " << endl;
+                                    cin >> newUsername;
+                                    if (newUsername == staffUsername1 || newUsername == staffUsername2 || newUsername == staffUsername3)
+                                    {
+                                        cout << "Username already exists. Please choose a different username." << endl;
+                                        usernameExists = true;
+                                    }
+                                } while (usernameExists);
+                                staffUsername1 = newUsername;
+                                system("cls");
+                                goto edit1;
+                            }
+                            else if (q == "2")
+                            {
+                                cout << "Input new Age: " << endl;
+                                cin >> age1;
+                                system("cls");
+                                goto edit1;
+                            }
+                            else if (q == "3")
+                            {
+                                cout << "Input new Password: " << endl;
+                                cin >> staffPassword1;
+                                system("cls");
+                                goto edit1;
+                            }
+                            else if (q == "4")
+                            {
+                                goto adminChoice3;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                system("cls");
+                                goto edit1;
+                            }
+                        }
+                        else if (editChoice == "2")
+                        {
+                        edit2:
+                            string w;
+                            cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || Go back...(4)" << endl;
+                            cout << "1. Username: " << staffUsername2 << "\n   Age: " << age2 << "\n   Email: " << Email2 << endl;
+                            cin >> w;
+                            system("cls");
+                            if (w == "1")
+                            {
+                                string newUsername;
+                                bool usernameExists;
+                                cout << "Input new Username: " << endl;
+                                cin >> staffUsername2;
+                                do
+                                {
+                                    usernameExists = false;
+                                    cout << "Input new Username: " << endl;
+                                    cin >> newUsername;
+                                    if (newUsername == staffUsername1 || newUsername == staffUsername2 || newUsername == staffUsername3)
+                                    {
+                                        cout << "Username already exists. Please choose a different username." << endl;
+                                        usernameExists = true;
+                                    }
+                                } while (usernameExists);
+                                staffUsername2 = newUsername;
+                                system("cls");
+                                goto edit2;
+                            }
+                            else if (w == "2")
+                            {
+                                cout << "Input new Age: " << endl;
+                                cin >> age2;
+                                system("cls");
+                                goto edit2;
+                            }
+                            else if (w == "3")
+                            {
+                                cout << "Input new Password: " << endl;
+                                cin >> staffPassword2;
+                                system("cls");
+                                goto edit2;
+                            }
+                            else if (w == "4" || w == "4")
+                            {
+                                goto adminChoice3;
+                            }
+                            else
+                            {
+                                goto edit2;
+                            }
+                        }
+                        else if (editChoice == "3")
+                        {
+                        edit3:
+                            string e;
+                            cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || Go back...(4)" << endl;
+                            cout << "1. Username: " << staffUsername3 << "\n   Age: " << age3 << "\n   Email: " << Email3 << endl;
+                            cin >> e;
+                            system("cls");
+                            if (e == "1")
+                            {
+                                string newUsername;
+                                bool usernameExists;
+                                cout << "Input new Username: " << endl;
+                                cin >> staffUsername3;
+                                do
+                                {
+                                    usernameExists = false;
+                                    cout << "Input new Username: " << endl;
+                                    cin >> newUsername;
+                                    if (newUsername == staffUsername1 || newUsername == staffUsername2 || newUsername == staffUsername3)
+                                    {
+                                        cout << "Username already exists. Please choose a different username." << endl;
+                                        usernameExists = true;
+                                    }
+                                } while (usernameExists);
+                                staffUsername3 = newUsername;
+                                system("cls");
+                                goto edit3;
+                            }
+                            else if (e == "2")
+                            {
+                                cout << "Input new Age: " << endl;
+                                cin >> age3;
+                                system("cls");
+                                goto edit3;
+                            }
+                            else if (e == "3")
+                            {
+                                cout << "Input new Password: " << endl;
+                                cin >> staffPassword3;
+                                system("cls");
+                                goto edit3;
+                            }
+                            else if (e == "4")
+                            {
+                                goto adminChoice3;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                system("cls");
+                                goto edit3;
+                            }
+                        }
+                        else if (editChoice == "4")
+                        {
+                            goto adminChoice3;
+                        }
+                        else
+                        {
+                            cout << "Invalid Choice." << endl;
+                            system("cls");
+                            goto staffView;
+                        }
+                    }
+                    else if (goBack1 == "2")
+                    {
+                    deletE:
+                        string deleteChoice;
+                        cout << "Which user to delete (1/2/3)? || Go back...(4)" << endl;
+                        cout << "1. Username: " << staffUsername1 << "\n   Age: " << age1 << "\n   Email: " << Email1 << endl;
+                        cout << "2. Username: " << staffUsername2 << "\n   Age: " << age2 << "\n   Email: " << Email2 << endl;
+                        cout << "3. Username: " << staffUsername3 << "\n   Age: " << age3 << "\n   Email: " << Email3 << endl;
+                        cin >> deleteChoice;
+                        system("cls");
+                        if (deleteChoice == "1")
+                        {
+                            string sure1;
+                            cout << "Are you sure? (Y/N)" << endl;
+                            cin >> sure1;
+                            system("cls");
+                            if (sure1 == "y" || sure1 == "Y")
+                            {
+                                staffUsername1 = "";
+                                staffPassword1 = "";
+                                Email1 = "";
+                                age1 = 0;
+                                cout << "User deleted." << endl;
+                                goto deletE;
+                            }
+                            else if (sure1 == "N" || sure1 == "n")
+                            {
+                                goto deletE;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                goto deletE;
+                            }
+                        }
+                        else if (deleteChoice == "2")
+                        {
+                            string sure2;
+                            cout << "Are you sure? (Y/N)" << endl;
+                            cin >> sure2;
+                            system("cls");
+                            if (sure2 == "y" || sure2 == "Y")
+                            {
+                                staffUsername2 = "";
+                                staffPassword2 = "";
+                                Email2 = "";
+                                age2 = 0;
+                                cout << "User deleted." << endl;
+                                goto deletE;
+                            }
+                            else if (sure2 == "N" || sure2 == "n")
+                            {
+                                goto deletE;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                goto deletE;
+                            }
+                        }
+                        else if (deleteChoice == "3")
+                        {
+                            string sure3;
+                            cout << "Are you sure? (Y/N)" << endl;
+                            cin >> sure3;
+                            system("cls");
+                            if (sure3 == "y" || sure3 == "Y")
+                            {
+                                staffUsername3 = "";
+                                staffPassword3 = "";
+                                Email3 = "";
+                                age3 = 0;
+                                cout << "User deleted." << endl;
+                                goto deletE;
+                            }
+                            else if (sure3 == "N" || sure3 == "n")
+                            {
+                                goto deletE;
+                            }
+                            else
+                            {
+                                cout << "Invalid Choice" << endl;
+                                system("cls");
+                                goto deletE;
+                            }
+                        }
+                        else if (deleteChoice == "4" || deleteChoice == "4")
+                        {
+                            goto adminChoice3;
+                        }
+                        else
+                        {
+                            cout << "Invalid Choice." << endl;
+                            system("cls");
+                            goto deletE;
+                        }
                     }
                 }
                 else if (choice == "2")
@@ -561,7 +840,7 @@ login:
                     cout << "Y. Go back..." << endl;
                     cin >> goBack1;
                     system("cls");
-                    if (goBack1 == "y" || "Y")
+                    if (goBack1 == "y" || goBack1 == "Y")
                     {
                         goto adminChoice3;
                     }
@@ -633,6 +912,7 @@ login:
     // Staff Login 1
     if (username == staffUsername1 && password == staffPassword1)
     {
+
     staffMenu1:
         string staffChoice1;
         cout << "Staff logged in successfully.\n";
