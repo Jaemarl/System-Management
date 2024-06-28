@@ -3796,7 +3796,7 @@ studentMenu:
         {
             cout << "Please submit the requirements." << endl;
         }
-        if (grade10 != 85 || grade11 != "85" || grade12 != "85")
+        if (grade10 != "85" || grade11 != "85" || grade12 != "85")
         {
             cout << "Sorry! You do not meet the average grade requirements!" << endl;
         }
@@ -3812,8 +3812,5 @@ studentMenu:
             cout << "Invalid username or password. Please try again.\n";
             goto login;
         }
-
+return 0 ;
     }
-
- return 0 ;
-}
