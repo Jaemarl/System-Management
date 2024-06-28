@@ -3789,7 +3789,7 @@ studentMenu:
         cin >> grade11;
         cout << "Please input your average for grade 12" << endl;
         cin >> grade12;
-       if(medical == "yes" || "Yes" && grade11 >=85 && grade12 >= 85){
+       if(medical == "yes" || "Yes"){
         cout << "Congrats you meet the requirements" << endl ;
 
        }
