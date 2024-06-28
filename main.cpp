@@ -3776,27 +3776,44 @@ studentMenu:
         string medical;
         string grade11;
         string grade12;
+        string grade10;
         cout << "Welcome Student" << endl;
         cout << "Please Enter your age" << endl;
-        while (!(cin >> age) || age < 1 || age > 100) {
-           cin.clear(); // Napanood ko to sa YT sabi ni-rereset nito yung error para makapg-input ule yung user
-           cin.ignore(1000, '\n'); // Purpose naman nito is to ignore such characters that ain't integers
-           cout << "Invalid input. Please enter a valid age (1-100): ";
-             }
-        cout << "Do you have Medical?(yes or no only)";
+        cin >> age;
+        cout << "Do you have Medical?";
         cin >> medical;
+        cout << "Please input your average for grade 10" << endl;
+        cin >> grade10;
         cout << "Please input your average for grade 11" << endl;
         cin >> grade11;
         cout << "Please input your average for grade 12" << endl;
         cin >> grade12;
-       if(medical == "yes" || "Yes"){
-        cout << "Congrats you meet the requirements" << endl ;
-
-       }
-
+        if (age > 0 && age <= 100)
+        {
+            cout << "Your age is: " << age << endl;
+        }
+        if (medical != "Y" || "y")
+        {
+            cout << "Please submit the requirements." << endl;
+        }
+        if (grade10 != 85 || grade11 != "85" || grade12 != "85")
+        {
+            cout << "Sorry! You do not meet the average grade requirements!" << endl;
+        }
+        else
+        {
+            cout << "Congratulations! You meet the average grade requirements!" << endl;
+        }
+            cout << "welcome students";
+            goto studentMenu;
+        }
+        else
+        {
             cout << "Invalid username or password. Please try again.\n";
             goto login;
         }
+
+    }
 
  return 0 ;
 }
