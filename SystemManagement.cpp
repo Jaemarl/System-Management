@@ -318,6 +318,7 @@ login:
     cin >> username;
     cout << "Password: ";
     cin >> password;
+    system("cls");
     if (username == adminUsername && password == adminPassword)
     {
 
@@ -526,6 +527,8 @@ login:
                     cout << "This username and password combination already exists or maximum teacher limit reached.\n";
                 }
             }
+
+            /*Edit delete options in both teacher and staff UI*/
             else if (adminChoice == "3")
             {
             adminChoice3:
@@ -2328,8 +2331,7 @@ login:
     if (teacherUsername1 == username && teacherPassword1 == password)
     {
     teacher_menu1:
-        cout << "(Choices 1 and 2 only)" << endl;
-        cout << "\nTeacher Menu1:\n";
+        cout << "\nBSIT:\n";
         cout << "1. Create Student Account\n";
         cout << "2. View staff and teacher details" << endl;
         cout << "3. View student details" << endl;
@@ -2934,8 +2936,7 @@ login:
     {
         // handles BSENT
     teacher_menu2:
-        cout << "(Choices 1 and 2 only)" << endl;
-        cout << "\nTeacher2 Menu:\n";
+        cout << "\nBSENT\n";
         cout << "1. Create Student Account\n";
         cout << "2. Logout\n";
         cout << "Enter your choice: ";
@@ -3298,7 +3299,7 @@ login:
     else if (teacherUsername3 == username && teacherPassword3 == password)
     {
     teacher_menu3:
-        cout << "\nTeacher3 Menu:\n";
+        cout << "\nDICT\n";
         cout << "1. Create Student Account\n";
         cout << "2. Logout\n";
         cout << "Enter your choice: ";
@@ -3653,9 +3654,8 @@ login:
         else if (teacherUsername4 == username && teacherPassword4 == password)
         {
         teacher_menu4:
-            cout << "(Choices 1 and 2 only)" << endl;
             // handles bsa
-            cout << "\nTeacher4 Menu:\n";
+            cout << "\nBSA\n";
             cout << "1. Create Student Account\n";
             cout << "2. Logout\n";
             cout << "Enter your choice: ";
@@ -3947,9 +3947,8 @@ login:
         else if (teacherUsername5 == username && teacherPassword5 == password)
         {
         teacher_menu5:
-            cout << "(Choices 1 and 2 only)" << endl;
             // handles bsba
-            cout << "\nTeacher5 Menu:\n";
+            cout << "\nBSBA\n";
             cout << "1. Create Student Account\n";
             cout << "2. Logout\n";
             cout << "Enter your choice: ";
