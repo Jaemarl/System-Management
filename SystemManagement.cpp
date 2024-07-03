@@ -345,13 +345,14 @@ login:
                     cout << "Cancel...(3)\nEmail: ";
 
                     cin >> Email;
-                    
+
                     size_t atPosition = Email.find('@');
                     if (atPosition != -1 && atPosition != 0 && atPosition != Email.length() - 1)
                     {
                         break;
                     }
-                    else if(Email == "3"){
+                    else if (Email == "3")
+                    {
                         goto adminmenu;
                     }
                     else
@@ -397,7 +398,6 @@ login:
                     staffCount++;
                     system("cls");
                     cout << "Staff account created successfully.\n";
-                    
                 }
                 else
                 {
@@ -419,13 +419,14 @@ login:
                 {
                     cout << "Cancel...(3)\nEmail: ";
                     cin >> TEmail;
-                    
+
                     size_t atPosition = TEmail.find('@');
                     if (atPosition != -1 && atPosition != 0 && atPosition != TEmail.length() - 1)
                     {
                         break;
                     }
-                    else if(TEmail == "3"){
+                    else if (TEmail == "3")
+                    {
                         goto adminmenu;
                     }
                     else
@@ -531,7 +532,6 @@ login:
                     teacherCount++;
                     system("cls");
                     cout << "Teacher account created successfully.\n";
-                    
                 }
                 else
                 {
@@ -584,8 +584,6 @@ login:
                             {
                                 string newUsername;
                                 bool usernameExists;
-                                cout << "Input new Username: " << endl;
-                                cin >> staffUsername1;
                                 do
                                 {
                                     usernameExists = false;
@@ -638,8 +636,6 @@ login:
                             {
                                 string newUsername;
                                 bool usernameExists;
-                                cout << "Input new Username: " << endl;
-                                cin >> staffUsername2;
                                 do
                                 {
                                     usernameExists = false;
@@ -690,8 +686,6 @@ login:
                             {
                                 string newUsername;
                                 bool usernameExists;
-                                cout << "Input new Username: " << endl;
-                                cin >> staffUsername3;
                                 do
                                 {
                                     usernameExists = false;
@@ -745,7 +739,7 @@ login:
                     }
                     else if (goBack1 == "2")
                     {
-                        deletE:
+                    deletE:
                         string deleteChoice;
                         cout << "Which user to delete (1/2/3)? || Go back...(4)" << endl;
                         cout << "1. Username: " << staffUsername1 << "\n   Age: " << age1 << "\n   Email: " << Email1 << endl;
@@ -853,7 +847,7 @@ login:
                     system("cls");
                     if (goBack1 == "1")
                     {
-                        teacherView:
+                    teacherView:
                         string editChoice2;
                         cout << "Which user to edit? (1/2/3/4/5)" << endl;
                         cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
@@ -875,9 +869,6 @@ login:
                             {
                                 string newUsername;
                                 bool usernameExists;
-                                cout << "Input new Username: " << endl;
-                                cin >> teacherUsername1;
-                                system("cls");
                                 do
                                 {
                                     usernameExists = false;
@@ -902,8 +893,6 @@ login:
                             }
                             else if (tedit1 == "3")
                             {
-                                cout << "Input new Password: " << endl;
-                                cin >> teacherPassword1;
                                 system("cls");
                                 goto teacherEdit1;
                             }
@@ -919,7 +908,7 @@ login:
                         }
                         else if (editChoice2 == "2")
                         {
-                            teacherEdit2:
+                        teacherEdit2:
                             string tedit2;
                             cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
                             cout << "1. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
@@ -929,8 +918,6 @@ login:
                             {
                                 string newUsername;
                                 bool usernameExists;
-                                cout << "Input new Username: " << endl;
-                                cin >> teacherUsername2;
                                 system("cls");
                                 do
                                 {
@@ -982,8 +969,6 @@ login:
                             {
                                 string newUsername;
                                 bool usernameExists;
-                                cout << "Input new Username: " << endl;
-                                cin >> teacherUsername1;
                                 system("cls");
                                 do
                                 {
@@ -1043,8 +1028,6 @@ login:
                                 do
                                 {
                                     usernameExists = false;
-                                    cout << "Input new Username: " << endl;
-                                    cin >> newUsername;
                                     system("cls");
                                     if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
                                     {
@@ -1092,8 +1075,6 @@ login:
                             {
                                 string newUsername;
                                 bool usernameExists;
-                                cout << "Input new Username: " << endl;
-                                cin >> teacherUsername5;
                                 system("cls");
                                 do
                                 {
@@ -1139,8 +1120,10 @@ login:
                         {
                             goto adminChoice3;
                         }
-                    }else if(goBack1 == "2"){
-                        deletE2:
+                    }
+                    else if (goBack1 == "2")
+                    {
+                    deletE2:
                         string deleteChoice;
                         cout << "Which user to delete (1/2/3/4/5)? || Go back...(6)" << endl;
                         cout << "1. Username: " << teacherUsername1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
@@ -1375,20 +1358,429 @@ login:
         {
         viewdetail1:
             string staffChoiceInside;
-            cout << "Teachers and their courses:" << endl;
-            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
-            cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
-            cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
-            cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
-            cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
-            cout << "Enter 1 to redirect to menu" << endl;
-            cout << "Enter input:";
+            cout << "(1)Edit || (2) Delete || (3) Go back..." << endl;
+            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+            cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+            cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+            cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+            cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
             cin >> staffChoiceInside;
+            system("cls");
             if (staffChoiceInside == "1")
             {
-                cout << "Go back..." << endl;
-                goto staffMenu1;
+            teacherview:
+                string editChoice2;
+                cout << "Which user to edit? (1/2/3/4/5)" << endl;
+                cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                cin >> editChoice2;
+                system("cls");
+                if (editChoice2 == "1")
+                {
+                teacheredit1:
+                    string tedit1;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                    cin >> tedit1;
+                    system("cls");
+                    if (tedit1 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername1 = newUsername;
+                        system("cls");
+                        goto teacheredit1;
+                    }
+                    else if (tedit1 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage1;
+                        system("cls");
+                        goto teacheredit1;
+                    }
+                    else if (tedit1 == "3")
+                    {
+                        system("cls");
+                        goto teacherview;
+                    }
+                    else if (tedit1 == "4")
+                    {
+                        system("cls");
+                        goto viewdetail1;
+                    }
+                    else
+                    {
+                        goto teacheredit1;
+                    }
+                }
+                else if (editChoice2 == "2")
+                {
+                teacheredit2:
+                    string tedit2;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                    cin >> tedit2;
+                    system("cls");
+                    if (tedit2 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername2 = newUsername;
+                        system("cls");
+                        goto teacheredit2;
+                    }
+                    else if (tedit2 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage2;
+                        system("cls");
+                        goto teacheredit2;
+                    }
+                    else if (tedit2 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword1;
+                        system("cls");
+                        goto teacheredit2;
+                    }
+                    else if (tedit2 == "4")
+                    {
+                        goto teacherview;
+                    }
+                    else
+                    {
+                        goto teacheredit2;
+                    }
+                }
+                else if (editChoice2 == "3")
+                {
+                teacheredit3:
+                    string tedit3;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                    cin >> tedit3;
+                    system("cls");
+                    if (tedit3 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername3 = newUsername;
+                        system("cls");
+                        goto teacheredit3;
+                    }
+                    else if (tedit3 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage3;
+                        system("cls");
+                        goto teacheredit3;
+                    }
+                    else if (tedit3 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword3;
+                        system("cls");
+                        goto teacheredit3;
+                    }
+                    else if (tedit3 == "4")
+                    {
+                        system("cls");
+                        goto teacherview;
+                    }
+                    else
+                    {
+                        goto teacheredit3;
+                    }
+                }
+                else if (editChoice2 == "4")
+                {
+                teacheredit4:
+                    string tedit4;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                    cin >> tedit4;
+                    system("cls");
+                    if (tedit4 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        cout << "Input new Username: " << endl;
+                        cin >> teacherUsername4;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername4 = newUsername;
+                        system("cls");
+                        goto teacheredit4;
+                    }
+                    else if (tedit4 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage4;
+                        system("cls");
+                        goto teacheredit4;
+                    }
+                    else if (tedit4 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword4;
+                        system("cls");
+                        goto teacheredit4;
+                    }
+                    else if (tedit4 == "4")
+                    {
+                        system("cls");
+                        goto teacherview;
+                    }
+                    else
+                    {
+                        goto teacheredit4;
+                    }
+                }
+                else if (editChoice2 == "5")
+                {
+                teacheredit5:
+                    string tedit5;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                    cin >> tedit5;
+                    system("cls");
+                    if (tedit5 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername5 = newUsername;
+                        system("cls");
+                        goto teacheredit5;
+                    }
+                    else if (tedit5 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage5;
+                        system("cls");
+                        goto teacheredit5;
+                    }
+                    else if (tedit5 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword5;
+                        system("cls");
+                        goto teacheredit5;
+                    }
+                    else if (tedit5 == "4")
+                    {
+                        system("cls");
+                        goto teacherview;
+                    }
+                    else
+                    {
+                        goto teacheredit5;
+                    }
+                }
+                else
+                {
+                    goto teacherview;
+                }
             }
+            else if (staffChoiceInside == "2")
+            {
+            deleTE2:
+                string choice;
+                cout << "Which user to delete (1/2/3/4/5)? || Go back...(6)" << endl;
+                cout << "1. Username: " << teacherUsername1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                cout << "2. Username: " << teacherUsername2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                cout << "3. Username: " << teacherUsername3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                cout << "4. Username: " << teacherUsername4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                cout << "5. Username: " << teacherUsername5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                cin >> choice;
+                system("cls");
+                if (choice == "1")
+                {
+                    string sure;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure;
+                    system("cls");
+                    if (sure == "Y" || sure == "y")
+                    {
+                        teacherUsername1 = "";
+                        teacherPassword1 = "";
+                        TEmail1 = "";
+                        Tage1 = 0;
+                        cout << "User deleted." << endl;
+                        goto deleTE2;
+                    }
+                    else if (sure == "N" || sure == "n")
+                    {
+                        goto deleTE2;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        goto deleTE2;
+                    }
+                }
+                else if (choice == "2")
+                {
+                    string surE;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> surE;
+                    system("cls");
+                    if (surE == "Y" || surE == "y")
+                    {
+                        teacherUsername2 = "";
+                        teacherPassword2 = "";
+                        TEmail2 = "";
+                        Tage2 = 0;
+                        cout << "User deleted." << endl;
+                        goto deleTE2;
+                    }
+                }
+                else if (choice == "3")
+                {
+                    string sure3;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure3;
+                    system("cls");
+                    if (sure3 == "y" || sure3 == "Y")
+                    {
+                        teacherUsername3 = "";
+                        teacherPassword3 = "";
+                        TEmail3 = "";
+                        Tage3 = 0;
+                        cout << "User deleted." << endl;
+                        goto deleTE2;
+                    }
+                    else if (sure3 == "N" || sure3 == "n")
+                    {
+                        goto deleTE2;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto deleTE2;
+                    }
+                }
+                else if (choice == "4")
+                {
+                    string sure4;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure4;
+                    system("cls");
+                    if (sure4 == "y" || sure4 == "Y")
+                    {
+                        teacherUsername4 = "";
+                        teacherPassword4 = "";
+                        TEmail4 = "";
+                        Tage4 = 0;
+                        cout << "User deleted." << endl;
+                        goto deleTE2;
+                    }
+                    else if (sure4 == "N" || sure4 == "n")
+                    {
+                        goto deleTE2;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto deleTE2;
+                    }
+                }
+                else if (choice == "5")
+                {
+                    string sure5;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure5;
+                    system("cls");
+                    if (sure5 == "y" || sure5 == "Y")
+                    {
+                        teacherUsername5 = "";
+                        teacherPassword5 = "";
+                        TEmail5 = "";
+                        Tage5 = 0;
+                        cout << "User deleted." << endl;
+                        goto deleTE2;
+                    }
+                    else if (sure5 == "N" || sure5 == "n")
+                    {
+                        goto deleTE2;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto deleTE2;
+                    }
+                }
+                else if (choice == "6")
+                {
+                    goto teacherview;
+                }
+            }
+
             else
             {
                 system("cls");
@@ -1693,38 +2085,449 @@ login:
     else if (username == staffUsername2 && password == staffPassword2)
     {
     staffMenu2:
-        string staffChoice2;
+        string staffChoice;
         cout << "Staff logged in successfully.\n";
         cout << "1. View Employee details(Teachers)." << endl;
         cout << "2. View Student details." << endl;
         cout << "3. Logout" << endl;
 
-        if (staffChoice2 == "1")
+        if (staffChoice == "1")
         {
-            string staffChoiceInside2;
         viewdetail2:
-            cout << "Teachers and their courses:" << endl;
-            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
-            cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
-            cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
-            cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
-            cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
-            cout << "Enter 1 to redirect to menu" << endl;
-            cout << "Enter input:";
-            cin >> staffChoiceInside2;
-            if (staffChoiceInside2 == "1")
+            string staffChoiceInside;
+            cout << "(1)Edit || (2) Delete || (3) Go back..." << endl;
+            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+            cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+            cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+            cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+            cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+            cin >> staffChoiceInside;
+            system("cls");
+            if (staffChoiceInside == "1")
             {
-                cout << "Go back..." << endl;
-                goto staffMenu2;
+            teacherview2:
+                string editChoice2;
+                cout << "Which user to edit? (1/2/3/4/5)" << endl;
+                cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                cin >> editChoice2;
+                system("cls");
+                if (editChoice2 == "1")
+                {
+                TeacherEdit:
+                    string tedit1;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                    cin >> tedit1;
+                    system("cls");
+                    if (tedit1 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+
+                        system("cls");
+                        do
+                        {
+
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            ;
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername1 = newUsername;
+                        system("cls");
+                        goto TeacherEdit;
+                    }
+                    else if (tedit1 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage1;
+                        system("cls");
+                        goto TeacherEdit;
+                    }
+                    else if (tedit1 == "3")
+                    {
+                        system("cls");
+                        goto teacherview2;
+                    }
+                    else if (tedit1 == "4")
+                    {
+                        system("cls");
+                        goto viewdetail2;
+                    }
+                    else
+                    {
+                        goto TeacherEdit;
+                    }
+                }
+                else if (editChoice2 == "2")
+                {
+                TeacherEdit2:
+                    string tedit2;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                    cin >> tedit2;
+                    system("cls");
+                    if (tedit2 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername2 = newUsername;
+                        system("cls");
+                        goto TeacherEdit2;
+                    }
+                    else if (tedit2 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage2;
+                        system("cls");
+                        goto TeacherEdit2;
+                    }
+                    else if (tedit2 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword1;
+                        system("cls");
+                        goto TeacherEdit2;
+                    }
+                    else if (tedit2 == "4")
+                    {
+                        goto teacherview2;
+                    }
+                    else
+                    {
+                        goto TeacherEdit2;
+                    }
+                }
+                else if (editChoice2 == "3")
+                {
+                TeacherEdit3:
+                    string tedit3;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                    cin >> tedit3;
+                    system("cls");
+                    if (tedit3 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername3 = newUsername;
+                        system("cls");
+                        goto TeacherEdit3;
+                    }
+                    else if (tedit3 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage3;
+                        system("cls");
+                        goto TeacherEdit3;
+                    }
+                    else if (tedit3 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword3;
+                        system("cls");
+                        goto TeacherEdit3;
+                    }
+                    else if (tedit3 == "4")
+                    {
+                        system("cls");
+                        goto teacherview2;
+                    }
+                    else
+                    {
+                        goto TeacherEdit3;
+                    }
+                }
+                else if (editChoice2 == "4")
+                {
+                TeacherEdit4:
+                    string tedit4;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                    cin >> tedit4;
+                    system("cls");
+                    if (tedit4 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        cout << "Input new Username: " << endl;
+                        cin >> teacherUsername4;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername4 = newUsername;
+                        system("cls");
+                        goto TeacherEdit4;
+                    }
+                    else if (tedit4 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage4;
+                        system("cls");
+                        goto TeacherEdit4;
+                    }
+                    else if (tedit4 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword4;
+                        system("cls");
+                        goto TeacherEdit4;
+                    }
+                    else if (tedit4 == "4")
+                    {
+                        system("cls");
+                        goto teacherview2;
+                    }
+                    else
+                    {
+                        goto TeacherEdit4;
+                    }
+                }
+                else if (editChoice2 == "5")
+                {
+                TeacherEdit5:
+                    string tedit5;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                    cin >> tedit5;
+                    system("cls");
+                    if (tedit5 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername5 = newUsername;
+                        system("cls");
+                        goto TeacherEdit5;
+                    }
+                    else if (tedit5 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage5;
+                        system("cls");
+                        goto TeacherEdit5;
+                    }
+                    else if (tedit5 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword5;
+                        system("cls");
+                        goto TeacherEdit5;
+                    }
+                    else if (tedit5 == "4")
+                    {
+                        system("cls");
+                        goto teacherview2;
+                    }
+                    else
+                    {
+                        goto TeacherEdit5;
+                    }
+                }
+                else
+                {
+                    goto teacherview2;
+                }
             }
+            else if (staffChoiceInside == "2")
+            {
+            Delete:
+                string choice;
+                cout << "Which user to delete (1/2/3/4/5)? || Go back...(6)" << endl;
+                cout << "1. Username: " << teacherUsername1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                cout << "2. Username: " << teacherUsername2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                cout << "3. Username: " << teacherUsername3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                cout << "4. Username: " << teacherUsername4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                cout << "5. Username: " << teacherUsername5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                cin >> choice;
+                system("cls");
+                if (choice == "1")
+                {
+                    string sure;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure;
+                    system("cls");
+                    if (sure == "Y" || sure == "y")
+                    {
+                        teacherUsername1 = "";
+                        teacherPassword1 = "";
+                        TEmail1 = "";
+                        Tage1 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete;
+                    }
+                    else if (sure == "N" || sure == "n")
+                    {
+                        goto Delete;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        goto Delete;
+                    }
+                }
+                else if (choice == "2")
+                {
+                    string surE;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> surE;
+                    system("cls");
+                    if (surE == "Y" || surE == "y")
+                    {
+                        teacherUsername2 = "";
+                        teacherPassword2 = "";
+                        TEmail2 = "";
+                        Tage2 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete;
+                    }
+                }
+                else if (choice == "3")
+                {
+                    string sure3;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure3;
+                    system("cls");
+                    if (sure3 == "y" || sure3 == "Y")
+                    {
+                        teacherUsername3 = "";
+                        teacherPassword3 = "";
+                        TEmail3 = "";
+                        Tage3 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete;
+                    }
+                    else if (sure3 == "N" || sure3 == "n")
+                    {
+                        goto Delete;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto Delete;
+                    }
+                }
+                else if (choice == "4")
+                {
+                    string sure4;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure4;
+                    system("cls");
+                    if (sure4 == "y" || sure4 == "Y")
+                    {
+                        teacherUsername4 = "";
+                        teacherPassword4 = "";
+                        TEmail4 = "";
+                        Tage4 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete;
+                    }
+                    else if (sure4 == "N" || sure4 == "n")
+                    {
+                        goto Delete;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto Delete;
+                    }
+                }
+                else if (choice == "5")
+                {
+                    string sure5;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure5;
+                    system("cls");
+                    if (sure5 == "y" || sure5 == "Y")
+                    {
+                        teacherUsername5 = "";
+                        teacherPassword5 = "";
+                        TEmail5 = "";
+                        Tage5 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete;
+                    }
+                    else if (sure5 == "N" || sure5 == "n")
+                    {
+                        goto Delete;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto Delete;
+                    }
+                }
+                else if (choice == "6")
+                {
+                    goto teacherview2;
+                }
+            }
+
             else
             {
                 system("cls");
-                cout << "Invalid input" << endl;
+                cout << "Invalid input";
                 goto viewdetail2;
             }
         }
-        else if (staffChoice2 == "2")
+        else if (staffChoice == "2")
         {
         course2:
             string selectCourse1;
@@ -2002,7 +2805,7 @@ login:
                 goto course2;
             }
         }
-        else if (staffChoice2 == "3")
+        else if (staffChoice == "3")
         {
             goto Login;
         }
@@ -2017,38 +2820,448 @@ login:
     else if (username == staffUsername3 && password == staffPassword3)
     {
     staffMenu3:
-        string staffChoice3;
+        string staffChoice;
         cout << "Staff logged in successfully.\n";
         cout << "1. View Employee details(Teachers)." << endl;
         cout << "2. View Student details." << endl;
         cout << "3. Logout" << endl;
-
-        if (staffChoice3 == "1")
+        if (staffChoice == "1")
         {
-            string staffChoiceInside3;
         viewdetail3:
-            cout << "Teachers and their courses:" << endl;
-            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << endl;
-            cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << endl;
-            cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << endl;
-            cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << endl;
-            cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << endl;
-            cout << "Enter 1 to redirect to menu" << endl;
-            cout << "Enter input:";
-            cin >> staffChoiceInside3;
-            if (staffChoiceInside3 == "1")
+            string staffChoiceInside;
+            cout << "(1)Edit || (2) Delete || (3) Go back..." << endl;
+            cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+            cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+            cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+            cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+            cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+            cin >> staffChoiceInside;
+            system("cls");
+            if (staffChoiceInside == "1")
             {
-                cout << "Go back..." << endl;
-                goto staffMenu3;
+            teacherview3:
+                string editChoice2;
+                cout << "Which user to edit? (1/2/3/4/5)" << endl;
+                cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                cout << "2. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                cout << "3. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                cout << "4. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                cout << "5. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                cin >> editChoice2;
+                system("cls");
+                if (editChoice2 == "1")
+                {
+                TEacherEdit1:
+                    string tedit1;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername1 << ", Course: " << teacherCourse1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                    cin >> tedit1;
+                    system("cls");
+                    if (tedit1 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            ;
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername1 = newUsername;
+                        system("cls");
+                        goto TEacherEdit1;
+                    }
+                    else if (tedit1 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage1;
+                        system("cls");
+                        goto TEacherEdit1;
+                    }
+                    else if (tedit1 == "3")
+                    {
+                        system("cls");
+                        goto teacherview3;
+                    }
+                    else if (tedit1 == "4")
+                    {
+                        system("cls");
+                        goto viewdetail3;
+                    }
+                    else
+                    {
+                        goto TEacherEdit1;
+                    }
+                }
+                else if (editChoice2 == "2")
+                {
+                TEacherEdit2:
+                    string tedit2;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername2 << ", Course: " << teacherCourse2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                    cin >> tedit2;
+                    system("cls");
+                    if (tedit2 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername2 = newUsername;
+                        system("cls");
+                        goto TEacherEdit2;
+                    }
+                    else if (tedit2 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage2;
+                        system("cls");
+                        goto TEacherEdit2;
+                    }
+                    else if (tedit2 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword1;
+                        system("cls");
+                        goto TEacherEdit2;
+                    }
+                    else if (tedit2 == "4")
+                    {
+                        goto teacherview3;
+                    }
+                    else
+                    {
+                        goto TEacherEdit2;
+                    }
+                }
+                else if (editChoice2 == "3")
+                {
+                TEacherEdit3:
+                    string tedit3;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername3 << ", Course: " << teacherCourse3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                    cin >> tedit3;
+                    system("cls");
+                    if (tedit3 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername3 = newUsername;
+                        system("cls");
+                        goto TEacherEdit3;
+                    }
+                    else if (tedit3 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage3;
+                        system("cls");
+                        goto TEacherEdit3;
+                    }
+                    else if (tedit3 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword3;
+                        system("cls");
+                        goto TEacherEdit3;
+                    }
+                    else if (tedit3 == "4")
+                    {
+                        system("cls");
+                        goto teacherview3;
+                    }
+                    else
+                    {
+                        goto TEacherEdit3;
+                    }
+                }
+                else if (editChoice2 == "4")
+                {
+                TEacherEdit4:
+                    string tedit4;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername4 << ", Course: " << teacherCourse4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                    cin >> tedit4;
+                    system("cls");
+                    if (tedit4 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> teacherUsername4;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername4 = newUsername;
+                        system("cls");
+                        goto TEacherEdit4;
+                    }
+                    else if (tedit4 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage4;
+                        system("cls");
+                        goto TEacherEdit4;
+                    }
+                    else if (tedit4 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword4;
+                        system("cls");
+                        goto TEacherEdit4;
+                    }
+                    else if (tedit4 == "4")
+                    {
+                        system("cls");
+                        goto teacherview3;
+                    }
+                    else
+                    {
+                        goto TEacherEdit4;
+                    }
+                }
+                else if (editChoice2 == "5")
+                {
+                TEacherEdit5:
+                    string tedit5;
+                    cout << "(1) Edit Username || (2) Edit Age || (3) Edit Password/Create new password. || (4)Go back..." << endl;
+                    cout << "1. Username: " << teacherUsername5 << ", Course: " << teacherCourse5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                    cin >> tedit5;
+                    system("cls");
+                    if (tedit5 == "1")
+                    {
+                        string newUsername;
+                        bool usernameExists;
+                        system("cls");
+                        do
+                        {
+                            usernameExists = false;
+                            cout << "Input new Username: " << endl;
+                            cin >> newUsername;
+                            system("cls");
+                            if (newUsername == teacherUsername1 || newUsername == teacherUsername2 || newUsername == teacherUsername3 || newUsername == teacherUsername4 || newUsername == teacherUsername5)
+                            {
+                                cout << "Username already exists. Please choose a different username." << endl;
+                                usernameExists = true;
+                            }
+                        } while (usernameExists);
+                        teacherUsername5 = newUsername;
+                        system("cls");
+                        goto TEacherEdit5;
+                    }
+                    else if (tedit5 == "2")
+                    {
+                        cout << "Input new Age: " << endl;
+                        cin >> Tage5;
+                        system("cls");
+                        goto TEacherEdit5;
+                    }
+                    else if (tedit5 == "3")
+                    {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword5;
+                        system("cls");
+                        goto TEacherEdit5;
+                    }
+                    else if (tedit5 == "4")
+                    {
+                        system("cls");
+                        goto teacherview3;
+                    }
+                    else
+                    {
+                        goto TEacherEdit5;
+                    }
+                }
+                else
+                {
+                    goto teacherview3;
+                }
             }
+            else if (staffChoiceInside == "2")
+            {
+            Delete3:
+                string choice;
+                cout << "Which user to delete (1/2/3/4/5)? || Go back...(6)" << endl;
+                cout << "1. Username: " << teacherUsername1 << "\n   Age: " << Tage1 << "\n   Email: " << TEmail1 << endl;
+                cout << "2. Username: " << teacherUsername2 << "\n   Age: " << Tage2 << "\n   Email: " << TEmail2 << endl;
+                cout << "3. Username: " << teacherUsername3 << "\n   Age: " << Tage3 << "\n   Email: " << TEmail3 << endl;
+                cout << "4. Username: " << teacherUsername4 << "\n   Age: " << Tage4 << "\n   Email: " << TEmail4 << endl;
+                cout << "5. Username: " << teacherUsername5 << "\n   Age: " << Tage5 << "\n   Email: " << TEmail5 << endl;
+                cin >> choice;
+                system("cls");
+                if (choice == "1")
+                {
+                    string sure;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure;
+                    system("cls");
+                    if (sure == "Y" || sure == "y")
+                    {
+                        teacherUsername1 = "";
+                        teacherPassword1 = "";
+                        TEmail1 = "";
+                        Tage1 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete3;
+                    }
+                    else if (sure == "N" || sure == "n")
+                    {
+                        goto Delete3;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        goto Delete3;
+                    }
+                }
+                else if (choice == "2")
+                {
+                    string surE;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> surE;
+                    system("cls");
+                    if (surE == "Y" || surE == "y")
+                    {
+                        teacherUsername2 = "";
+                        teacherPassword2 = "";
+                        TEmail2 = "";
+                        Tage2 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete3;
+                    }
+                }
+                else if (choice == "3")
+                {
+                    string sure3;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure3;
+                    system("cls");
+                    if (sure3 == "y" || sure3 == "Y")
+                    {
+                        teacherUsername3 = "";
+                        teacherPassword3 = "";
+                        TEmail3 = "";
+                        Tage3 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete3;
+                    }
+                    else if (sure3 == "N" || sure3 == "n")
+                    {
+                        goto Delete3;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto Delete3;
+                    }
+                }
+                else if (choice == "4")
+                {
+                    string sure4;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure4;
+                    system("cls");
+                    if (sure4 == "y" || sure4 == "Y")
+                    {
+                        teacherUsername4 = "";
+                        teacherPassword4 = "";
+                        TEmail4 = "";
+                        Tage4 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete3;
+                    }
+                    else if (sure4 == "N" || sure4 == "n")
+                    {
+                        goto Delete3;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto Delete3;
+                    }
+                }
+                else if (choice == "5")
+                {
+                    string sure5;
+                    cout << "Are you sure? (Y/N)" << endl;
+                    cin >> sure5;
+                    system("cls");
+                    if (sure5 == "y" || sure5 == "Y")
+                    {
+                        teacherUsername5 = "";
+                        teacherPassword5 = "";
+                        TEmail5 = "";
+                        Tage5 = 0;
+                        cout << "User deleted." << endl;
+                        goto Delete3;
+                    }
+                    else if (sure5 == "N" || sure5 == "n")
+                    {
+                        goto Delete3;
+                    }
+                    else
+                    {
+                        cout << "Invalid Choice" << endl;
+                        system("cls");
+                        goto Delete3;
+                    }
+                }
+                else if (choice == "6")
+                {
+                    goto teacherview3;
+                }
+            }
+
             else
             {
                 system("cls");
-                cout << "Invalid input" << endl;
+                cout << "Invalid input";
                 goto viewdetail3;
             }
         }
-        else if (staffChoice3 == "2")
+        else if (staffChoice == "2")
         {
         course3:
             string selectCourse3;
@@ -2326,7 +3539,7 @@ login:
                 goto course3;
             }
         }
-        else if (staffChoice3 == "3")
+        else if (staffChoice == "3")
         {
             goto Login;
         }
@@ -3662,733 +4875,733 @@ login:
         }
 
         // BSA
-  else if (teacherUsername4 == username && teacherPassword4 == password)
-    {
-        
-    teacher_menu4:
-        cout << "\nBSA\n";
-        cout << "1. Create Student Account\n";
-        cout << "2. Logout\n";
-        cout << "Enter your choice: ";
-        int teacherChoice = 0;
-        cin >> teacherChoice;
-
-        if (teacherChoice == 1 && studentCount < 50)
+        else if (teacherUsername4 == username && teacherPassword4 == password)
         {
-            string newUsername, newPassword;
-            cout << "Enter student username: ";
-            cin >> newUsername;
-            cout << "Enter student password: ";
-            cin >> newPassword;
 
-            bool usernamePasswordExists = false;
+        teacher_menu4:
+            cout << "\nBSA\n";
+            cout << "1. Create Student Account\n";
+            cout << "2. Logout\n";
+            cout << "Enter your choice: ";
+            int teacherChoice = 0;
+            cin >> teacherChoice;
 
-            // Check if the new username and password combination already exists
-            if ((newUsername == studentUsername1 && newPassword == studentPassword1) ||
-                (newUsername == studentUsername2 && newPassword == studentPassword2) ||
-                (newUsername == studentUsername3 && newPassword == studentPassword3) ||
-                (newUsername == studentUsername4 && newPassword == studentPassword4) ||
-                (newUsername == studentUsername5 && newPassword == studentPassword5) ||
-                (newUsername == studentUsername6 && newPassword == studentPassword6) ||
-                (newUsername == studentUsername7 && newPassword == studentPassword7) ||
-                (newUsername == studentUsername8 && newPassword == studentPassword8) ||
-                (newUsername == studentUsername9 && newPassword == studentPassword9) ||
-                (newUsername == studentUsername10 && newPassword == studentPassword10) ||
-                (newUsername == studentUsername11 && newPassword == studentPassword11) ||
-                (newUsername == studentUsername12 && newPassword == studentPassword12) ||
-                (newUsername == studentUsername13 && newPassword == studentPassword13) ||
-                (newUsername == studentUsername14 && newPassword == studentPassword14) ||
-                (newUsername == studentUsername15 && newPassword == studentPassword15) ||
-                (newUsername == studentUsername16 && newPassword == studentPassword16) ||
-                (newUsername == studentUsername17 && newPassword == studentPassword17) ||
-                (newUsername == studentUsername18 && newPassword == studentPassword18) ||
-                (newUsername == studentUsername19 && newPassword == studentPassword19) ||
-                (newUsername == studentUsername20 && newPassword == studentPassword20) ||
-                (newUsername == studentUsername21 && newPassword == studentPassword21) ||
-                (newUsername == studentUsername22 && newPassword == studentPassword22) ||
-                (newUsername == studentUsername23 && newPassword == studentPassword23) ||
-                (newUsername == studentUsername24 && newPassword == studentPassword24) ||
-                (newUsername == studentUsername25 && newPassword == studentPassword25) ||
-                (newUsername == studentUsername26 && newPassword == studentPassword26) ||
-                (newUsername == studentUsername27 && newPassword == studentPassword27) ||
-                (newUsername == studentUsername28 && newPassword == studentPassword28) ||
-                (newUsername == studentUsername29 && newPassword == studentPassword29) ||
-                (newUsername == studentUsername30 && newPassword == studentPassword30) ||
-                (newUsername == studentUsername31 && newPassword == studentPassword31) ||
-                (newUsername == studentUsername32 && newPassword == studentPassword32) ||
-                (newUsername == studentUsername33 && newPassword == studentPassword33) ||
-                (newUsername == studentUsername34 && newPassword == studentPassword34) ||
-                (newUsername == studentUsername35 && newPassword == studentPassword35) ||
-                (newUsername == studentUsername36 && newPassword == studentPassword36) ||
-                (newUsername == studentUsername37 && newPassword == studentPassword37) ||
-                (newUsername == studentUsername38 && newPassword == studentPassword38) ||
-                (newUsername == studentUsername39 && newPassword == studentPassword39) ||
-                (newUsername == studentUsername40 && newPassword == studentPassword40) ||
-                (newUsername == studentUsername41 && newPassword == studentPassword41) ||
-                (newUsername == studentUsername42 && newPassword == studentPassword42) ||
-                (newUsername == studentUsername43 && newPassword == studentPassword43) ||
-                (newUsername == studentUsername44 && newPassword == studentPassword44) ||
-                (newUsername == studentUsername45 && newPassword == studentPassword45) ||
-                (newUsername == studentUsername46 && newPassword == studentPassword46) ||
-                (newUsername == studentUsername47 && newPassword == studentPassword47) ||
-                (newUsername == studentUsername48 && newPassword == studentPassword48) ||
-                (newUsername == studentUsername49 && newPassword == studentPassword49) ||
-                (newUsername == studentUsername50 && newPassword == studentPassword50))
+            if (teacherChoice == 1 && studentCount < 50)
             {
-                usernamePasswordExists = true;
-            }
+                string newUsername, newPassword;
+                cout << "Enter student username: ";
+                cin >> newUsername;
+                cout << "Enter student password: ";
+                cin >> newPassword;
 
-            if (!usernamePasswordExists)
-            {
-                if (studentCount < 200)
+                bool usernamePasswordExists = false;
+
+                // Check if the new username and password combination already exists
+                if ((newUsername == studentUsername1 && newPassword == studentPassword1) ||
+                    (newUsername == studentUsername2 && newPassword == studentPassword2) ||
+                    (newUsername == studentUsername3 && newPassword == studentPassword3) ||
+                    (newUsername == studentUsername4 && newPassword == studentPassword4) ||
+                    (newUsername == studentUsername5 && newPassword == studentPassword5) ||
+                    (newUsername == studentUsername6 && newPassword == studentPassword6) ||
+                    (newUsername == studentUsername7 && newPassword == studentPassword7) ||
+                    (newUsername == studentUsername8 && newPassword == studentPassword8) ||
+                    (newUsername == studentUsername9 && newPassword == studentPassword9) ||
+                    (newUsername == studentUsername10 && newPassword == studentPassword10) ||
+                    (newUsername == studentUsername11 && newPassword == studentPassword11) ||
+                    (newUsername == studentUsername12 && newPassword == studentPassword12) ||
+                    (newUsername == studentUsername13 && newPassword == studentPassword13) ||
+                    (newUsername == studentUsername14 && newPassword == studentPassword14) ||
+                    (newUsername == studentUsername15 && newPassword == studentPassword15) ||
+                    (newUsername == studentUsername16 && newPassword == studentPassword16) ||
+                    (newUsername == studentUsername17 && newPassword == studentPassword17) ||
+                    (newUsername == studentUsername18 && newPassword == studentPassword18) ||
+                    (newUsername == studentUsername19 && newPassword == studentPassword19) ||
+                    (newUsername == studentUsername20 && newPassword == studentPassword20) ||
+                    (newUsername == studentUsername21 && newPassword == studentPassword21) ||
+                    (newUsername == studentUsername22 && newPassword == studentPassword22) ||
+                    (newUsername == studentUsername23 && newPassword == studentPassword23) ||
+                    (newUsername == studentUsername24 && newPassword == studentPassword24) ||
+                    (newUsername == studentUsername25 && newPassword == studentPassword25) ||
+                    (newUsername == studentUsername26 && newPassword == studentPassword26) ||
+                    (newUsername == studentUsername27 && newPassword == studentPassword27) ||
+                    (newUsername == studentUsername28 && newPassword == studentPassword28) ||
+                    (newUsername == studentUsername29 && newPassword == studentPassword29) ||
+                    (newUsername == studentUsername30 && newPassword == studentPassword30) ||
+                    (newUsername == studentUsername31 && newPassword == studentPassword31) ||
+                    (newUsername == studentUsername32 && newPassword == studentPassword32) ||
+                    (newUsername == studentUsername33 && newPassword == studentPassword33) ||
+                    (newUsername == studentUsername34 && newPassword == studentPassword34) ||
+                    (newUsername == studentUsername35 && newPassword == studentPassword35) ||
+                    (newUsername == studentUsername36 && newPassword == studentPassword36) ||
+                    (newUsername == studentUsername37 && newPassword == studentPassword37) ||
+                    (newUsername == studentUsername38 && newPassword == studentPassword38) ||
+                    (newUsername == studentUsername39 && newPassword == studentPassword39) ||
+                    (newUsername == studentUsername40 && newPassword == studentPassword40) ||
+                    (newUsername == studentUsername41 && newPassword == studentPassword41) ||
+                    (newUsername == studentUsername42 && newPassword == studentPassword42) ||
+                    (newUsername == studentUsername43 && newPassword == studentPassword43) ||
+                    (newUsername == studentUsername44 && newPassword == studentPassword44) ||
+                    (newUsername == studentUsername45 && newPassword == studentPassword45) ||
+                    (newUsername == studentUsername46 && newPassword == studentPassword46) ||
+                    (newUsername == studentUsername47 && newPassword == studentPassword47) ||
+                    (newUsername == studentUsername48 && newPassword == studentPassword48) ||
+                    (newUsername == studentUsername49 && newPassword == studentPassword49) ||
+                    (newUsername == studentUsername50 && newPassword == studentPassword50))
                 {
-                    studentCount++;
-                    // Assign the new username and password to the next available variables
-                    if (studentCount == 1)
+                    usernamePasswordExists = true;
+                }
+
+                if (!usernamePasswordExists)
+                {
+                    if (studentCount < 200)
                     {
-                        studentUsername151 = newUsername;
-                        studentPassword151 = newPassword;
+                        studentCount++;
+                        // Assign the new username and password to the next available variables
+                        if (studentCount == 1)
+                        {
+                            studentUsername151 = newUsername;
+                            studentPassword151 = newPassword;
+                        }
+                        else if (studentCount == 2)
+                        {
+                            studentUsername2 = newUsername;
+                            studentPassword2 = newPassword;
+                        }
+                        else if (studentCount == 3)
+                        {
+                            studentUsername3 = newUsername;
+                            studentPassword3 = newPassword;
+                        }
+                        else if (studentCount == 4)
+                        {
+                            studentUsername4 = newUsername;
+                            studentPassword4 = newPassword;
+                        }
+                        else if (studentCount == 5)
+                        {
+                            studentUsername5 == newUsername;
+                            studentPassword5 == newPassword;
+                        }
+                        else if (studentCount == 6)
+                        {
+                            studentUsername6 = newUsername;
+                            studentPassword6 = newPassword;
+                        }
+                        else if (studentCount == 7)
+                        {
+                            studentUsername7 = newUsername;
+                            studentPassword7 = newPassword;
+                        }
+                        else if (studentCount == 8)
+                        {
+                            studentUsername8 = newUsername;
+                            studentPassword8 = newPassword;
+                        }
+                        else if (studentCount == 9)
+                        {
+                            studentUsername9 == newUsername;
+                            studentPassword9 == newPassword;
+                        }
+                        else if (studentCount == 10)
+                        {
+                            studentUsername10 = newUsername;
+                            studentPassword10 = newPassword;
+                        }
+                        else if (studentCount == 11)
+                        {
+                            studentUsername11 = newUsername;
+                            studentPassword11 = newPassword;
+                        }
+                        else if (studentCount == 12)
+                        {
+                            studentUsername12 = newUsername;
+                            studentPassword12 = newPassword;
+                        }
+                        else if (studentCount == 13)
+                        {
+                            studentUsername13 == newUsername;
+                            studentPassword13 == newPassword;
+                        }
+                        else if (studentCount == 14)
+                        {
+                            studentUsername14 = newUsername;
+                            studentPassword14 = newPassword;
+                        }
+                        else if (studentCount == 15)
+                        {
+                            studentUsername15 = newUsername;
+                            studentPassword15 = newPassword;
+                        }
+                        else if (studentCount == 16)
+                        {
+                            studentUsername16 = newUsername;
+                            studentPassword16 = newPassword;
+                        }
+                        else if (studentCount == 17)
+                        {
+                            studentUsername17 == newUsername;
+                            studentPassword17 == newPassword;
+                        }
+                        else if (studentCount == 18)
+                        {
+                            studentUsername18 = newUsername;
+                            studentPassword18 = newPassword;
+                        }
+                        else if (studentCount == 19)
+                        {
+                            studentUsername19 = newUsername;
+                            studentPassword19 = newPassword;
+                        }
+                        else if (studentCount == 20)
+                        {
+                            studentUsername20 = newUsername;
+                            studentPassword20 = newPassword;
+                        }
+                        else if (studentCount == 21)
+                        {
+                            studentUsername21 == newUsername;
+                            studentPassword21 == newPassword;
+                        }
+                        else if (studentCount == 22)
+                        {
+                            studentUsername22 = newUsername;
+                            studentPassword22 = newPassword;
+                        }
+                        else if (studentCount == 23)
+                        {
+                            studentUsername23 = newUsername;
+                            studentPassword23 = newPassword;
+                        }
+                        else if (studentCount == 24)
+                        {
+                            studentUsername24 = newUsername;
+                            studentPassword24 = newPassword;
+                        }
+                        else if (studentCount == 25)
+                        {
+                            studentUsername25 == newUsername;
+                            studentPassword25 == newPassword;
+                        }
+                        else if (studentCount == 26)
+                        {
+                            studentUsername26 = newUsername;
+                            studentPassword26 = newPassword;
+                        }
+                        else if (studentCount == 27)
+                        {
+                            studentUsername27 = newUsername;
+                            studentPassword27 = newPassword;
+                        }
+                        else if (studentCount == 28)
+                        {
+                            studentUsername28 = newUsername;
+                            studentPassword28 = newPassword;
+                        }
+                        else if (studentCount == 29)
+                        {
+                            studentUsername29 == newUsername;
+                            studentPassword29 == newPassword;
+                        }
+                        else if (studentCount == 30)
+                        {
+                            studentUsername30 = newUsername;
+                            studentPassword30 = newPassword;
+                        }
+                        else if (studentCount == 31)
+                        {
+                            studentUsername31 = newUsername;
+                            studentPassword31 = newPassword;
+                        }
+                        else if (studentCount == 32)
+                        {
+                            studentUsername32 = newUsername;
+                            studentPassword32 = newPassword;
+                        }
+                        else if (studentCount == 33)
+                        {
+                            studentUsername33 == newUsername;
+                            studentPassword33 == newPassword;
+                        }
+                        else if (studentCount == 34)
+                        {
+                            studentUsername34 = newUsername;
+                            studentPassword34 = newPassword;
+                        }
+                        else if (studentCount == 35)
+                        {
+                            studentUsername35 = newUsername;
+                            studentPassword35 = newPassword;
+                        }
+                        else if (studentCount == 36)
+                        {
+                            studentUsername36 = newUsername;
+                            studentPassword36 = newPassword;
+                        }
+                        else if (studentCount == 37)
+                        {
+                            studentUsername37 == newUsername;
+                            studentPassword37 == newPassword;
+                        }
+                        else if (studentCount == 38)
+                        {
+                            studentUsername38 = newUsername;
+                            studentPassword38 = newPassword;
+                        }
+                        else if (studentCount == 39)
+                        {
+                            studentUsername39 = newUsername;
+                            studentPassword39 = newPassword;
+                        }
+                        else if (studentCount == 40)
+                        {
+                            studentUsername40 = newUsername;
+                            studentPassword40 = newPassword;
+                        }
+                        else if (studentCount == 41)
+                        {
+                            studentUsername41 == newUsername;
+                            studentPassword41 == newPassword;
+                        }
+                        else if (studentCount == 42)
+                        {
+                            studentUsername42 = newUsername;
+                            studentPassword42 = newPassword;
+                        }
+                        else if (studentCount == 43)
+                        {
+                            studentUsername43 = newUsername;
+                            studentPassword43 = newPassword;
+                        }
+                        else if (studentCount == 44)
+                        {
+                            studentUsername44 = newUsername;
+                            studentPassword44 = newPassword;
+                        }
+                        else if (studentCount == 45)
+                        {
+                            studentUsername45 == newUsername;
+                            studentPassword45 == newPassword;
+                        }
+                        else if (studentCount == 46)
+                        {
+                            studentUsername46 = newUsername;
+                            studentPassword46 = newPassword;
+                        }
+                        else if (studentCount == 47)
+                        {
+                            studentUsername47 = newUsername;
+                            studentPassword47 = newPassword;
+                        }
+                        else if (studentCount == 48)
+                        {
+                            studentUsername48 = newUsername;
+                            studentPassword48 = newPassword;
+                        }
+                        else if (studentCount == 49)
+                        {
+                            studentUsername49 == newUsername;
+                            studentPassword49 == newPassword;
+                        }
+                        else if (studentCount == 50)
+                        {
+                            studentUsername50 == newUsername;
+                            studentPassword50 == newPassword;
+                        }
+                        cout << "Student account created successfully.\n";
+                        goto main_menu;
                     }
-                    else if (studentCount == 2)
+                    else
                     {
-                        studentUsername2 = newUsername;
-                        studentPassword2 = newPassword;
+                        cout << "Maximum student count reached.\n";
                     }
-                    else if (studentCount == 3)
-                    {
-                        studentUsername3 = newUsername;
-                        studentPassword3 = newPassword;
-                    }
-                    else if (studentCount == 4)
-                    {
-                        studentUsername4 = newUsername;
-                        studentPassword4 = newPassword;
-                    }
-                    else if (studentCount == 5)
-                    {
-                        studentUsername5 == newUsername;
-                        studentPassword5 == newPassword;
-                    }
-                    else if (studentCount == 6)
-                    {
-                        studentUsername6 = newUsername;
-                        studentPassword6 = newPassword;
-                    }
-                    else if (studentCount == 7)
-                    {
-                        studentUsername7 = newUsername;
-                        studentPassword7 = newPassword;
-                    }
-                    else if (studentCount == 8)
-                    {
-                        studentUsername8 = newUsername;
-                        studentPassword8 = newPassword;
-                    }
-                    else if (studentCount == 9)
-                    {
-                        studentUsername9 == newUsername;
-                        studentPassword9 == newPassword;
-                    }
-                    else if (studentCount == 10)
-                    {
-                        studentUsername10 = newUsername;
-                        studentPassword10 = newPassword;
-                    }
-                    else if (studentCount == 11)
-                    {
-                        studentUsername11 = newUsername;
-                        studentPassword11 = newPassword;
-                    }
-                    else if (studentCount == 12)
-                    {
-                        studentUsername12 = newUsername;
-                        studentPassword12 = newPassword;
-                    }
-                    else if (studentCount == 13)
-                    {
-                        studentUsername13 == newUsername;
-                        studentPassword13 == newPassword;
-                    }
-                    else if (studentCount == 14)
-                    {
-                        studentUsername14 = newUsername;
-                        studentPassword14 = newPassword;
-                    }
-                    else if (studentCount == 15)
-                    {
-                        studentUsername15 = newUsername;
-                        studentPassword15 = newPassword;
-                    }
-                    else if (studentCount == 16)
-                    {
-                        studentUsername16 = newUsername;
-                        studentPassword16 = newPassword;
-                    }
-                    else if (studentCount == 17)
-                    {
-                        studentUsername17 == newUsername;
-                        studentPassword17 == newPassword;
-                    }
-                    else if (studentCount == 18)
-                    {
-                        studentUsername18 = newUsername;
-                        studentPassword18 = newPassword;
-                    }
-                    else if (studentCount == 19)
-                    {
-                        studentUsername19 = newUsername;
-                        studentPassword19 = newPassword;
-                    }
-                    else if (studentCount == 20)
-                    {
-                        studentUsername20 = newUsername;
-                        studentPassword20 = newPassword;
-                    }
-                    else if (studentCount == 21)
-                    {
-                        studentUsername21 == newUsername;
-                        studentPassword21 == newPassword;
-                    }
-                    else if (studentCount == 22)
-                    {
-                        studentUsername22 = newUsername;
-                        studentPassword22 = newPassword;
-                    }
-                    else if (studentCount == 23)
-                    {
-                        studentUsername23 = newUsername;
-                        studentPassword23 = newPassword;
-                    }
-                    else if (studentCount == 24)
-                    {
-                        studentUsername24 = newUsername;
-                        studentPassword24 = newPassword;
-                    }
-                    else if (studentCount == 25)
-                    {
-                        studentUsername25 == newUsername;
-                        studentPassword25 == newPassword;
-                    }
-                    else if (studentCount == 26)
-                    {
-                        studentUsername26 = newUsername;
-                        studentPassword26 = newPassword;
-                    }
-                    else if (studentCount == 27)
-                    {
-                        studentUsername27 = newUsername;
-                        studentPassword27 = newPassword;
-                    }
-                    else if (studentCount == 28)
-                    {
-                        studentUsername28 = newUsername;
-                        studentPassword28 = newPassword;
-                    }
-                    else if (studentCount == 29)
-                    {
-                        studentUsername29 == newUsername;
-                        studentPassword29 == newPassword;
-                    }
-                    else if (studentCount == 30)
-                    {
-                        studentUsername30 = newUsername;
-                        studentPassword30 = newPassword;
-                    }
-                    else if (studentCount == 31)
-                    {
-                        studentUsername31 = newUsername;
-                        studentPassword31 = newPassword;
-                    }
-                    else if (studentCount == 32)
-                    {
-                        studentUsername32 = newUsername;
-                        studentPassword32 = newPassword;
-                    }
-                    else if (studentCount == 33)
-                    {
-                        studentUsername33 == newUsername;
-                        studentPassword33 == newPassword;
-                    }
-                    else if (studentCount == 34)
-                    {
-                        studentUsername34 = newUsername;
-                        studentPassword34 = newPassword;
-                    }
-                    else if (studentCount == 35)
-                    {
-                        studentUsername35 = newUsername;
-                        studentPassword35 = newPassword;
-                    }
-                    else if (studentCount == 36)
-                    {
-                        studentUsername36 = newUsername;
-                        studentPassword36 = newPassword;
-                    }
-                    else if (studentCount == 37)
-                    {
-                        studentUsername37 == newUsername;
-                        studentPassword37 == newPassword;
-                    }
-                    else if (studentCount == 38)
-                    {
-                        studentUsername38 = newUsername;
-                        studentPassword38 = newPassword;
-                    }
-                    else if (studentCount == 39)
-                    {
-                        studentUsername39 = newUsername;
-                        studentPassword39 = newPassword;
-                    }
-                    else if (studentCount == 40)
-                    {
-                        studentUsername40 = newUsername;
-                        studentPassword40 = newPassword;
-                    }
-                    else if (studentCount == 41)
-                    {
-                        studentUsername41 == newUsername;
-                        studentPassword41 == newPassword;
-                    }
-                    else if (studentCount == 42)
-                    {
-                        studentUsername42 = newUsername;
-                        studentPassword42 = newPassword;
-                    }
-                    else if (studentCount == 43)
-                    {
-                        studentUsername43 = newUsername;
-                        studentPassword43 = newPassword;
-                    }
-                    else if (studentCount == 44)
-                    {
-                        studentUsername44 = newUsername;
-                        studentPassword44 = newPassword;
-                    }
-                    else if (studentCount == 45)
-                    {
-                        studentUsername45 == newUsername;
-                        studentPassword45 == newPassword;
-                    }
-                    else if (studentCount == 46)
-                    {
-                        studentUsername46 = newUsername;
-                        studentPassword46 = newPassword;
-                    }
-                    else if (studentCount == 47)
-                    {
-                        studentUsername47 = newUsername;
-                        studentPassword47 = newPassword;
-                    }
-                    else if (studentCount == 48)
-                    {
-                        studentUsername48 = newUsername;
-                        studentPassword48 = newPassword;
-                    }
-                    else if (studentCount == 49)
-                    {
-                        studentUsername49 == newUsername;
-                        studentPassword49 == newPassword;
-                    }
-                    else if (studentCount == 50)
-                    {
-                        studentUsername50 == newUsername;
-                        studentPassword50 == newPassword;
-                    }
-                    cout << "Student account created successfully.\n";
-                    goto main_menu;
                 }
                 else
                 {
-                    cout << "Maximum student count reached.\n";
+                    cout << "This username and password combination already exists.\n";
                 }
             }
+            else if (teacherChoice == 1 && studentCount >= 100)
+            {
+                cout << "Maximum student accounts for this course reached.\n";
+            }
+            else if (teacherChoice != 2)
+            {
+                cout << "Invalid choice, please try again.\n";
+            }
+
+            if (teacherChoice != 2) // Continue looping unless choice is to logout
+                goto teacher_menu2;
             else
             {
-                cout << "This username and password combination already exists.\n";
+                cout << "Logged out successfully.\n";
+                goto main_menu;
             }
+            return 0;
         }
-        else if (teacherChoice == 1 && studentCount >= 100)
-        {
-            cout << "Maximum student accounts for this course reached.\n";
-        }
-        else if (teacherChoice != 2)
-        {
-            cout << "Invalid choice, please try again.\n";
-        }
-
-        if (teacherChoice != 2) // Continue looping unless choice is to logout
-            goto teacher_menu2;
-        else
-        {
-            cout << "Logged out successfully.\n";
-            goto main_menu;
-        }
-        return 0;
-    }
         // teacher 5
-     else if (teacherUsername5 == username && teacherPassword5 == password)
-    {
-        
-    teacher_menu5:
-        cout << "\nBSBA\n";
-        cout << "1. Create Student Account\n";
-        cout << "2. Logout\n";
-        cout << "Enter your choice: ";
-        int teacherChoice = 0;
-        cin >> teacherChoice;
-
-        if (teacherChoice == 1 && studentCount < 50)
+        else if (teacherUsername5 == username && teacherPassword5 == password)
         {
-            string newUsername, newPassword;
-            cout << "Enter student username: ";
-            cin >> newUsername;
-            cout << "Enter student password: ";
-            cin >> newPassword;
 
-            bool usernamePasswordExists = false;
+        teacher_menu5:
+            cout << "\nBSBA\n";
+            cout << "1. Create Student Account\n";
+            cout << "2. Logout\n";
+            cout << "Enter your choice: ";
+            int teacherChoice = 0;
+            cin >> teacherChoice;
 
-            // Check if the new username and password combination already exists
-            if ((newUsername == studentUsername1 && newPassword == studentPassword1) ||
-                (newUsername == studentUsername2 && newPassword == studentPassword2) ||
-                (newUsername == studentUsername3 && newPassword == studentPassword3) ||
-                (newUsername == studentUsername4 && newPassword == studentPassword4) ||
-                (newUsername == studentUsername5 && newPassword == studentPassword5) ||
-                (newUsername == studentUsername6 && newPassword == studentPassword6) ||
-                (newUsername == studentUsername7 && newPassword == studentPassword7) ||
-                (newUsername == studentUsername8 && newPassword == studentPassword8) ||
-                (newUsername == studentUsername9 && newPassword == studentPassword9) ||
-                (newUsername == studentUsername10 && newPassword == studentPassword10) ||
-                (newUsername == studentUsername11 && newPassword == studentPassword11) ||
-                (newUsername == studentUsername12 && newPassword == studentPassword12) ||
-                (newUsername == studentUsername13 && newPassword == studentPassword13) ||
-                (newUsername == studentUsername14 && newPassword == studentPassword14) ||
-                (newUsername == studentUsername15 && newPassword == studentPassword15) ||
-                (newUsername == studentUsername16 && newPassword == studentPassword16) ||
-                (newUsername == studentUsername17 && newPassword == studentPassword17) ||
-                (newUsername == studentUsername18 && newPassword == studentPassword18) ||
-                (newUsername == studentUsername19 && newPassword == studentPassword19) ||
-                (newUsername == studentUsername20 && newPassword == studentPassword20) ||
-                (newUsername == studentUsername21 && newPassword == studentPassword21) ||
-                (newUsername == studentUsername22 && newPassword == studentPassword22) ||
-                (newUsername == studentUsername23 && newPassword == studentPassword23) ||
-                (newUsername == studentUsername24 && newPassword == studentPassword24) ||
-                (newUsername == studentUsername25 && newPassword == studentPassword25) ||
-                (newUsername == studentUsername26 && newPassword == studentPassword26) ||
-                (newUsername == studentUsername27 && newPassword == studentPassword27) ||
-                (newUsername == studentUsername28 && newPassword == studentPassword28) ||
-                (newUsername == studentUsername29 && newPassword == studentPassword29) ||
-                (newUsername == studentUsername30 && newPassword == studentPassword30) ||
-                (newUsername == studentUsername31 && newPassword == studentPassword31) ||
-                (newUsername == studentUsername32 && newPassword == studentPassword32) ||
-                (newUsername == studentUsername33 && newPassword == studentPassword33) ||
-                (newUsername == studentUsername34 && newPassword == studentPassword34) ||
-                (newUsername == studentUsername35 && newPassword == studentPassword35) ||
-                (newUsername == studentUsername36 && newPassword == studentPassword36) ||
-                (newUsername == studentUsername37 && newPassword == studentPassword37) ||
-                (newUsername == studentUsername38 && newPassword == studentPassword38) ||
-                (newUsername == studentUsername39 && newPassword == studentPassword39) ||
-                (newUsername == studentUsername40 && newPassword == studentPassword40) ||
-                (newUsername == studentUsername41 && newPassword == studentPassword41) ||
-                (newUsername == studentUsername42 && newPassword == studentPassword42) ||
-                (newUsername == studentUsername43 && newPassword == studentPassword43) ||
-                (newUsername == studentUsername44 && newPassword == studentPassword44) ||
-                (newUsername == studentUsername45 && newPassword == studentPassword45) ||
-                (newUsername == studentUsername46 && newPassword == studentPassword46) ||
-                (newUsername == studentUsername47 && newPassword == studentPassword47) ||
-                (newUsername == studentUsername48 && newPassword == studentPassword48) ||
-                (newUsername == studentUsername49 && newPassword == studentPassword49) ||
-                (newUsername == studentUsername50 && newPassword == studentPassword50))
+            if (teacherChoice == 1 && studentCount < 50)
             {
-                usernamePasswordExists = true;
-            }
+                string newUsername, newPassword;
+                cout << "Enter student username: ";
+                cin >> newUsername;
+                cout << "Enter student password: ";
+                cin >> newPassword;
 
-            if (!usernamePasswordExists)
-            {
-                if (studentCount < 200)
+                bool usernamePasswordExists = false;
+
+                // Check if the new username and password combination already exists
+                if ((newUsername == studentUsername1 && newPassword == studentPassword1) ||
+                    (newUsername == studentUsername2 && newPassword == studentPassword2) ||
+                    (newUsername == studentUsername3 && newPassword == studentPassword3) ||
+                    (newUsername == studentUsername4 && newPassword == studentPassword4) ||
+                    (newUsername == studentUsername5 && newPassword == studentPassword5) ||
+                    (newUsername == studentUsername6 && newPassword == studentPassword6) ||
+                    (newUsername == studentUsername7 && newPassword == studentPassword7) ||
+                    (newUsername == studentUsername8 && newPassword == studentPassword8) ||
+                    (newUsername == studentUsername9 && newPassword == studentPassword9) ||
+                    (newUsername == studentUsername10 && newPassword == studentPassword10) ||
+                    (newUsername == studentUsername11 && newPassword == studentPassword11) ||
+                    (newUsername == studentUsername12 && newPassword == studentPassword12) ||
+                    (newUsername == studentUsername13 && newPassword == studentPassword13) ||
+                    (newUsername == studentUsername14 && newPassword == studentPassword14) ||
+                    (newUsername == studentUsername15 && newPassword == studentPassword15) ||
+                    (newUsername == studentUsername16 && newPassword == studentPassword16) ||
+                    (newUsername == studentUsername17 && newPassword == studentPassword17) ||
+                    (newUsername == studentUsername18 && newPassword == studentPassword18) ||
+                    (newUsername == studentUsername19 && newPassword == studentPassword19) ||
+                    (newUsername == studentUsername20 && newPassword == studentPassword20) ||
+                    (newUsername == studentUsername21 && newPassword == studentPassword21) ||
+                    (newUsername == studentUsername22 && newPassword == studentPassword22) ||
+                    (newUsername == studentUsername23 && newPassword == studentPassword23) ||
+                    (newUsername == studentUsername24 && newPassword == studentPassword24) ||
+                    (newUsername == studentUsername25 && newPassword == studentPassword25) ||
+                    (newUsername == studentUsername26 && newPassword == studentPassword26) ||
+                    (newUsername == studentUsername27 && newPassword == studentPassword27) ||
+                    (newUsername == studentUsername28 && newPassword == studentPassword28) ||
+                    (newUsername == studentUsername29 && newPassword == studentPassword29) ||
+                    (newUsername == studentUsername30 && newPassword == studentPassword30) ||
+                    (newUsername == studentUsername31 && newPassword == studentPassword31) ||
+                    (newUsername == studentUsername32 && newPassword == studentPassword32) ||
+                    (newUsername == studentUsername33 && newPassword == studentPassword33) ||
+                    (newUsername == studentUsername34 && newPassword == studentPassword34) ||
+                    (newUsername == studentUsername35 && newPassword == studentPassword35) ||
+                    (newUsername == studentUsername36 && newPassword == studentPassword36) ||
+                    (newUsername == studentUsername37 && newPassword == studentPassword37) ||
+                    (newUsername == studentUsername38 && newPassword == studentPassword38) ||
+                    (newUsername == studentUsername39 && newPassword == studentPassword39) ||
+                    (newUsername == studentUsername40 && newPassword == studentPassword40) ||
+                    (newUsername == studentUsername41 && newPassword == studentPassword41) ||
+                    (newUsername == studentUsername42 && newPassword == studentPassword42) ||
+                    (newUsername == studentUsername43 && newPassword == studentPassword43) ||
+                    (newUsername == studentUsername44 && newPassword == studentPassword44) ||
+                    (newUsername == studentUsername45 && newPassword == studentPassword45) ||
+                    (newUsername == studentUsername46 && newPassword == studentPassword46) ||
+                    (newUsername == studentUsername47 && newPassword == studentPassword47) ||
+                    (newUsername == studentUsername48 && newPassword == studentPassword48) ||
+                    (newUsername == studentUsername49 && newPassword == studentPassword49) ||
+                    (newUsername == studentUsername50 && newPassword == studentPassword50))
                 {
-                    studentCount++;
-                    // Assign the new username and password to the next available variables
-                    if (studentCount == 1)
+                    usernamePasswordExists = true;
+                }
+
+                if (!usernamePasswordExists)
+                {
+                    if (studentCount < 200)
                     {
-                        studentUsername151 = newUsername;
-                        studentPassword151 = newPassword;
+                        studentCount++;
+                        // Assign the new username and password to the next available variables
+                        if (studentCount == 1)
+                        {
+                            studentUsername151 = newUsername;
+                            studentPassword151 = newPassword;
+                        }
+                        else if (studentCount == 2)
+                        {
+                            studentUsername2 = newUsername;
+                            studentPassword2 = newPassword;
+                        }
+                        else if (studentCount == 3)
+                        {
+                            studentUsername3 = newUsername;
+                            studentPassword3 = newPassword;
+                        }
+                        else if (studentCount == 4)
+                        {
+                            studentUsername4 = newUsername;
+                            studentPassword4 = newPassword;
+                        }
+                        else if (studentCount == 5)
+                        {
+                            studentUsername5 == newUsername;
+                            studentPassword5 == newPassword;
+                        }
+                        else if (studentCount == 6)
+                        {
+                            studentUsername6 = newUsername;
+                            studentPassword6 = newPassword;
+                        }
+                        else if (studentCount == 7)
+                        {
+                            studentUsername7 = newUsername;
+                            studentPassword7 = newPassword;
+                        }
+                        else if (studentCount == 8)
+                        {
+                            studentUsername8 = newUsername;
+                            studentPassword8 = newPassword;
+                        }
+                        else if (studentCount == 9)
+                        {
+                            studentUsername9 == newUsername;
+                            studentPassword9 == newPassword;
+                        }
+                        else if (studentCount == 10)
+                        {
+                            studentUsername10 = newUsername;
+                            studentPassword10 = newPassword;
+                        }
+                        else if (studentCount == 11)
+                        {
+                            studentUsername11 = newUsername;
+                            studentPassword11 = newPassword;
+                        }
+                        else if (studentCount == 12)
+                        {
+                            studentUsername12 = newUsername;
+                            studentPassword12 = newPassword;
+                        }
+                        else if (studentCount == 13)
+                        {
+                            studentUsername13 == newUsername;
+                            studentPassword13 == newPassword;
+                        }
+                        else if (studentCount == 14)
+                        {
+                            studentUsername14 = newUsername;
+                            studentPassword14 = newPassword;
+                        }
+                        else if (studentCount == 15)
+                        {
+                            studentUsername15 = newUsername;
+                            studentPassword15 = newPassword;
+                        }
+                        else if (studentCount == 16)
+                        {
+                            studentUsername16 = newUsername;
+                            studentPassword16 = newPassword;
+                        }
+                        else if (studentCount == 17)
+                        {
+                            studentUsername17 == newUsername;
+                            studentPassword17 == newPassword;
+                        }
+                        else if (studentCount == 18)
+                        {
+                            studentUsername18 = newUsername;
+                            studentPassword18 = newPassword;
+                        }
+                        else if (studentCount == 19)
+                        {
+                            studentUsername19 = newUsername;
+                            studentPassword19 = newPassword;
+                        }
+                        else if (studentCount == 20)
+                        {
+                            studentUsername20 = newUsername;
+                            studentPassword20 = newPassword;
+                        }
+                        else if (studentCount == 21)
+                        {
+                            studentUsername21 == newUsername;
+                            studentPassword21 == newPassword;
+                        }
+                        else if (studentCount == 22)
+                        {
+                            studentUsername22 = newUsername;
+                            studentPassword22 = newPassword;
+                        }
+                        else if (studentCount == 23)
+                        {
+                            studentUsername23 = newUsername;
+                            studentPassword23 = newPassword;
+                        }
+                        else if (studentCount == 24)
+                        {
+                            studentUsername24 = newUsername;
+                            studentPassword24 = newPassword;
+                        }
+                        else if (studentCount == 25)
+                        {
+                            studentUsername25 == newUsername;
+                            studentPassword25 == newPassword;
+                        }
+                        else if (studentCount == 26)
+                        {
+                            studentUsername26 = newUsername;
+                            studentPassword26 = newPassword;
+                        }
+                        else if (studentCount == 27)
+                        {
+                            studentUsername27 = newUsername;
+                            studentPassword27 = newPassword;
+                        }
+                        else if (studentCount == 28)
+                        {
+                            studentUsername28 = newUsername;
+                            studentPassword28 = newPassword;
+                        }
+                        else if (studentCount == 29)
+                        {
+                            studentUsername29 == newUsername;
+                            studentPassword29 == newPassword;
+                        }
+                        else if (studentCount == 30)
+                        {
+                            studentUsername30 = newUsername;
+                            studentPassword30 = newPassword;
+                        }
+                        else if (studentCount == 31)
+                        {
+                            studentUsername31 = newUsername;
+                            studentPassword31 = newPassword;
+                        }
+                        else if (studentCount == 32)
+                        {
+                            studentUsername32 = newUsername;
+                            studentPassword32 = newPassword;
+                        }
+                        else if (studentCount == 33)
+                        {
+                            studentUsername33 == newUsername;
+                            studentPassword33 == newPassword;
+                        }
+                        else if (studentCount == 34)
+                        {
+                            studentUsername34 = newUsername;
+                            studentPassword34 = newPassword;
+                        }
+                        else if (studentCount == 35)
+                        {
+                            studentUsername35 = newUsername;
+                            studentPassword35 = newPassword;
+                        }
+                        else if (studentCount == 36)
+                        {
+                            studentUsername36 = newUsername;
+                            studentPassword36 = newPassword;
+                        }
+                        else if (studentCount == 37)
+                        {
+                            studentUsername37 == newUsername;
+                            studentPassword37 == newPassword;
+                        }
+                        else if (studentCount == 38)
+                        {
+                            studentUsername38 = newUsername;
+                            studentPassword38 = newPassword;
+                        }
+                        else if (studentCount == 39)
+                        {
+                            studentUsername39 = newUsername;
+                            studentPassword39 = newPassword;
+                        }
+                        else if (studentCount == 40)
+                        {
+                            studentUsername40 = newUsername;
+                            studentPassword40 = newPassword;
+                        }
+                        else if (studentCount == 41)
+                        {
+                            studentUsername41 == newUsername;
+                            studentPassword41 == newPassword;
+                        }
+                        else if (studentCount == 42)
+                        {
+                            studentUsername42 = newUsername;
+                            studentPassword42 = newPassword;
+                        }
+                        else if (studentCount == 43)
+                        {
+                            studentUsername43 = newUsername;
+                            studentPassword43 = newPassword;
+                        }
+                        else if (studentCount == 44)
+                        {
+                            studentUsername44 = newUsername;
+                            studentPassword44 = newPassword;
+                        }
+                        else if (studentCount == 45)
+                        {
+                            studentUsername45 == newUsername;
+                            studentPassword45 == newPassword;
+                        }
+                        else if (studentCount == 46)
+                        {
+                            studentUsername46 = newUsername;
+                            studentPassword46 = newPassword;
+                        }
+                        else if (studentCount == 47)
+                        {
+                            studentUsername47 = newUsername;
+                            studentPassword47 = newPassword;
+                        }
+                        else if (studentCount == 48)
+                        {
+                            studentUsername48 = newUsername;
+                            studentPassword48 = newPassword;
+                        }
+                        else if (studentCount == 49)
+                        {
+                            studentUsername49 == newUsername;
+                            studentPassword49 == newPassword;
+                        }
+                        else if (studentCount == 50)
+                        {
+                            studentUsername50 == newUsername;
+                            studentPassword50 == newPassword;
+                        }
+                        cout << "Student account created successfully.\n";
+                        goto main_menu;
                     }
-                    else if (studentCount == 2)
+                    else
                     {
-                        studentUsername2 = newUsername;
-                        studentPassword2 = newPassword;
+                        cout << "Maximum student count reached.\n";
                     }
-                    else if (studentCount == 3)
-                    {
-                        studentUsername3 = newUsername;
-                        studentPassword3 = newPassword;
-                    }
-                    else if (studentCount == 4)
-                    {
-                        studentUsername4 = newUsername;
-                        studentPassword4 = newPassword;
-                    }
-                    else if (studentCount == 5)
-                    {
-                        studentUsername5 == newUsername;
-                        studentPassword5 == newPassword;
-                    }
-                    else if (studentCount == 6)
-                    {
-                        studentUsername6 = newUsername;
-                        studentPassword6 = newPassword;
-                    }
-                    else if (studentCount == 7)
-                    {
-                        studentUsername7 = newUsername;
-                        studentPassword7 = newPassword;
-                    }
-                    else if (studentCount == 8)
-                    {
-                        studentUsername8 = newUsername;
-                        studentPassword8 = newPassword;
-                    }
-                    else if (studentCount == 9)
-                    {
-                        studentUsername9 == newUsername;
-                        studentPassword9 == newPassword;
-                    }
-                    else if (studentCount == 10)
-                    {
-                        studentUsername10 = newUsername;
-                        studentPassword10 = newPassword;
-                    }
-                    else if (studentCount == 11)
-                    {
-                        studentUsername11 = newUsername;
-                        studentPassword11 = newPassword;
-                    }
-                    else if (studentCount == 12)
-                    {
-                        studentUsername12 = newUsername;
-                        studentPassword12 = newPassword;
-                    }
-                    else if (studentCount == 13)
-                    {
-                        studentUsername13 == newUsername;
-                        studentPassword13 == newPassword;
-                    }
-                    else if (studentCount == 14)
-                    {
-                        studentUsername14 = newUsername;
-                        studentPassword14 = newPassword;
-                    }
-                    else if (studentCount == 15)
-                    {
-                        studentUsername15 = newUsername;
-                        studentPassword15 = newPassword;
-                    }
-                    else if (studentCount == 16)
-                    {
-                        studentUsername16 = newUsername;
-                        studentPassword16 = newPassword;
-                    }
-                    else if (studentCount == 17)
-                    {
-                        studentUsername17 == newUsername;
-                        studentPassword17 == newPassword;
-                    }
-                    else if (studentCount == 18)
-                    {
-                        studentUsername18 = newUsername;
-                        studentPassword18 = newPassword;
-                    }
-                    else if (studentCount == 19)
-                    {
-                        studentUsername19 = newUsername;
-                        studentPassword19 = newPassword;
-                    }
-                    else if (studentCount == 20)
-                    {
-                        studentUsername20 = newUsername;
-                        studentPassword20 = newPassword;
-                    }
-                    else if (studentCount == 21)
-                    {
-                        studentUsername21 == newUsername;
-                        studentPassword21 == newPassword;
-                    }
-                    else if (studentCount == 22)
-                    {
-                        studentUsername22 = newUsername;
-                        studentPassword22 = newPassword;
-                    }
-                    else if (studentCount == 23)
-                    {
-                        studentUsername23 = newUsername;
-                        studentPassword23 = newPassword;
-                    }
-                    else if (studentCount == 24)
-                    {
-                        studentUsername24 = newUsername;
-                        studentPassword24 = newPassword;
-                    }
-                    else if (studentCount == 25)
-                    {
-                        studentUsername25 == newUsername;
-                        studentPassword25 == newPassword;
-                    }
-                    else if (studentCount == 26)
-                    {
-                        studentUsername26 = newUsername;
-                        studentPassword26 = newPassword;
-                    }
-                    else if (studentCount == 27)
-                    {
-                        studentUsername27 = newUsername;
-                        studentPassword27 = newPassword;
-                    }
-                    else if (studentCount == 28)
-                    {
-                        studentUsername28 = newUsername;
-                        studentPassword28 = newPassword;
-                    }
-                    else if (studentCount == 29)
-                    {
-                        studentUsername29 == newUsername;
-                        studentPassword29 == newPassword;
-                    }
-                    else if (studentCount == 30)
-                    {
-                        studentUsername30 = newUsername;
-                        studentPassword30 = newPassword;
-                    }
-                    else if (studentCount == 31)
-                    {
-                        studentUsername31 = newUsername;
-                        studentPassword31 = newPassword;
-                    }
-                    else if (studentCount == 32)
-                    {
-                        studentUsername32 = newUsername;
-                        studentPassword32 = newPassword;
-                    }
-                    else if (studentCount == 33)
-                    {
-                        studentUsername33 == newUsername;
-                        studentPassword33 == newPassword;
-                    }
-                    else if (studentCount == 34)
-                    {
-                        studentUsername34 = newUsername;
-                        studentPassword34 = newPassword;
-                    }
-                    else if (studentCount == 35)
-                    {
-                        studentUsername35 = newUsername;
-                        studentPassword35 = newPassword;
-                    }
-                    else if (studentCount == 36)
-                    {
-                        studentUsername36 = newUsername;
-                        studentPassword36 = newPassword;
-                    }
-                    else if (studentCount == 37)
-                    {
-                        studentUsername37 == newUsername;
-                        studentPassword37 == newPassword;
-                    }
-                    else if (studentCount == 38)
-                    {
-                        studentUsername38 = newUsername;
-                        studentPassword38 = newPassword;
-                    }
-                    else if (studentCount == 39)
-                    {
-                        studentUsername39 = newUsername;
-                        studentPassword39 = newPassword;
-                    }
-                    else if (studentCount == 40)
-                    {
-                        studentUsername40 = newUsername;
-                        studentPassword40 = newPassword;
-                    }
-                    else if (studentCount == 41)
-                    {
-                        studentUsername41 == newUsername;
-                        studentPassword41 == newPassword;
-                    }
-                    else if (studentCount == 42)
-                    {
-                        studentUsername42 = newUsername;
-                        studentPassword42 = newPassword;
-                    }
-                    else if (studentCount == 43)
-                    {
-                        studentUsername43 = newUsername;
-                        studentPassword43 = newPassword;
-                    }
-                    else if (studentCount == 44)
-                    {
-                        studentUsername44 = newUsername;
-                        studentPassword44 = newPassword;
-                    }
-                    else if (studentCount == 45)
-                    {
-                        studentUsername45 == newUsername;
-                        studentPassword45 == newPassword;
-                    }
-                    else if (studentCount == 46)
-                    {
-                        studentUsername46 = newUsername;
-                        studentPassword46 = newPassword;
-                    }
-                    else if (studentCount == 47)
-                    {
-                        studentUsername47 = newUsername;
-                        studentPassword47 = newPassword;
-                    }
-                    else if (studentCount == 48)
-                    {
-                        studentUsername48 = newUsername;
-                        studentPassword48 = newPassword;
-                    }
-                    else if (studentCount == 49)
-                    {
-                        studentUsername49 == newUsername;
-                        studentPassword49 == newPassword;
-                    }
-                    else if (studentCount == 50)
-                    {
-                        studentUsername50 == newUsername;
-                        studentPassword50 == newPassword;
-                    }
-                    cout << "Student account created successfully.\n";
-                    goto main_menu;
                 }
                 else
                 {
-                    cout << "Maximum student count reached.\n";
+                    cout << "This username and password combination already exists.\n";
                 }
             }
+            else if (teacherChoice == 1 && studentCount >= 100)
+            {
+                cout << "Maximum student accounts for this course reached.\n";
+            }
+            else if (teacherChoice != 2)
+            {
+                cout << "Invalid choice, please try again.\n";
+            }
+
+            if (teacherChoice != 2) // Continue looping unless choice is to logout
+                goto teacher_menu2;
             else
             {
-                cout << "This username and password combination already exists.\n";
+                cout << "Logged out successfully.\n";
+                goto main_menu;
             }
+            return 0;
         }
-        else if (teacherChoice == 1 && studentCount >= 100)
-        {
-            cout << "Maximum student accounts for this course reached.\n";
-        }
-        else if (teacherChoice != 2)
-        {
-            cout << "Invalid choice, please try again.\n";
-        }
-
-        if (teacherChoice != 2) // Continue looping unless choice is to logout
-            goto teacher_menu2;
-        else
-        {
-            cout << "Logged out successfully.\n";
-            goto main_menu;
-        }
-        return 0;
-    }
 
         cout << "Invalid username or password. Please try again.\n";
         goto login;
