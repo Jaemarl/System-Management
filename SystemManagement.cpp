@@ -3840,6 +3840,7 @@ login:
         cout << "2. View staff and teacher details" << endl;
         cout << "3. View student details" << endl;
         cout << "4. Log out" << endl;
+        cout << "5. Certificate of Enrollment." << endl;
         cout << "Enter your choice: ";
         string teacherChoice;
         cin >> teacherChoice;
@@ -4441,6 +4442,6316 @@ login:
         {
             goto Login;
         }
+        else if (teacherChoice == "5" ) {
+          int cor;
+          cout << "Course" << endl;
+          cout << "1. BSIT\n2. BSENT\n3. DICT\n4. BSA\n5. BSBA" << endl;
+          string cor2;
+          cin >> cor2;
+          if (cor2 == "1") {
+        cout << "Input the number who you wict to print Certificate of Enrollment \nNote: According to their order." << endl;    
+        cout << "Students of BSIT" << endl;
+        cout << studentUsername1 << endl;
+                cout << studentUsername2 << endl;
+                cout << studentUsername3 << endl;
+                cout << studentUsername4 << endl;
+                cout << studentUsername5 << endl;
+                cout << studentUsername6 << endl;
+                cout << studentUsername7 << endl;
+                cout << studentUsername8 << endl;
+                cout << studentUsername9 << endl;
+                cout << studentUsername10 << endl;
+                cout << studentUsername11 << endl;
+                cout << studentUsername12 << endl;
+                cout << studentUsername13 << endl;
+                cout << studentUsername14 << endl;
+                cout << studentUsername15 << endl;
+                cout << studentUsername16 << endl;
+                cout << studentUsername17 << endl;
+                cout << studentUsername18 << endl;
+                cout << studentUsername19 << endl;
+                cout << studentUsername20 << endl;
+                cout << studentUsername21 << endl;
+                cout << studentUsername22 << endl;
+                cout << studentUsername23 << endl;
+                cout << studentUsername24 << endl;
+                cout << studentUsername25 << endl;
+                cout << studentUsername26 << endl;
+                cout << studentUsername27 << endl;
+                cout << studentUsername28 << endl;
+                cout << studentUsername29 << endl;
+                cout << studentUsername30 << endl;
+                cout << studentUsername31 << endl;
+                cout << studentUsername32 << endl;
+                cout << studentUsername33 << endl;
+                cout << studentUsername34 << endl;
+                cout << studentUsername35 << endl;
+                cout << studentUsername36 << endl;
+                cout << studentUsername37 << endl;
+                cout << studentUsername38 << endl;
+                cout << studentUsername39 << endl;
+                cout << studentUsername40 << endl;
+                cout << studentUsername41 << endl;
+                cout << studentUsername42 << endl;
+                cout << studentUsername43 << endl;
+                cout << studentUsername44 << endl;
+                cout << studentUsername45 << endl;
+                cout << studentUsername46 << endl;
+                cout << studentUsername47 << endl;
+                cout << studentUsername48 << endl;
+                cout << studentUsername49 << endl;
+                cout << studentUsername50 << endl;
+        cout << "Input: " << endl;
+        cin >> cor;
+        
+             switch (cor) {
+             case 1: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername1 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 2:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername1 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 3: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername3 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 4: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername4 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 5: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername5 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 6:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername6 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 7:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername7 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 8:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername8 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 9:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername9 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 10:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername10 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 11:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername11 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 12:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername12 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 13:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername13 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 14:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername14 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 15:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername15 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 16:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername16 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 17:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername17 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 18:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername18 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 19:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername19 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 20:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername20 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 21:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername21 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 22:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername22 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 23:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername23 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 24:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername24 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 25:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername25 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 26:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername26 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 27:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername27 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 28: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername28 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 29:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername29 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 30:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername30 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 31:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername31 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 32:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername32 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 33:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername33 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 34:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername34 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 35:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername35 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 36:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername36 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 37:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername37 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 38:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername38 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  39:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername39 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 40:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername40 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 41:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername41 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 42:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername42 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 43:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername43 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 44:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername44 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 45:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername45 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 46:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername46 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 47:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername47 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  48:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername48 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 49:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername49 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 50:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername50 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+              default:
+              cout << "No such choice " << endl;
+             } 
+             }
+             else if ( cor2 == "2") {
+             cout << "Input the number who you wict to print Certificate of Enrollment \nNote: According to their order." << endl;    
+             cout << "Students of BSENT" << endl;
+             
+                cout << studentUsername51 << endl;
+                cout << studentUsername52 << endl;
+                cout << studentUsername53 << endl;
+                cout << studentUsername54 << endl;
+                cout << studentUsername55 << endl;
+                cout << studentUsername56 << endl;
+                cout << studentUsername57 << endl;
+                cout << studentUsername58 << endl;
+                cout << studentUsername59 << endl;
+                cout << studentUsername60 << endl;
+                cout << studentUsername61 << endl;
+                cout << studentUsername62 << endl;
+                cout << studentUsername63 << endl;
+                cout << studentUsername64 << endl;
+                cout << studentUsername65 << endl;
+                cout << studentUsername66 << endl;
+                cout << studentUsername67 << endl;
+                cout << studentUsername68 << endl;
+                cout << studentUsername69 << endl;
+                cout << studentUsername70 << endl;
+                cout << studentUsername71 << endl;
+                cout << studentUsername72 << endl;
+                cout << studentUsername73 << endl;
+                cout << studentUsername74 << endl;
+                cout << studentUsername75 << endl;
+                cout << studentUsername76 << endl;
+                cout << studentUsername77 << endl;
+                cout << studentUsername78 << endl;
+                cout << studentUsername79 << endl;
+                cout << studentUsername80 << endl;
+                cout << studentUsername81 << endl;
+                cout << studentUsername82 << endl;
+                cout << studentUsername83 << endl;
+                cout << studentUsername84 << endl;
+                cout << studentUsername85 << endl;
+                cout << studentUsername86 << endl;
+                cout << studentUsername87 << endl;
+                cout << studentUsername88 << endl;
+                cout << studentUsername89 << endl;
+                cout << studentUsername90 << endl;
+                cout << studentUsername91 << endl;
+                cout << studentUsername92 << endl;
+                cout << studentUsername93 << endl;
+                cout << studentUsername94 << endl;
+                cout << studentUsername95 << endl;
+                cout << studentUsername96 << endl;
+                cout << studentUsername97 << endl;
+                cout << studentUsername98 << endl;
+                cout << studentUsername99 << endl;
+                cout << studentUsername100 << endl;
+             cout << "Input: " << endl;
+             cin >> cor;
+             
+             switch (cor) {
+             case 1: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername51 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 2:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername52 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 3: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername53 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 4: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername54 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 5: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername55 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 6:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername56 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 7:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername57 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 8:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername58 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 9:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername59 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 10:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername60 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 11:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername61 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 12:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername62 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 13:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername63 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 14:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername64 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 15:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername65 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 16:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername66 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 17:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername67 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 18:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername68 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 19:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername69 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 20:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername70 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 21:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername71 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 22:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername72 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 23:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername73 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 24:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername74 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 25:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername75 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 26:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername76 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 27:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername77 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 28: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername78 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 29:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername79 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 30:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername80 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 31:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername81 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 32:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername82 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 33:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername83 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 34:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername84 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 35:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername85 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 36:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername86 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 37:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername87 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 38:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername88 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  39:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername89 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 40:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername90 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 41:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername91 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 42:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername92 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 43:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername93 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 44:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername94 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 45:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername95 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 46:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername96 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 47:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername97 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  48:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername98 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 49:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername99 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 50:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername100 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+              default:
+              cout << "No such choice " << endl;
+             }
+             }
+             else if (cor2 == "3") {
+             cout << " Enter the number of the student whose Certificate of Enrollment you want to print \nNote: According to their order." << endl;    
+             cout << "Students of DICT" << endl;
+             
+                cout << studentUsername101 << endl;
+                cout << studentUsername102 << endl;
+                cout << studentUsername103 << endl;
+                cout << studentUsername104 << endl;
+                cout << studentUsername105 << endl;
+                cout << studentUsername106 << endl;
+                cout << studentUsername107 << endl;
+                cout << studentUsername108 << endl;
+                cout << studentUsername109 << endl;
+                cout << studentUsername110 << endl;
+                cout << studentUsername111 << endl;
+                cout << studentUsername112 << endl;
+                cout << studentUsername113 << endl;
+                cout << studentUsername114 << endl;
+                cout << studentUsername115 << endl;
+                cout << studentUsername116 << endl;
+                cout << studentUsername117 << endl;
+                cout << studentUsername118 << endl;
+                cout << studentUsername119 << endl;
+                cout << studentUsername120 << endl;
+                cout << studentUsername121 << endl;
+                cout << studentUsername122 << endl;
+                cout << studentUsername123 << endl;
+                cout << studentUsername124 << endl;
+                cout << studentUsername125 << endl;
+                cout << studentUsername126 << endl;
+                cout << studentUsername127 << endl;
+                cout << studentUsername128 << endl;
+                cout << studentUsername129 << endl;
+                cout << studentUsername130 << endl;
+                cout << studentUsername131 << endl;
+                cout << studentUsername132 << endl;
+                cout << studentUsername133 << endl;
+                cout << studentUsername134 << endl;
+                cout << studentUsername135 << endl;
+                cout << studentUsername136 << endl;
+                cout << studentUsername137 << endl;
+                cout << studentUsername138 << endl;
+                cout << studentUsername139 << endl;
+                cout << studentUsername140 << endl;
+                cout << studentUsername141 << endl;
+                cout << studentUsername142 << endl;
+                cout << studentUsername143 << endl;
+                cout << studentUsername144 << endl;
+                cout << studentUsername145 << endl;
+                cout << studentUsername146 << endl;
+                cout << studentUsername147 << endl;
+                cout << studentUsername148 << endl;
+                cout << studentUsername149 << endl;
+                cout << studentUsername150 << endl;
+             cout << "Input: " << endl;
+             cin >> cor;
+             
+             switch (cor) {
+             case 1: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername101 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 2:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername102 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 3: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername103 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 4: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername104 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 5: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername105 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 6:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername106 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 7:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername107 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 8:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername108 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 9:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername109 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 10:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername110 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 11:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername111 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 12:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername112 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 13:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername113 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 14:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername114 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 15:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername115 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 16:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername116 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 17:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername117 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 18:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername118 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 19:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername119 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 20:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername120 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 21:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername121 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 22:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername122 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 23:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername123 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 24:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername124 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 25:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername125 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 26:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername126 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 27:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername127 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 28: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername128 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 29:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername129 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 30:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername130 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 31:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername131 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 32:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername132 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 33:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername133 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 34:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername134 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             case 35:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername135 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 36:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername136 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 37:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername137 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 38:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername138 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  39:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername139 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 40:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername140 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 41:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername141 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 42:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername142 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 43:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername143 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             
+             case 44:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername144 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 45:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername145 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 46:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername146 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 47:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername147 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  48:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername148 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 49:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername149 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 50:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername150 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+              default:
+              cout << "No such choice " << endl;
+             
+             }
+             }
+             else if ( cor2 == "4") {
+             cout << " Enter the number of the student whose Certificate of Enrollment you want to print \nNote: According to their order." << endl;    
+             cout << "Students of DICT" << endl;
+             cout << studentUsername151 << endl;
+                cout << studentUsername152 << endl;
+                cout << studentUsername153 << endl;
+                cout << studentUsername154 << endl;
+                cout << studentUsername155 << endl;
+                cout << studentUsername156 << endl;
+                cout << studentUsername157 << endl;
+                cout << studentUsername158 << endl;
+                cout << studentUsername159 << endl;
+                cout << studentUsername160 << endl;
+                cout << studentUsername161 << endl;
+                cout << studentUsername162 << endl;
+                cout << studentUsername163 << endl;
+                cout << studentUsername164 << endl;
+                cout << studentUsername165 << endl;
+                cout << studentUsername166 << endl;
+                cout << studentUsername167 << endl;
+                cout << studentUsername168 << endl;
+                cout << studentUsername169 << endl;
+                cout << studentUsername170 << endl;
+                cout << studentUsername171 << endl;
+                cout << studentUsername172 << endl;
+                cout << studentUsername173 << endl;
+                cout << studentUsername174 << endl;
+                cout << studentUsername175 << endl;
+                cout << studentUsername176 << endl;
+                cout << studentUsername177 << endl;
+                cout << studentUsername178 << endl;
+                cout << studentUsername179 << endl;
+                cout << studentUsername180 << endl;
+                cout << studentUsername181 << endl;
+                cout << studentUsername182 << endl;
+                cout << studentUsername183 << endl;
+                cout << studentUsername184 << endl;
+                cout << studentUsername185 << endl;
+                cout << studentUsername186 << endl;
+                cout << studentUsername187 << endl;
+                cout << studentUsername188 << endl;
+                cout << studentUsername189 << endl;
+                cout << studentUsername190 << endl;
+                cout << studentUsername191 << endl;
+                cout << studentUsername192 << endl;
+                cout << studentUsername193 << endl;
+                cout << studentUsername194 << endl;
+                cout << studentUsername195 << endl;
+                cout << studentUsername196 << endl;
+                cout << studentUsername197 << endl;
+                cout << studentUsername198 << endl;
+                cout << studentUsername199 << endl;
+                cout << studentUsername200 << endl;
+                cout << "Input: " << endl;
+             cin >> cor;
+             
+             switch (cor) {
+             case 1: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername151 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 2:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername152 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 3: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername153 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 4: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername154 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 5: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername155 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 6:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername156 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 7:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername157 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 8:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername158 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 9:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername159 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 10:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername160 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 11:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername161 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 12:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername162 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 13:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername163 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 14:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername164 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 15:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername165 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 16:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername166 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 17:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername167 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 18:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername168 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 19:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername169 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 20:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername170 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 21:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername171 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 22:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername172 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 23:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername173 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 24:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername174 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 25:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername175 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 26:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername176 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 27:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername177 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 28: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername178 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 29:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername179 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 30:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername180 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 31:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername181 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 32:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername182 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 33:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername183 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 34:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername184 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+              case 35:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername185 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 36:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername186 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 37:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername187 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 38:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername188 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  39:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername189 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 40:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername190 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 41:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername191 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 42:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername192 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 43:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername193 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 44:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername194 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 45:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername195 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 46:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername196 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 47:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername197 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  48:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername198 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 49:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername199 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 50:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername200 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+              default:
+              cout << "No such choice " << endl;
+             }
+             }
+             else if ( cor2 == "4") {
+             cout << " Enter the number of the student whose Certificate of Enrollment you want to print \nNote: According to their order." << endl;    
+             cout << "Students of BSBA" << endl;
+                cout << studentUsername201 << endl;
+                cout << studentUsername202 << endl;
+                cout << studentUsername203 << endl;
+                cout << studentUsername204 << endl;
+                cout << studentUsername205 << endl;
+                cout << studentUsername206 << endl;
+                cout << studentUsername207 << endl;
+                cout << studentUsername208 << endl;
+                cout << studentUsername209 << endl;
+                cout << studentUsername210 << endl;
+                cout << studentUsername211 << endl;
+                cout << studentUsername212 << endl;
+                cout << studentUsername213 << endl;
+                cout << studentUsername214 << endl;
+                cout << studentUsername215 << endl;
+                cout << studentUsername216 << endl;
+                cout << studentUsername217 << endl;
+                cout << studentUsername218 << endl;
+                cout << studentUsername219 << endl;
+                cout << studentUsername220 << endl;
+                cout << studentUsername221 << endl;
+                cout << studentUsername222 << endl;
+                cout << studentUsername223 << endl;
+                cout << studentUsername224 << endl;
+                cout << studentUsername225 << endl;
+                cout << studentUsername226 << endl;
+                cout << studentUsername227 << endl;
+                cout << studentUsername228 << endl;
+                cout << studentUsername229 << endl;
+                cout << studentUsername230 << endl;
+                cout << studentUsername231 << endl;
+                cout << studentUsername232 << endl;
+                cout << studentUsername233 << endl;
+                cout << studentUsername234 << endl;
+                cout << studentUsername235 << endl;
+                cout << studentUsername236 << endl;
+                cout << studentUsername237 << endl;
+                cout << studentUsername238 << endl;
+                cout << studentUsername239 << endl;
+                cout << studentUsername240 << endl;
+                cout << studentUsername241 << endl;
+                cout << studentUsername242 << endl;
+                cout << studentUsername243 << endl;
+                cout << studentUsername244 << endl;
+                cout << studentUsername245 << endl;
+                cout << studentUsername246 << endl;
+                cout << studentUsername247 << endl;
+                cout << studentUsername248 << endl;
+                cout << studentUsername249 << endl;
+                cout << studentUsername250 << endl;
+                cout << "Input: " << endl;
+             cin >> cor;
+             
+             switch (cor) {
+             case 1: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername201 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 2:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername202 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 3: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername203 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 4: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername204 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 5: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername205 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 6:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername206 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 7:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername207 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 8:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername208 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 9:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername209 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 10:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername210 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 11:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername211 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 12:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername212 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 13:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername213 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 14:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername214 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 15:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername215 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 16:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername166 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 17:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername217 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 18:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername218 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 19:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername219 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 20:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername220 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 21:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername221 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 22:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername222 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 23:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername223 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 24:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername224 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 25:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername225 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 26:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername226 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 27:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername227 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 28: 
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername228 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 29:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername229 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 30:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername230 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 31:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername231 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 32:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername232 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 33:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername233 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 34:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername234 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 35:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername235 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 36:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername236 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 37:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername237 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 38:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername238 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  39:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername239 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 40:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername240 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 41:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername241 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 42:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername242 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 43:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername243 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 44:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername244 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 45:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername245 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 46:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername246 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 47:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername247 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case  48:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername248 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 49:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername249 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+             
+             case 50:
+             cout <<"\tCERTIFICATE OF REGISTRATION" << endl;
+             cout << "Republic of the Philippines" << endl;
+             cout << "Polytechnic University of the Philippines\n\n" << endl;
+
+             cout << "Name: " << studentUsername250 << "\tAY: 2024-2025 " << "\tTERM: First Semester" << endl;
+
+             cout << "_________________________________________________________________________________________________________________________________" << endl;
+             cout << "Program: Bachelor of Science in Technology" << "\tProgram code: BSIT " << endl;
+             cout << "Campus: Bataan" << "\tYear Level: First Year" << "\tSection: BSIT 1-1 " << endl;
+             cout << "______________________________________________________________________________________________________________________________________" << endl;
+             cout << "SUBJECT CODE" << "\tSUBJECT TITLE" << "\tSECTION CODE" << "\tTUITIONS UNITS" << "\tCREDITED UNITS" << "\tSCHEDULE" << endl;
+             cout << " BSIT001          SUBJECT 1              BSIT 1-1            5.0                    3.0                M 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 2              BSIT 1-1            5.0                    3.0                T 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 3              BSIT 1-1            5.0                    3.0                W/F 7:30-9:30" << endl;
+             cout << " BSIT001          SUBJECT 4              BSIT 1-1            5.0                    3.0                TH/S 7:30-9:30" << endl;
+             cout << "x - x - x - x - x - x - x - x - x - x - x - x - x - x  Nothing Follows x - x - x - x - x - x - x - x - x - x - x - x - x - x " << endl;
+             cout << " MAX UNITS ALLOWED: 20 " << "\tTOTAL UNITS ENROLLED: 12 " << endl;
+             cout << "\t\nThis document contains personal-identifiable information that is subject to Data Privacy. " << endl;
+             cout << "\tPlease keep this document protected and in a safe place." << endl;
+             cout << "Printing. . ." << endl;
+             cout << "Printed Successfully" << endl;
+             break;
+              default:
+              cout << "No such choice " << endl;
+             }
+             }
+        }
         else
         {
             system("cls");
@@ -4454,8 +10765,9 @@ login:
         // handles BSENT
     teacher_menu2:
         cout << "\nBSENT\n";
-        cout << "1. Create Student Account\n";
-        cout << "2. Logout\n";
+        cout << "1. Create Student Account" << endl;
+        cout << "2. Logout\n" << endl;
+        cout << "3. Elsi" << endl;
         cout << "Enter your choice: ";
         int teacherChoice = 0;
         cin >> teacherChoice;
