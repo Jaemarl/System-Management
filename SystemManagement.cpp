@@ -278,11 +278,291 @@ int main()
     string studentUsername249, studentPassword249;
     string studentUsername250, studentPassword250;
 
+    // Student static IDs
+string studentUsernameID1;
+string studentUsernameID2;
+string studentUsernameID3;
+string studentUsernameID4;
+string studentUsernameID5;
+string studentUsernameID6;
+string studentUsernameID7;
+string studentUsernameID8;
+string studentUsernameID9;
+string studentUsernameID10;
+
+string studentUsernameID11;
+string studentUsernameID12;
+string studentUsernameID13;
+string studentUsernameID14;
+string studentUsernameID15;
+string studentUsernameID16;
+string studentUsernameID17;
+string studentUsernameID18;
+string studentUsernameID19;
+string studentUsernameID20;
+
+string studentUsernameID21;
+string studentUsernameID22;
+string studentUsernameID23;
+string studentUsernameID24;
+string studentUsernameID25;
+string studentUsernameID26;
+string studentUsernameID27;
+string studentUsernameID28;
+string studentUsernameID29;
+string studentUsernameID30;
+
+string studentUsernameID31;
+string studentUsernameID32;
+string studentUsernameID33;
+string studentUsernameID34;
+string studentUsernameID35;
+string studentUsernameID36;
+string studentUsernameID37;
+string studentUsernameID38;
+string studentUsernameID39;
+string studentUsernameID40;
+
+string studentUsernameID41;
+string studentUsernameID42;
+string studentUsernameID43;
+string studentUsernameID44;
+string studentUsernameID45;
+string studentUsernameID46;
+string studentUsernameID47;
+string studentUsernameID48;
+string studentUsernameID49;
+string studentUsernameID50;
+
+string studentUsernameID51;
+string studentUsernameID52;
+string studentUsernameID53;
+string studentUsernameID54;
+string studentUsernameID55;
+string studentUsernameID56;
+string studentUsernameID57;
+string studentUsernameID58;
+string studentUsernameID59;
+string studentUsernameID60;
+
+string studentUsernameID61;
+string studentUsernameID62;
+string studentUsernameID63;
+string studentUsernameID64;
+string studentUsernameID65;
+string studentUsernameID66;
+string studentUsernameID67;
+string studentUsernameID68;
+string studentUsernameID69;
+string studentUsernameID70;
+
+string studentUsernameID71;
+string studentUsernameID72;
+string studentUsernameID73;
+string studentUsernameID74;
+string studentUsernameID75;
+string studentUsernameID76;
+string studentUsernameID77;
+string studentUsernameID78;
+string studentUsernameID79;
+string studentUsernameID80;
+
+string studentUsernameID81;
+string studentUsernameID82;
+string studentUsernameID83;
+string studentUsernameID84;
+string studentUsernameID85;
+string studentUsernameID86;
+string studentUsernameID87;
+string studentUsernameID88;
+string studentUsernameID89;
+string studentUsernameID90;
+
+string studentUsernameID91;
+string studentUsernameID92;
+string studentUsernameID93;
+string studentUsernameID94;
+string studentUsernameID95;
+string studentUsernameID96;
+string studentUsernameID97;
+string studentUsernameID98;
+string studentUsernameID99;
+string studentUsernameID100;
+
+string studentUsernameID101;
+string studentUsernameID102;
+string studentUsernameID103;
+string studentUsernameID104;
+string studentUsernameID105;
+string studentUsernameID106;
+string studentUsernameID107;
+string studentUsernameID108;
+string studentUsernameID109;
+string studentUsernameID110;
+
+string studentUsernameID111;
+string studentUsernameID112;
+string studentUsernameID113;
+string studentUsernameID114;
+string studentUsernameID115;
+string studentUsernameID116;
+string studentUsernameID117;
+string studentUsernameID118;
+string studentUsernameID119;
+string studentUsernameID120;
+
+string studentUsernameID121;
+string studentUsernameID122;
+string studentUsernameID123;
+string studentUsernameID124;
+string studentUsernameID125;
+string studentUsernameID126;
+string studentUsernameID127;
+string studentUsernameID128;
+string studentUsernameID129;
+string studentUsernameID130;
+
+string studentUsernameID131;
+string studentUsernameID132;
+string studentUsernameID133;
+string studentUsernameID134;
+string studentUsernameID135;
+string studentUsernameID136;
+string studentUsernameID137;
+string studentUsernameID138;
+string studentUsernameID139;
+string studentUsernameID140;
+
+string studentUsernameID141;
+string studentUsernameID142;
+string studentUsernameID143;
+string studentUsernameID144;
+string studentUsernameID145;
+string studentUsernameID146;
+string studentUsernameID147;
+string studentUsernameID148;
+string studentUsernameID149;
+string studentUsernameID150;
+
+string studentUsernameID151;
+string studentUsernameID152;
+string studentUsernameID153;
+string studentUsernameID154;
+string studentUsernameID155;
+string studentUsernameID156;
+string studentUsernameID157;
+string studentUsernameID158;
+string studentUsernameID159;
+string studentUsernameID160;
+
+string studentUsernameID161;
+string studentUsernameID162;
+string studentUsernameID163;
+string studentUsernameID164;
+string studentUsernameID165;
+string studentUsernameID166;
+string studentUsernameID167;
+string studentUsernameID168;
+string studentUsernameID169;
+string studentUsernameID170;
+
+string studentUsernameID171;
+string studentUsernameID172;
+string studentUsernameID173;
+string studentUsernameID174;
+string studentUsernameID175;
+string studentUsernameID176;
+string studentUsernameID177;
+string studentUsernameID178;
+string studentUsernameID179;
+string studentUsernameID180;
+
+string studentUsernameID181;
+string studentUsernameID182;
+string studentUsernameID183;
+string studentUsernameID184;
+string studentUsernameID185;
+string studentUsernameID186;
+string studentUsernameID187;
+string studentUsernameID188;
+string studentUsernameID189;
+string studentUsernameID190;
+
+string studentUsernameID191;
+string studentUsernameID192;
+string studentUsernameID193;
+string studentUsernameID194;
+string studentUsernameID195;
+string studentUsernameID196;
+string studentUsernameID197;
+string studentUsernameID198;
+string studentUsernameID199;
+string studentUsernameID200;
+
+string studentUsernameID201;
+string studentUsernameID202;
+string studentUsernameID203;
+string studentUsernameID204;
+string studentUsernameID205;
+string studentUsernameID206;
+string studentUsernameID207;
+string studentUsernameID208;
+string studentUsernameID209;
+string studentUsernameID210;
+
+string studentUsernameID211;
+string studentUsernameID212;
+string studentUsernameID213;
+string studentUsernameID214;
+string studentUsernameID215;
+string studentUsernameID216;
+string studentUsernameID217;
+string studentUsernameID218;
+string studentUsernameID219;
+string studentUsernameID220;
+
+string studentUsernameID221;
+string studentUsernameID222;
+string studentUsernameID223;
+string studentUsernameID224;
+string studentUsernameID225;
+string studentUsernameID226;
+string studentUsernameID227;
+string studentUsernameID228;
+string studentUsernameID229;
+string studentUsernameID230;
+
+string studentUsernameID231;
+string studentUsernameID232;
+string studentUsernameID233;
+string studentUsernameID234;
+string studentUsernameID235;
+string studentUsernameID236;
+string studentUsernameID237;
+string studentUsernameID238;
+string studentUsernameID239;
+string studentUsernameID240;
+
+string studentUsernameID241;
+string studentUsernameID242;
+string studentUsernameID243;
+string studentUsernameID244;
+string studentUsernameID245;
+string studentUsernameID246;
+string studentUsernameID247;
+string studentUsernameID248;
+string studentUsernameID249;
+string studentUsernameID250;
+
+
+
     // Variables to keep track of how many accounts have been created
     int staffCount = 0;
     int teacherCount = 0;
     int studentCount = 0;
-
+    int attempts = 3;
+    bool loggedIn = false;
+    bool answeredForm = false;
 main_menu:
 Login:
     string input;
@@ -3563,14 +3843,16 @@ login:
         cout << "Enter your choice: ";
         string teacherChoice;
         cin >> teacherChoice;
-
+        system("cls");
         if (teacherChoice == "1" && studentCount < 50)
         { // Handling 50 students for BSIT
-            string newUsername, newPassword;
+            string newUsername, newPassword, studentID;
             cout << "Enter student username: ";
             cin >> newUsername;
             cout << "Enter student password: ";
             cin >> newPassword;
+            cout << "Enter student ID" << endl;
+            cin >> studentID;
 
             if ((studentCount == 0 || (studentUsername1 != newUsername || studentPassword1 != newPassword)) && (studentCount < 2 || (studentUsername2 != newUsername || studentPassword2 != newPassword)) && (studentCount < 3 || (studentUsername3 != newUsername || studentPassword3 != newPassword)) && (studentCount < 4 || (studentUsername4 != newUsername || studentPassword4 != newPassword)) && (studentCount < 5 || (studentUsername5 != newUsername || studentPassword5 != newPassword)) && (studentCount < 6 || (studentUsername6 != newUsername || studentPassword6 != newPassword)) && (studentCount < 7 || (studentUsername7 != newUsername || studentPassword7 != newPassword)) && (studentCount < 8 || (studentUsername8 != newUsername || studentPassword8 != newPassword)) && (studentCount < 9 || (studentUsername9 != newUsername || studentPassword9 != newPassword)) && (studentCount < 10 || (studentUsername10 != newUsername || studentPassword10 != newPassword)) && (studentCount < 11 || (studentUsername11 != newUsername || studentPassword11 != newPassword)) && (studentCount < 12 || (studentUsername12 != newUsername || studentPassword12 != newPassword)) && (studentCount < 13 || (studentUsername13 != newUsername || studentPassword13 != newPassword)) && (studentCount < 14 || (studentUsername14 != newUsername || studentPassword14 != newPassword)) && (studentCount < 15 || (studentUsername15 != newUsername || studentPassword15 != newPassword)) && (studentCount < 16 || (studentUsername16 != newUsername || studentPassword16 != newPassword)) && (studentCount < 17 || (studentUsername17 != newUsername || studentPassword17 != newPassword)) && (studentCount < 18 || (studentUsername18 != newUsername || studentPassword18 != newPassword)) && (studentCount < 19 || (studentUsername19 != newUsername || studentPassword19 != newPassword)) && (studentCount < 20 || (studentUsername20 != newUsername || studentPassword20 != newPassword)) && (studentCount < 21 || (studentUsername21 != newUsername || studentPassword21 != newPassword)) && (studentCount < 22 || (studentUsername22 != newUsername || studentPassword22 != newPassword)) && (studentCount < 23 || (studentUsername23 != newUsername || studentPassword23 != newPassword)) && (studentCount < 24 || (studentUsername24 != newUsername || studentPassword24 != newPassword)) && (studentCount < 25 || (studentUsername25 != newUsername || studentPassword25 != newPassword)) && (studentCount < 26 || (studentUsername26 != newUsername || studentPassword26 != newPassword)) && (studentCount < 27 || (studentUsername27 != newUsername || studentPassword27 != newPassword)) && (studentCount < 28 || (studentUsername28 != newUsername || studentPassword28 != newPassword)) && (studentCount < 29 || (studentUsername29 != newUsername || studentPassword29 != newPassword)) && (studentCount < 30 || (studentUsername30 != newUsername || studentPassword30 != newPassword)) && (studentCount < 31 || (studentUsername31 != newUsername || studentPassword31 != newPassword)) && (studentCount < 32 || (studentUsername32 != newUsername || studentPassword32 != newPassword)) && (studentCount < 33 || (studentUsername33 != newUsername || studentPassword33 != newPassword)) && (studentCount < 34 || (studentUsername34 != newUsername || studentPassword34 != newPassword)) && (studentCount < 35 || (studentUsername35 != newUsername || studentPassword35 != newPassword)) && (studentCount < 36 || (studentUsername36 != newUsername || studentPassword36 != newPassword)) && (studentCount < 37 || (studentUsername37 != newUsername || studentPassword37 != newPassword)) && (studentCount < 38 || (studentUsername38 != newUsername || studentPassword38 != newPassword)) && (studentCount < 39 || (studentUsername39 != newUsername || studentPassword39 != newPassword)) && (studentCount < 40 || (studentUsername40 != newUsername || studentPassword40 != newPassword)) && (studentCount < 41 || (studentUsername41 != newUsername || studentPassword41 != newPassword)) && (studentCount < 42 || (studentUsername42 != newUsername || studentPassword42 != newPassword)) && (studentCount < 43 || (studentUsername43 != newUsername || studentPassword43 != newPassword)) && (studentCount < 44 || (studentUsername44 != newUsername || studentPassword44 != newPassword)) && (studentCount < 45 || (studentUsername45 != newUsername || studentPassword45 != newPassword)) && (studentCount < 46 || (studentUsername46 != newUsername || studentPassword46 != newPassword)) && (studentCount < 47 || (studentUsername47 != newUsername || studentPassword47 != newPassword)) && (studentCount < 48 || (studentUsername48 != newUsername || studentPassword48 != newPassword)) && (studentCount < 49 || (studentUsername49 != newUsername || studentPassword49 != newPassword)) && (studentCount < 50 || (studentUsername50 != newUsername || studentPassword50 != newPassword)))
             {
@@ -3578,51 +3860,61 @@ login:
                 {
                     studentUsername1 = newUsername;
                     studentPassword1 = newPassword;
+                    studentUsernameID1 = studentID;
                 }
                 else if (studentCount == 1)
                 {
                     studentUsername2 = newUsername;
                     studentPassword2 = newPassword;
+                    studentUsernameID2 = studentID;
                 }
                 else if (studentCount == 2)
                 {
                     studentUsername3 = newUsername;
                     studentPassword3 = newPassword;
+                    studentUsernameID3 = studentID;
                 }
                 else if (studentCount == 3)
                 {
                     studentUsername4 = newUsername;
                     studentPassword4 = newPassword;
+                    studentUsernameID4 = studentID;
                 }
                 else if (studentCount == 4)
                 {
                     studentUsername5 = newUsername;
                     studentPassword5 = newPassword;
+                    studentUsernameID5 = studentID;
                 }
                 else if (studentCount == 5)
                 {
                     studentUsername6 = newUsername;
                     studentPassword6 = newPassword;
+                    studentUsernameID6 = studentID;
                 }
                 else if (studentCount == 6)
                 {
                     studentUsername7 = newUsername;
                     studentPassword7 = newPassword;
+                    studentUsernameID7 = studentID;
                 }
                 else if (studentCount == 7)
                 {
                     studentUsername8 = newUsername;
                     studentPassword8 = newPassword;
+                    studentUsernameID8 = studentID;
                 }
                 else if (studentCount == 8)
                 {
                     studentUsername9 = newUsername;
                     studentPassword9 = newPassword;
+                    studentUsernameID9 = studentID;
                 }
                 else if (studentCount == 9)
                 {
                     studentUsername10 = newUsername;
                     studentPassword10 = newPassword;
+                    studentUsernameID1 = studentID;
                 }
                 else if (studentCount == 10)
                 {
@@ -3854,6 +4146,7 @@ login:
             cout << "Enter 1 to redirect to menu" << endl;
             cout << "Enter input:";
             cin >> teacherChoiceInside;
+            system("cls");
             if (teacherChoiceInside == "1")
             {
                 cout << "Go back..." << endl;
@@ -4166,7 +4459,7 @@ login:
         cout << "Enter your choice: ";
         int teacherChoice = 0;
         cin >> teacherChoice;
-
+        system("cls");
         if (teacherChoice == 1 && studentCount < 50)
         {
             string newUsername, newPassword;
@@ -4529,7 +4822,7 @@ login:
         cout << "Enter your choice: ";
         int teacherChoice;
         cin >> teacherChoice;
-
+        system("cls");
         if (teacherChoice == 1 && studentCount < 50)
         { // Handling 50 students for DICT
             string newUsername, newPassword;
@@ -5897,32 +6190,54 @@ goto main_menu;
              studentUsername237 == username && studentPassword237 == password || studentUsername238 == username && studentPassword238 == password || studentUsername239 == username && studentPassword239 == password || studentUsername240 == username && studentPassword240 == password || studentUsername241 == username && studentPassword241 == password || studentUsername242 == username && studentPassword242 == password || studentUsername243 == username && studentPassword243 == password || studentUsername244 == username && studentPassword244 == password || studentUsername245 == username && studentPassword245 == password ||
              studentUsername246 == username && studentPassword246 == password || studentUsername247 == username && studentPassword247 == password || studentUsername248 == username && studentPassword248 == password || studentUsername249 == username && studentPassword249 == password || studentUsername250 == username && studentPassword250 == password)
     {
+    
+        loggedIn = true;
     studentMenu:
+    if (answeredForm) {
+        cout << "You have already answered the application form." << endl;
+        // Here you can decide what to do next, like going back to the login or menu
+        goto Login;
+        return 0;
+    }
         int age;
         string medical;
-        string grade11;
-        string grade12;
-        string grade10;
-        cout << "Welcome Student" << endl;
+        int grade11;
+        int grade12;
+        int grade10;
+        string goodMoral;
+        string form137;
+        cout << "APPLICATION FORM" << endl;
         cout << "Please Enter your age" << endl;
         cin >> age;
+        system("cls");
         cout << "Do you have Medical?";
         cin >> medical;
+        system("cls");
         cout << "Please input your average for grade 10" << endl;
         cin >> grade10;
+        system("cls");
         cout << "Please input your average for grade 11" << endl;
         cin >> grade11;
+        system("cls");
         cout << "Please input your average for grade 12" << endl;
         cin >> grade12;
+        system("cls");
+        cout << "Do you have Good Moral? (Y/N)" << endl;
+        cin >> goodMoral;
+        system("cls");
+        cout << "Do you have Form 137? (Y/N)" << endl;
+        cin >> form137;
+        system("cls");
+
         if (age > 0 && age <= 100)
         {
             cout << "Your age is: " << age << endl;
         }
         if (medical != "Y" || "y")
         {
-            cout << "Please submit the requirements." << endl;
+            cout << "Confirmed." << endl;
         }
-        if (grade10 != "85" || grade11 != "85" || grade12 != "85")
+        if (grade10 < 85 || grade11 < 85 || grade12 < 85)
         {
             cout << "Sorry! You do not meet the average grade requirements!" << endl;
         }
@@ -5930,13 +6245,39 @@ goto main_menu;
         {
             cout << "Congratulations! You meet the average grade requirements!" << endl;
         }
-        cout << "welcome students";
-        goto studentMenu;
+        if (goodMoral == "y" || goodMoral == "Y"){
+            cout << "Confirmed." << endl;
+        }
+        else
+        {
+            cout << "Sorry, you need this requirement." << endl;
+        }
+        if (form137 == "y" || form137 == "Y"){
+            cout << "Confirmed." << endl;
+        }
+        else
+        {
+            cout << "Sorry, you need this requirement." << endl;
+        }
+        answeredForm = true;
+        system("cls");
+        cout << "Please Wait for further notice!" << endl;
+        goto Login;
     }
     else
     {
         cout << "Invalid username or password. Please try again.\n";
         goto login;
     }
+
+
+    
+
+
+
+
+
+
+
     return 0;
 }
