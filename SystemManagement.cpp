@@ -4964,248 +4964,248 @@ login:
                         }
                         else if (studentCount == 2)
                         {
-                            studentUsername2 = newUsername;
-                            studentPassword2 = newPassword;
+                            studentUsername152 = newUsername;
+                            studentPassword152 = newPassword;
                         }
                         else if (studentCount == 3)
                         {
-                            studentUsername3 = newUsername;
-                            studentPassword3 = newPassword;
+                            studentUsername153 = newUsername;
+                            studentPassword153 = newPassword;
                         }
                         else if (studentCount == 4)
                         {
-                            studentUsername4 = newUsername;
-                            studentPassword4 = newPassword;
+                            studentUsername154 = newUsername;
+                            studentPassword154 = newPassword;
                         }
                         else if (studentCount == 5)
                         {
-                            studentUsername5 == newUsername;
-                            studentPassword5 == newPassword;
+                            studentUsername155 == newUsername;
+                            studentPassword155 == newPassword;
                         }
                         else if (studentCount == 6)
                         {
-                            studentUsername6 = newUsername;
-                            studentPassword6 = newPassword;
+                            studentUsername156 = newUsername;
+                            studentPassword156 = newPassword;
                         }
                         else if (studentCount == 7)
                         {
-                            studentUsername7 = newUsername;
-                            studentPassword7 = newPassword;
+                            studentUsername157 = newUsername;
+                            studentPassword157 = newPassword;
                         }
                         else if (studentCount == 8)
                         {
-                            studentUsername8 = newUsername;
-                            studentPassword8 = newPassword;
+                            studentUsername158 = newUsername;
+                            studentPassword158 = newPassword;
                         }
                         else if (studentCount == 9)
                         {
-                            studentUsername9 == newUsername;
-                            studentPassword9 == newPassword;
+                            studentUsername159 == newUsername;
+                            studentPassword159 == newPassword;
                         }
                         else if (studentCount == 10)
                         {
-                            studentUsername10 = newUsername;
-                            studentPassword10 = newPassword;
+                            studentUsername160 = newUsername;
+                            studentPassword160 = newPassword;
                         }
                         else if (studentCount == 11)
                         {
-                            studentUsername11 = newUsername;
-                            studentPassword11 = newPassword;
+                            studentUsername161 = newUsername;
+                            studentPassword161 = newPassword;
                         }
                         else if (studentCount == 12)
                         {
-                            studentUsername12 = newUsername;
-                            studentPassword12 = newPassword;
+                            studentUsername162 = newUsername;
+                            studentPassword162 = newPassword;
                         }
                         else if (studentCount == 13)
                         {
-                            studentUsername13 == newUsername;
-                            studentPassword13 == newPassword;
+                            studentUsername163 == newUsername;
+                            studentPassword163 == newPassword;
                         }
                         else if (studentCount == 14)
                         {
-                            studentUsername14 = newUsername;
-                            studentPassword14 = newPassword;
+                            studentUsername164 = newUsername;
+                            studentPassword164 = newPassword;
                         }
-                        else if (studentCount == 15)
+                         if (studentCount == 15)
                         {
-                            studentUsername15 = newUsername;
-                            studentPassword15 = newPassword;
+                            studentUsername165 = newUsername;
+                            studentPassword165 = newPassword;
                         }
                         else if (studentCount == 16)
                         {
-                            studentUsername16 = newUsername;
-                            studentPassword16 = newPassword;
+                            studentUsername166 = newUsername;
+                            studentPassword166 = newPassword;
                         }
                         else if (studentCount == 17)
                         {
-                            studentUsername17 == newUsername;
-                            studentPassword17 == newPassword;
+                            studentUsername167 = newUsername;
+                            studentPassword167 = newPassword;
                         }
                         else if (studentCount == 18)
                         {
-                            studentUsername18 = newUsername;
-                            studentPassword18 = newPassword;
+                            studentUsername168 = newUsername;
+                            studentPassword168 = newPassword;
                         }
                         else if (studentCount == 19)
                         {
-                            studentUsername19 = newUsername;
-                            studentPassword19 = newPassword;
+                            studentUsername169 = newUsername;
+                            studentPassword169 = newPassword;
                         }
                         else if (studentCount == 20)
                         {
-                            studentUsername20 = newUsername;
-                            studentPassword20 = newPassword;
+                            studentUsername170 = newUsername;
+                            studentPassword170 = newPassword;
                         }
                         else if (studentCount == 21)
                         {
-                            studentUsername21 == newUsername;
-                            studentPassword21 == newPassword;
+                            studentUsername171 = newUsername;
+                            studentPassword171 = newPassword;
                         }
                         else if (studentCount == 22)
                         {
-                            studentUsername22 = newUsername;
-                            studentPassword22 = newPassword;
+                            studentUsername172 = newUsername;
+                            studentPassword172 = newPassword;
                         }
                         else if (studentCount == 23)
                         {
-                            studentUsername23 = newUsername;
-                            studentPassword23 = newPassword;
+                            studentUsername173 = newUsername;
+                            studentPassword173 = newPassword;
                         }
                         else if (studentCount == 24)
                         {
-                            studentUsername24 = newUsername;
-                            studentPassword24 = newPassword;
+                            studentUsername174 = newUsername;
+                            studentPassword174 = newPassword;
                         }
                         else if (studentCount == 25)
                         {
-                            studentUsername25 == newUsername;
-                            studentPassword25 == newPassword;
+                            studentUsername175 = newUsername;
+                            studentPassword175 = newPassword;
                         }
                         else if (studentCount == 26)
                         {
-                            studentUsername26 = newUsername;
-                            studentPassword26 = newPassword;
+                            studentUsername176 = newUsername;
+                            studentPassword176 = newPassword;
                         }
                         else if (studentCount == 27)
                         {
-                            studentUsername27 = newUsername;
-                            studentPassword27 = newPassword;
+                            studentUsername177 = newUsername;
+                            studentPassword177 = newPassword;
                         }
                         else if (studentCount == 28)
                         {
-                            studentUsername28 = newUsername;
-                            studentPassword28 = newPassword;
+                            studentUsername178 = newUsername;
+                            studentPassword178 = newPassword;
                         }
                         else if (studentCount == 29)
                         {
-                            studentUsername29 == newUsername;
-                            studentPassword29 == newPassword;
+                            studentUsername179 = newUsername;
+                            studentPassword179 = newPassword;
                         }
                         else if (studentCount == 30)
                         {
-                            studentUsername30 = newUsername;
-                            studentPassword30 = newPassword;
+                            studentUsername180 = newUsername;
+                            studentPassword180 = newPassword;
                         }
                         else if (studentCount == 31)
                         {
-                            studentUsername31 = newUsername;
-                            studentPassword31 = newPassword;
+                            studentUsername181 = newUsername;
+                            studentPassword181 = newPassword;
                         }
                         else if (studentCount == 32)
                         {
-                            studentUsername32 = newUsername;
-                            studentPassword32 = newPassword;
+                            studentUsername182 = newUsername;
+                            studentPassword182 = newPassword;
                         }
                         else if (studentCount == 33)
                         {
-                            studentUsername33 == newUsername;
-                            studentPassword33 == newPassword;
+                            studentUsername183 = newUsername;
+                            studentPassword183 = newPassword;
                         }
                         else if (studentCount == 34)
                         {
-                            studentUsername34 = newUsername;
-                            studentPassword34 = newPassword;
+                            studentUsername184 = newUsername;
+                            studentPassword184 = newPassword;
                         }
                         else if (studentCount == 35)
                         {
-                            studentUsername35 = newUsername;
-                            studentPassword35 = newPassword;
+                            studentUsername185 = newUsername;
+                            studentPassword185 = newPassword;
                         }
                         else if (studentCount == 36)
                         {
-                            studentUsername36 = newUsername;
-                            studentPassword36 = newPassword;
+                            studentUsername186 = newUsername;
+                            studentPassword186 = newPassword;
                         }
                         else if (studentCount == 37)
                         {
-                            studentUsername37 == newUsername;
-                            studentPassword37 == newPassword;
+                            studentUsername187 = newUsername;
+                            studentPassword187 = newPassword;
                         }
                         else if (studentCount == 38)
                         {
-                            studentUsername38 = newUsername;
-                            studentPassword38 = newPassword;
+                            studentUsername188 = newUsername;
+                            studentPassword188 = newPassword;
                         }
                         else if (studentCount == 39)
                         {
-                            studentUsername39 = newUsername;
-                            studentPassword39 = newPassword;
+                            studentUsername189 = newUsername;
+                            studentPassword189 = newPassword;
                         }
                         else if (studentCount == 40)
                         {
-                            studentUsername40 = newUsername;
-                            studentPassword40 = newPassword;
+                            studentUsername190 = newUsername;
+                            studentPassword190 = newPassword;
                         }
                         else if (studentCount == 41)
                         {
-                            studentUsername41 == newUsername;
-                            studentPassword41 == newPassword;
+                            studentUsername191 = newUsername;
+                            studentPassword191 = newPassword;
                         }
                         else if (studentCount == 42)
                         {
-                            studentUsername42 = newUsername;
-                            studentPassword42 = newPassword;
+                            studentUsername192 = newUsername;
+                            studentPassword192 = newPassword;
                         }
                         else if (studentCount == 43)
                         {
-                            studentUsername43 = newUsername;
-                            studentPassword43 = newPassword;
+                            studentUsername193 = newUsername;
+                            studentPassword193 = newPassword;
                         }
                         else if (studentCount == 44)
                         {
-                            studentUsername44 = newUsername;
-                            studentPassword44 = newPassword;
+                            studentUsername194 = newUsername;
+                            studentPassword194 = newPassword;
                         }
                         else if (studentCount == 45)
                         {
-                            studentUsername45 == newUsername;
-                            studentPassword45 == newPassword;
+                            studentUsername195 = newUsername;
+                            studentPassword195 = newPassword;
                         }
                         else if (studentCount == 46)
                         {
-                            studentUsername46 = newUsername;
-                            studentPassword46 = newPassword;
+                            studentUsername196 = newUsername;
+                            studentPassword196 = newPassword;
                         }
                         else if (studentCount == 47)
                         {
-                            studentUsername47 = newUsername;
-                            studentPassword47 = newPassword;
+                            studentUsername197 = newUsername;
+                            studentPassword197 = newPassword;
                         }
                         else if (studentCount == 48)
                         {
-                            studentUsername48 = newUsername;
-                            studentPassword48 = newPassword;
+                            studentUsername198 = newUsername;
+                            studentPassword198 = newPassword;
                         }
                         else if (studentCount == 49)
                         {
-                            studentUsername49 == newUsername;
-                            studentPassword49 == newPassword;
+                            studentUsername199 = newUsername;
+                            studentPassword199 = newPassword;
                         }
                         else if (studentCount == 50)
                         {
-                            studentUsername50 == newUsername;
-                            studentPassword50 == newPassword;
+                            studentUsername200 = newUsername;
+                            studentPassword200 = newPassword;
                         }
                         cout << "Student account created successfully.\n";
                         goto main_menu;
@@ -5317,262 +5317,262 @@ login:
 
                 if (!usernamePasswordExists)
                 {
-                    if (studentCount < 200)
+                    if (studentCount < 250)
                     {
                         studentCount++;
                         // Assign the new username and password to the next available variables
-                        if (studentCount == 1)
-                        {
-                            studentUsername151 = newUsername;
-                            studentPassword151 = newPassword;
-                        }
-                        else if (studentCount == 2)
-                        {
-                            studentUsername2 = newUsername;
-                            studentPassword2 = newPassword;
-                        }
-                        else if (studentCount == 3)
-                        {
-                            studentUsername3 = newUsername;
-                            studentPassword3 = newPassword;
-                        }
-                        else if (studentCount == 4)
-                        {
-                            studentUsername4 = newUsername;
-                            studentPassword4 = newPassword;
-                        }
-                        else if (studentCount == 5)
-                        {
-                            studentUsername5 == newUsername;
-                            studentPassword5 == newPassword;
-                        }
-                        else if (studentCount == 6)
-                        {
-                            studentUsername6 = newUsername;
-                            studentPassword6 = newPassword;
-                        }
-                        else if (studentCount == 7)
-                        {
-                            studentUsername7 = newUsername;
-                            studentPassword7 = newPassword;
-                        }
-                        else if (studentCount == 8)
-                        {
-                            studentUsername8 = newUsername;
-                            studentPassword8 = newPassword;
-                        }
-                        else if (studentCount == 9)
-                        {
-                            studentUsername9 == newUsername;
-                            studentPassword9 == newPassword;
-                        }
-                        else if (studentCount == 10)
-                        {
-                            studentUsername10 = newUsername;
-                            studentPassword10 = newPassword;
-                        }
-                        else if (studentCount == 11)
-                        {
-                            studentUsername11 = newUsername;
-                            studentPassword11 = newPassword;
-                        }
-                        else if (studentCount == 12)
-                        {
-                            studentUsername12 = newUsername;
-                            studentPassword12 = newPassword;
-                        }
-                        else if (studentCount == 13)
-                        {
-                            studentUsername13 == newUsername;
-                            studentPassword13 == newPassword;
-                        }
-                        else if (studentCount == 14)
-                        {
-                            studentUsername14 = newUsername;
-                            studentPassword14 = newPassword;
-                        }
-                        else if (studentCount == 15)
-                        {
-                            studentUsername15 = newUsername;
-                            studentPassword15 = newPassword;
-                        }
-                        else if (studentCount == 16)
-                        {
-                            studentUsername16 = newUsername;
-                            studentPassword16 = newPassword;
-                        }
-                        else if (studentCount == 17)
-                        {
-                            studentUsername17 == newUsername;
-                            studentPassword17 == newPassword;
-                        }
-                        else if (studentCount == 18)
-                        {
-                            studentUsername18 = newUsername;
-                            studentPassword18 = newPassword;
-                        }
-                        else if (studentCount == 19)
-                        {
-                            studentUsername19 = newUsername;
-                            studentPassword19 = newPassword;
-                        }
-                        else if (studentCount == 20)
-                        {
-                            studentUsername20 = newUsername;
-                            studentPassword20 = newPassword;
-                        }
-                        else if (studentCount == 21)
-                        {
-                            studentUsername21 == newUsername;
-                            studentPassword21 == newPassword;
-                        }
-                        else if (studentCount == 22)
-                        {
-                            studentUsername22 = newUsername;
-                            studentPassword22 = newPassword;
-                        }
-                        else if (studentCount == 23)
-                        {
-                            studentUsername23 = newUsername;
-                            studentPassword23 = newPassword;
-                        }
-                        else if (studentCount == 24)
-                        {
-                            studentUsername24 = newUsername;
-                            studentPassword24 = newPassword;
-                        }
-                        else if (studentCount == 25)
-                        {
-                            studentUsername25 == newUsername;
-                            studentPassword25 == newPassword;
-                        }
-                        else if (studentCount == 26)
-                        {
-                            studentUsername26 = newUsername;
-                            studentPassword26 = newPassword;
-                        }
-                        else if (studentCount == 27)
-                        {
-                            studentUsername27 = newUsername;
-                            studentPassword27 = newPassword;
-                        }
-                        else if (studentCount == 28)
-                        {
-                            studentUsername28 = newUsername;
-                            studentPassword28 = newPassword;
-                        }
-                        else if (studentCount == 29)
-                        {
-                            studentUsername29 == newUsername;
-                            studentPassword29 == newPassword;
-                        }
-                        else if (studentCount == 30)
-                        {
-                            studentUsername30 = newUsername;
-                            studentPassword30 = newPassword;
-                        }
-                        else if (studentCount == 31)
-                        {
-                            studentUsername31 = newUsername;
-                            studentPassword31 = newPassword;
-                        }
-                        else if (studentCount == 32)
-                        {
-                            studentUsername32 = newUsername;
-                            studentPassword32 = newPassword;
-                        }
-                        else if (studentCount == 33)
-                        {
-                            studentUsername33 == newUsername;
-                            studentPassword33 == newPassword;
-                        }
-                        else if (studentCount == 34)
-                        {
-                            studentUsername34 = newUsername;
-                            studentPassword34 = newPassword;
-                        }
-                        else if (studentCount == 35)
-                        {
-                            studentUsername35 = newUsername;
-                            studentPassword35 = newPassword;
-                        }
-                        else if (studentCount == 36)
-                        {
-                            studentUsername36 = newUsername;
-                            studentPassword36 = newPassword;
-                        }
-                        else if (studentCount == 37)
-                        {
-                            studentUsername37 == newUsername;
-                            studentPassword37 == newPassword;
-                        }
-                        else if (studentCount == 38)
-                        {
-                            studentUsername38 = newUsername;
-                            studentPassword38 = newPassword;
-                        }
-                        else if (studentCount == 39)
-                        {
-                            studentUsername39 = newUsername;
-                            studentPassword39 = newPassword;
-                        }
-                        else if (studentCount == 40)
-                        {
-                            studentUsername40 = newUsername;
-                            studentPassword40 = newPassword;
-                        }
-                        else if (studentCount == 41)
-                        {
-                            studentUsername41 == newUsername;
-                            studentPassword41 == newPassword;
-                        }
-                        else if (studentCount == 42)
-                        {
-                            studentUsername42 = newUsername;
-                            studentPassword42 = newPassword;
-                        }
-                        else if (studentCount == 43)
-                        {
-                            studentUsername43 = newUsername;
-                            studentPassword43 = newPassword;
-                        }
-                        else if (studentCount == 44)
-                        {
-                            studentUsername44 = newUsername;
-                            studentPassword44 = newPassword;
-                        }
-                        else if (studentCount == 45)
-                        {
-                            studentUsername45 == newUsername;
-                            studentPassword45 == newPassword;
-                        }
-                        else if (studentCount == 46)
-                        {
-                            studentUsername46 = newUsername;
-                            studentPassword46 = newPassword;
-                        }
-                        else if (studentCount == 47)
-                        {
-                            studentUsername47 = newUsername;
-                            studentPassword47 = newPassword;
-                        }
-                        else if (studentCount == 48)
-                        {
-                            studentUsername48 = newUsername;
-                            studentPassword48 = newPassword;
-                        }
-                        else if (studentCount == 49)
-                        {
-                            studentUsername49 == newUsername;
-                            studentPassword49 == newPassword;
-                        }
-                        else if (studentCount == 50)
-                        {
-                            studentUsername50 == newUsername;
-                            studentPassword50 == newPassword;
-                        }
-                        cout << "Student account created successfully.\n";
-                        goto main_menu;
+                     if (studentCount == 1)
+{
+    studentUsername201 = newUsername;
+    studentPassword201 = newPassword;
+}
+else if (studentCount == 2)
+{
+    studentUsername202 = newUsername;
+    studentPassword202 = newPassword;
+}
+else if (studentCount == 3)
+{
+    studentUsername203 = newUsername;
+    studentPassword203 = newPassword;
+}
+else if (studentCount == 4)
+{
+    studentUsername204 = newUsername;
+    studentPassword204 = newPassword;
+}
+else if (studentCount == 5)
+{
+    studentUsername205 = newUsername;
+    studentPassword205 = newPassword;
+}
+else if (studentCount == 6)
+{
+    studentUsername206 = newUsername;
+    studentPassword206 = newPassword;
+}
+else if (studentCount == 7)
+{
+    studentUsername207 = newUsername;
+    studentPassword207 = newPassword;
+}
+else if (studentCount == 8)
+{
+    studentUsername208 = newUsername;
+    studentPassword208 = newPassword;
+}
+else if (studentCount == 9)
+{
+    studentUsername209 = newUsername;
+    studentPassword209 = newPassword;
+}
+else if (studentCount == 10)
+{
+    studentUsername210 = newUsername;
+    studentPassword210 = newPassword;
+}
+else if (studentCount == 11)
+{
+    studentUsername211 = newUsername;
+    studentPassword211 = newPassword;
+}
+else if (studentCount == 12)
+{
+    studentUsername212 = newUsername;
+    studentPassword212 = newPassword;
+}
+else if (studentCount == 13)
+{
+    studentUsername213 = newUsername;
+    studentPassword213 = newPassword;
+}
+else if (studentCount == 14)
+{
+    studentUsername214 = newUsername;
+    studentPassword214 = newPassword;
+}
+else if (studentCount == 15)
+{
+    studentUsername215 = newUsername;
+    studentPassword215 = newPassword;
+}
+else if (studentCount == 16)
+{
+    studentUsername216 = newUsername;
+    studentPassword216 = newPassword;
+}
+else if (studentCount == 17)
+{
+    studentUsername217 = newUsername;
+    studentPassword217 = newPassword;
+}
+else if (studentCount == 18)
+{
+    studentUsername218 = newUsername;
+    studentPassword218 = newPassword;
+}
+else if (studentCount == 19)
+{
+    studentUsername219 = newUsername;
+    studentPassword219 = newPassword;
+}
+else if (studentCount == 20)
+{
+    studentUsername220 = newUsername;
+    studentPassword220 = newPassword;
+}
+else if (studentCount == 21)
+{
+    studentUsername221 = newUsername;
+    studentPassword221 = newPassword;
+}
+else if (studentCount == 22)
+{
+    studentUsername222 = newUsername;
+    studentPassword222 = newPassword;
+}
+else if (studentCount == 23)
+{
+    studentUsername223 = newUsername;
+    studentPassword223 = newPassword;
+}
+else if (studentCount == 24)
+{
+    studentUsername224 = newUsername;
+    studentPassword224 = newPassword;
+}
+else if (studentCount == 25)
+{
+    studentUsername225 = newUsername;
+    studentPassword225 = newPassword;
+}
+else if (studentCount == 26)
+{
+    studentUsername226 = newUsername;
+    studentPassword226 = newPassword;
+}
+else if (studentCount == 27)
+{
+    studentUsername227 = newUsername;
+    studentPassword227 = newPassword;
+}
+else if (studentCount == 28)
+{
+    studentUsername228 = newUsername;
+    studentPassword228 = newPassword;
+}
+else if (studentCount == 29)
+{
+    studentUsername229 = newUsername;
+    studentPassword229 = newPassword;
+}
+else if (studentCount == 30)
+{
+    studentUsername230 = newUsername;
+    studentPassword230 = newPassword;
+}
+else if (studentCount == 31)
+{
+    studentUsername231 = newUsername;
+    studentPassword231 = newPassword;
+}
+else if (studentCount == 32)
+{
+    studentUsername232 = newUsername;
+    studentPassword232 = newPassword;
+}
+else if (studentCount == 33)
+{
+    studentUsername233 = newUsername;
+    studentPassword233 = newPassword;
+}
+else if (studentCount == 34)
+{
+    studentUsername234 = newUsername;
+    studentPassword234 = newPassword;
+}
+else if (studentCount == 35)
+{
+    studentUsername235 = newUsername;
+    studentPassword235 = newPassword;
+}
+else if (studentCount == 36)
+{
+    studentUsername236 = newUsername;
+    studentPassword236 = newPassword;
+}
+else if (studentCount == 37)
+{
+    studentUsername237 = newUsername;
+    studentPassword237 = newPassword;
+}
+else if (studentCount == 38)
+{
+    studentUsername238 = newUsername;
+    studentPassword238 = newPassword;
+}
+else if (studentCount == 39)
+{
+    studentUsername239 = newUsername;
+    studentPassword239 = newPassword;
+}
+else if (studentCount == 40)
+{
+    studentUsername240 = newUsername;
+    studentPassword240 = newPassword;
+}
+else if (studentCount == 41)
+{
+    studentUsername241 = newUsername;
+    studentPassword241 = newPassword;
+}
+else if (studentCount == 42)
+{
+    studentUsername242 = newUsername;
+    studentPassword242 = newPassword;
+}
+else if (studentCount == 43)
+{
+    studentUsername243 = newUsername;
+    studentPassword243 = newPassword;
+}
+else if (studentCount == 44)
+{
+    studentUsername244 = newUsername;
+    studentPassword244 = newPassword;
+}
+else if (studentCount == 45)
+{
+    studentUsername245 = newUsername;
+    studentPassword245 = newPassword;
+}
+else if (studentCount == 46)
+{
+    studentUsername246 = newUsername;
+    studentPassword246 = newPassword;
+}
+else if (studentCount == 47)
+{
+    studentUsername247 = newUsername;
+    studentPassword247 = newPassword;
+}
+else if (studentCount == 48)
+{
+    studentUsername248 = newUsername;
+    studentPassword248 = newPassword;
+}
+else if (studentCount == 49)
+{
+    studentUsername249 = newUsername;
+    studentPassword249 = newPassword;
+}
+else if (studentCount == 50)
+{
+    studentUsername250 = newUsername;
+    studentPassword250 = newPassword;
+}
+cout << "Student account created successfully.\n";
+goto main_menu;
                     }
                     else
                     {
