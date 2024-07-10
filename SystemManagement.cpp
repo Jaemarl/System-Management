@@ -1239,8 +1239,10 @@ admin:
                             }
                             else if (tedit1 == "3")
                             {
+                                cout << "Input new Password: " << endl;
+                                cin >> teacherPassword1;
                                 system("cls");
-                                goto teacherEdit1;
+                                goto teacherView;
                             }
                             else if (tedit1 == "4")
                             {
@@ -1762,8 +1764,10 @@ admin:
                     }
                     else if (tedit1 == "3")
                     {
+                        cout << "Input new Password: " << endl;
+                        cin >> teacherPassword1;
                         system("cls");
-                        goto teacherview;
+                        goto teacheredit1;
                     }
                     else if (tedit1 == "4")
                     {
@@ -2125,6 +2129,11 @@ admin:
                 {
                     goto teacherview;
                 }
+            }
+            else if (staffChoiceInside == "3")
+            {
+                goto staffMenu1;
+                system("cls");
             }
 
             else
