@@ -647,7 +647,7 @@ login:
                 }
             }
 
-            // Clear screen
+               // Clear screen
         }
 
         cout << "Too many failed attempts. Enter retrieval code to reset attempts: ";
